@@ -100,7 +100,8 @@ This fork adds:
 - Deck-side Art Mode helpers for uploading photos and inspecting Samsung Art
   Mode. See [Art Mode helpers](docs/art-mode.md).
 - A **New in Sweden** movies feed, built by a GitHub Action from JustWatch and
-  shown from a new top-right control. See [the movies feed](docs/feed.md).
+  shown from a new top-right control, with a movie detail view for full titles,
+  metadata and synopsis. See [the movies feed](docs/feed.md).
 
 These are personal additions on top of the original CleanFrame project. The
 original setup guide and safety notes still apply.

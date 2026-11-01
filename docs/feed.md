@@ -5,18 +5,30 @@ movies in Sweden for the apps currently on Home.
 
 ## What it shows
 
-- Poster, provider name and title
+- Poster, provider name and title in the grid
 - Only movies (`/se/film/...`), not TV series
 - Only providers whose apps are on Home:
   `Netflix`, `SVT Play`, `TV4 Play`, `HBO Max`, `Prime Video`, `Viaplay`
 - A **Refresh** button; the feed is cached in localStorage
 
-OK launches the matching provider app. The app opens on its home screen; the
-exact movie is not deep-linked, because the TV apps do not expose a reliable
-public deep link for every title.
+OK on a grid tile opens a **movie detail view** with:
 
-Stremio, Internet and YouTube are not catalogue services, so they are not part
-of this feed.
+- The full title, provider and poster
+- Year, runtime and genres
+- Director and top cast
+- Synopsis
+- **Open <provider>**: launches the provider app on its home screen
+- **Try exact link**: best-effort attempt to open the provider URL for the
+  selected movie; some apps ignore it and fall back to the app home
+- **Back**: returns to the feed
+
+The exact link is not guaranteed: the TV apps do not expose a reliable public
+deep link for every title, and some rightsholders use provider-specific URLs.
+The detail view always shows the full title and synopsis even when the grid tile
+has to truncate a long name.
+
+Stremio, Internet, YouTube and Steam Link are not catalogue services, so they
+are not part of this feed.
 
 ## Data flow
 
