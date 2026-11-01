@@ -66,7 +66,17 @@
     down: '<path d="m5 8.5 7 7 7-7"/>',
     updown: '<path d="m7.5 9.5 4.5-4.5 4.5 4.5M7.5 14.5l4.5 4.5 4.5-4.5"/>',
     tv: '<rect x="3" y="4.5" width="18" height="12" rx="2"/><path d="M8.5 20h7"/>',
-    warn: '<path d="M12 4 2.8 19.5h18.4Z"/><path d="M12 10v4.5M12 17.3v.1"/>'
+    warn: '<path d="M12 4 2.8 19.5h18.4Z"/><path d="M12 10v4.5M12 17.3v.1"/>',
+    weatherClear: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8"/>',
+    weatherClearNight: '<path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5 8.5 8.5 0 1 0 20.5 14.5Z"/>',
+    weatherPartly: '<circle cx="8.5" cy="8.5" r="3"/><path d="M8.5 2.5v1.8M2.5 8.5h1.8M4.2 4.2l1.3 1.3M12.8 4.2l-1.3 1.3"/><path d="M7.5 19.5h9a3 3 0 0 0 .3-6 4.5 4.5 0 0 0-8.6-1.2 3.3 3.3 0 0 0-.7 6.2Z"/>',
+    weatherPartlyNight: '<path d="M20 14.5A7.5 7.5 0 0 1 9.5 4 7.5 7.5 0 1 0 20 14.5Z"/><path d="M6.5 19.5h8a2.8 2.8 0 0 0 .3-5.5 4 4 0 0 0-7.7-1.1 3 3 0 0 0-.6 6.6Z"/>',
+    weatherCloud: '<path d="M7 18.5h9.5a3.5 3.5 0 0 0 .4-7 5 5 0 0 0-9.6-1.4A3.8 3.8 0 0 0 7 18.5Z"/>',
+    weatherFog: '<path d="M7 14.5h9.5a3.5 3.5 0 0 0 .4-7 5 5 0 0 0-9.6-1.4A3.8 3.8 0 0 0 7 14.5Z"/><path d="M5 18h14M7 21h10"/>',
+    weatherDrizzle: '<path d="M7 14.5h9.5a3.5 3.5 0 0 0 .4-7 5 5 0 0 0-9.6-1.4A3.8 3.8 0 0 0 7 14.5Z"/><path d="M9 17.5v2M13 17.5v2M17 17.5v2"/>',
+    weatherRain: '<path d="M7 14.5h9.5a3.5 3.5 0 0 0 .4-7 5 5 0 0 0-9.6-1.4A3.8 3.8 0 0 0 7 14.5Z"/><path d="M8.5 17.5l-1 3M12 17.5l-1 3M15.5 17.5l-1 3"/>',
+    weatherSnow: '<path d="M7 14.5h9.5a3.5 3.5 0 0 0 .4-7 5 5 0 0 0-9.6-1.4A3.8 3.8 0 0 0 7 14.5Z"/><path d="M8.5 18v3M7.2 18.8l2.6 1.4M9.8 18.8l-2.6 1.4M15.5 18v3M14.2 18.8l2.6 1.4M16.8 18.8l-2.6 1.4"/>',
+    weatherThunder: '<path d="M7 14.5h9.5a3.5 3.5 0 0 0 .4-7 5 5 0 0 0-9.6-1.4A3.8 3.8 0 0 0 7 14.5Z"/><path d="m12.5 16-2.5 4h3l-1 3 3.5-4.5h-3l1-2.5Z"/>'
   };
 
   /* ---------- State ---------- */
@@ -79,6 +89,12 @@
     wallShown: null, wallPending: null, wallError: null,
     shown: null, pending: null, lookError: null, bundleKey: null, previewBundle: null, reflow: false, fontSwitch: false
   };
+  /* Local weather: Malmö, Sweden. Open-Meteo needs no key or account. */
+  var WEATHER = {
+    lat: 55.60587, lon: 13.00073, place: 'Malmö',
+    key: 'cleanframe.weather.v1', refresh: 15 * 60 * 1000
+  };
+  var weather = { data: null, loading: false, timer: 0 };
   var scroll = { first: 0, off: 0, photo: 0, photoArrange: 0 };
   function pick(v, list, fallback) {
     v = String(v || '').toLowerCase();
@@ -368,6 +384,7 @@
     if (saved && initial.mode === 'open') initial.wall = WALLS[(wallIndex(initial.wall) + 1) % WALLS.length].id;
     // Keep the old schema keys alongside the builder values for in-place updates.
     try { localStorage.setItem(KEY, JSON.stringify(serialise(initial))); S.c = initial; storageOk = true; } catch (e) { storageOk = false; }
+    readWeather();
   }
   function clearSession() { S.undo = []; S.removedAt = {}; S.note = null; S.err = null; }
   function begin() { S.note = null; }
@@ -1064,8 +1081,88 @@
     if (!metrics || !metrics.digitCell) return text;
     return text.replace(/[0-9]/g, function (digit) { return '<span class="clock-digit">' + digit + '</span>'; });
   }
+  var WMO = {
+    0: ['Clear', 'weatherClear'], 1: ['Mainly clear', 'weatherClear'],
+    2: ['Partly cloudy', 'weatherPartly'], 3: ['Overcast', 'weatherCloud'],
+    45: ['Fog', 'weatherFog'], 48: ['Fog', 'weatherFog'],
+    51: ['Light drizzle', 'weatherDrizzle'], 53: ['Drizzle', 'weatherDrizzle'], 55: ['Heavy drizzle', 'weatherDrizzle'],
+    56: ['Freezing drizzle', 'weatherDrizzle'], 57: ['Freezing drizzle', 'weatherDrizzle'],
+    61: ['Light rain', 'weatherRain'], 63: ['Rain', 'weatherRain'], 65: ['Heavy rain', 'weatherRain'],
+    66: ['Freezing rain', 'weatherRain'], 67: ['Freezing rain', 'weatherRain'],
+    71: ['Light snow', 'weatherSnow'], 73: ['Snow', 'weatherSnow'], 75: ['Heavy snow', 'weatherSnow'], 77: ['Snow grains', 'weatherSnow'],
+    80: ['Light showers', 'weatherRain'], 81: ['Showers', 'weatherRain'], 82: ['Heavy showers', 'weatherRain'],
+    85: ['Snow showers', 'weatherSnow'], 86: ['Snow showers', 'weatherSnow'],
+    95: ['Thunderstorm', 'weatherThunder'], 96: ['Thunderstorm', 'weatherThunder'], 99: ['Thunderstorm', 'weatherThunder']
+  };
+  function readWeather() {
+    try {
+      var raw = localStorage.getItem(WEATHER.key), w = raw ? JSON.parse(raw) : null;
+      if (w && typeof w.temp === 'number' && typeof w.code === 'number') weather.data = w;
+    } catch (e) { weather.data = null; }
+  }
+  function weatherParts(w) {
+    var m = WMO[w.code] || ['Weather', 'weatherCloud'], label = m[0], ico = m[1];
+    if (w.isDay === 0) {
+      if (w.code === 0 || w.code === 1) ico = 'weatherClearNight';
+      else if (w.code === 2) ico = 'weatherPartlyNight';
+    }
+    return { label: label, icon: ico };
+  }
+  function weatherHtml() {
+    var w = weather.data, p, text, aria, feels = '';
+    if (!w || typeof w.temp !== 'number') return '';
+    p = weatherParts(w);
+    if (typeof w.feels === 'number') feels = 'Feels like ' + w.feels + '°';
+    text = esc(WEATHER.place) + ' · ' + w.temp + '° ' + esc(p.label) + (feels ? ' · ' + feels : '');
+    aria = esc(WEATHER.place + ' weather: ' + w.temp + ' degrees Celsius, ' + p.label
+      + (typeof w.feels === 'number' ? ', feels like ' + w.feels + ' degrees Celsius' : ''));
+    return '<span class="cap-line weather-line" role="img" aria-label="' + aria + '">'
+      + '<span class="weather-ico">' + icon(p.icon, 'weather-icon') + '</span>'
+      + '<span class="weather-text">' + text + '</span>'
+      + '</span>';
+  }
+  function fetchWeather() {
+    if (weather.loading) return;
+    weather.loading = true;
+    var url = 'https://api.open-meteo.com/v1/forecast?latitude=' + WEATHER.lat
+      + '&longitude=' + WEATHER.lon
+      + '&current=temperature_2m,weather_code,is_day,apparent_temperature&temperature_unit=celsius&timezone=Europe%2FStockholm';
+    function finish() {
+      weather.loading = false;
+      if (top().id === 'home' || isSettingsDetail(top())) updateClock();
+    }
+    function failed() { finish(); }
+    try {
+      fetch(url, { cache: 'no-store' }).then(function (r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      }).then(function (j) {
+        var cur = j && j.current;
+        if (!cur || typeof cur.temperature_2m !== 'number') throw new Error('No current weather');
+        var w = {
+          temp: Math.round(cur.temperature_2m),
+          feels: typeof cur.apparent_temperature === 'number' ? Math.round(cur.apparent_temperature) : null,
+          code: Number(cur.weather_code),
+          isDay: Number(cur.is_day),
+          updated: Date.now()
+        };
+        weather.data = w;
+        try { localStorage.setItem(WEATHER.key, JSON.stringify(w)); } catch (e) {}
+        finish();
+      }).catch(failed);
+    } catch (e) { failed(); }
+  }
+  function scheduleWeather() {
+    clearTimeout(weather.timer);
+    weather.timer = setTimeout(function () { fetchWeather(); scheduleWeather(); }, WEATHER.refresh);
+  }
+  function maybeFetchWeather() {
+    if (weather.loading) return;
+    if (!weather.data || Date.now() - (weather.data.updated || 0) > 10 * 60 * 1000) fetchWeather();
+  }
   function renderCaption(t, hs) {
     var html = '<span class="clock">' + clockHtml() + '</span>';
+    html += weatherHtml();
     if (S.c.apps !== 'icons' && hs.items[hs.i] && (S.c.layout === 'list' ? photoLabel(hs.items[hs.i].id, false).size < 88 || photoLabel(hs.items[hs.i].id, false).ellipsis : hs.zone === 'apps' && reducedDockLabel(hs.items[hs.i].id))) html += '<span class="cap-line full-name">' + esc(app(hs.items[hs.i].id).name) + '</span>';
     setHTML(caption, html);
   }
@@ -1843,14 +1940,14 @@
   });
   document.addEventListener('keyup', function (ev) { delete heldKeys[ev.keyCode]; });
   window.addEventListener('blur', function () { heldKeys = {}; });
-  window.addEventListener('focus', function () { release(); focusStage(); after(); updateClock(); });
+  window.addEventListener('focus', function () { release(); focusStage(); after(); updateClock(); maybeFetchWeather(); });
   document.addEventListener('visibilitychange', function () {
     heldKeys = {};
     if (document.hidden) { pauseRotation(); clearTimeout(clockTimer); }
     else {
       release();
       if (S.c.bg === 'photo' && !S.pending && !S.previewBundle && (!committedBundle || S.bundleKey !== bundleKey(S.c))) setLook({}, { transient: true, startup: true });
-      after(); updateClock(); focusStage();
+      after(); updateClock(); focusStage(); maybeFetchWeather();
     }
   });
   window.addEventListener('resize', fit);
@@ -1890,4 +1987,6 @@
   initialise();
   setLook({}, { transient: true, startup: true });
   norm(); render(); fit(); focusStage(); updateClock(); syncRotation();
+  fetchWeather();
+  scheduleWeather();
 })();
