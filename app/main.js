@@ -63,6 +63,7 @@
     plus: '<path d="M12 5v14M5 12h14"/>',
     left: '<path d="m14.5 5-7 7 7 7"/>',
     right: '<path d="m9.5 5 7 7-7 7"/>',
+    play: '<path d="m9 5 11 7-11 7Z"/>',
     up: '<path d="m5 15.5 7-7 7 7"/>',
     down: '<path d="m5 8.5 7 7 7-7"/>',
     updown: '<path d="m7.5 9.5 4.5-4.5 4.5 4.5M7.5 14.5l4.5 4.5 4.5-4.5"/>',
@@ -598,6 +599,37 @@
     if (!id) return;
     perform(a ? a.name : (item.provider || 'App'), function (done) { FrameDevice.launchApp(id, done); });
   }
+  function feedRuntime(minutes) {
+    var h = Math.floor(minutes / 60), m = minutes % 60;
+    return h ? (h + ' h' + (m ? ' ' + m + ' min' : '')) : m + ' min';
+  }
+  function feedMeta(item) {
+    var bits = [];
+    if (item.year) bits.push(String(item.year));
+    if (item.runtime) bits.push(feedRuntime(item.runtime));
+    if (item.genres && item.genres.length) bits.push(item.genres.join(', '));
+    return bits.join(' · ');
+  }
+  function feedCredits(item) {
+    var bits = [];
+    if (item.director && item.director.length) bits.push('Director: ' + item.director.join(', '));
+    if (item.cast && item.cast.length) bits.push('Cast: ' + item.cast.join(', '));
+    return bits.join(' · ');
+  }
+  function feedDetailActions(item) {
+    var actions = ['open'];
+    if (item.watchUrl) actions.push('link');
+    actions.push('back');
+    return actions;
+  }
+  function openFeedDetail(item) {
+    push({ id: 'feedDetail', item: item, f: { i: 0 } });
+  }
+  function openFeedLink(item) {
+    var id = FEED_PROVIDER[item.providerSlug];
+    if (!id || !item.watchUrl) { openFeedItem(item); return; }
+    perform(item.title, function (done) { FrameDevice.launchLink(id, item.watchUrl, done); });
+  }
   function openEditor(origin) {
     var i = ensureSel();
     clearSession();
@@ -812,12 +844,36 @@
       else if (k === 'right' && col < COLS - 1 && f.i < n - 1) f.i++;
       else if (k === 'down' && row < Math.ceil(n / COLS) - 1) f.i = Math.min(f.i + COLS, n - 1);
       else if (k === 'up') { if (row > 0) f.i -= COLS; else f.zone = 'head'; }
-      else if (k === 'ok' && n) openFeedItem(items[f.i]);
+      else if (k === 'ok' && n) openFeedDetail(items[f.i]);
     },
     point: function (t, z, i) {
       if (z === 'feed') { t.f.zone = 'grid'; t.f.i = i; }
       else if (z === 'head') t.f.zone = 'head';
       else return;
+      this.key(t, 'ok');
+    }
+  };
+
+  V.feedDetail = {
+    sheet: true,
+    norm: function (t) {
+      var n = feedDetailActions(t.item).length;
+      t.f.i = clamp(t.f.i, 0, Math.max(0, n - 1));
+    },
+    key: function (t, k) {
+      var f = t.f, actions = feedDetailActions(t.item), n = actions.length;
+      if (k === 'back') { pop(); return; }
+      if (k === 'left' && f.i > 0) f.i--;
+      else if (k === 'right' && f.i < n - 1) f.i++;
+      else if (k === 'ok') {
+        if (actions[f.i] === 'open') openFeedItem(t.item);
+        else if (actions[f.i] === 'link') openFeedLink(t.item);
+        else pop();
+      }
+    },
+    point: function (t, z, i) {
+      if (z !== 'movie-action') return;
+      t.f.i = i;
       this.key(t, 'ok');
     }
   };
@@ -1705,6 +1761,12 @@
         + '<div class="grid-view" data-slot="view"><div class="grid-in" data-slot="grid"></div></div>'
         + '<div class="row-cue grid-before" data-slot="before" aria-hidden="true">' + icon('up') + '</div><div class="row-cue grid-after" data-slot="after" aria-hidden="true">' + icon('down') + '</div>';
     },
+    feedDetail: function () {
+      return '<div class="movie-detail"><div class="movie-poster" data-slot="poster"></div>'
+        + '<div class="movie-copy"><p class="movie-provider" data-slot="provider"></p><h2 class="movie-title" data-slot="title"></h2>'
+        + '<p class="movie-meta" data-slot="meta"></p><p class="movie-credits" data-slot="credits"></p>'
+        + '<p class="movie-desc" data-slot="desc"></p><div class="movie-actions" data-slot="actions"></div></div></div>';
+    },
     editor: function () {
       return '<h2 class="s-title">Apps on Home</h2><p class="s-sub" data-slot="sub"></p><div class="s-head" data-slot="head"></div>'
         + '<p class="s-label z-home" data-slot="lh"></p><p class="s-label z-other">Not on Home</p>'
@@ -1745,7 +1807,7 @@
     },
     feed: function (t, el) {
       var f = t.f, items = feedItems(), n = items.length, rows = Math.ceil(n / COLS), vis = 3, row = Math.floor(f.i / COLS);
-      var status = feed.loading ? 'Loading new movies…' : !feed.data ? (feed.error ? 'Could not load the feed. Press Refresh.' : 'No feed yet.') : (!n ? 'No new movies for the apps on Home.' : 'New on your Home apps');
+      var status = feed.loading ? 'Loading new movies…' : !feed.data ? (feed.error ? 'Could not load the feed. Press Refresh.' : 'No feed yet.') : (!n ? 'No new movies for the apps on Home.' : 'New on your Home apps · OK for details');
       setHTML(el.title, 'New in Sweden');
       setHTML(el.sub, esc(status));
       setHTML(el.head, headButtons([['refresh', 'Refresh', '', 'undo']], f.zone === 'head' ? 0 : -1, 'feed'));
@@ -1764,6 +1826,21 @@
       el.view.className = 'grid-view' + (t.top > 0 ? ' more-before' : '') + (rows - t.top > vis ? ' more-after' : '');
       el.before.className = 'row-cue grid-before' + (t.top > 0 ? ' is-on' : '');
       el.after.className = 'row-cue grid-after' + (rows - t.top > vis ? ' is-on' : '');
+    },
+    feedDetail: function (t, el) {
+      var item = t.item, f = t.f, actions = feedDetailActions(item);
+      var labels = { open: 'Open ' + (item.provider || 'app'), link: 'Try exact link', back: 'Back' };
+      setHTML(el.poster, item.poster ? '<img src="' + esc(item.poster) + '" alt="">' : '');
+      setHTML(el.provider, esc(item.provider || ''));
+      setHTML(el.title, esc(item.title || ''));
+      setHTML(el.meta, esc(feedMeta(item)));
+      setHTML(el.credits, esc(feedCredits(item)));
+      setHTML(el.desc, esc(item.description || 'No synopsis available.'));
+      setHTML(el.actions, actions.map(function (action, i) {
+        var ico = action === 'link' ? 'right' : action === 'back' ? 'left' : 'play';
+        return '<button type="button" tabindex="-1" class="btn movie-action' + (f.i === i ? ' is-focus' : '') + '" data-z="movie-action" data-i="' + i + '" data-action="feedDetail.' + action + '">'
+          + icon(ico) + '<span>' + esc(labels[action]) + '</span></button>';
+      }).join(''));
     },
     editor: function (t, el) {
       var f = t.f, H = t.lifted ? t.lifted.order : S.c.home, O = otherGroups(), list = O.recent.concat(O.rest), full = S.c.home.length >= CAP;

@@ -7,7 +7,9 @@ project; the page structure can change without notice.
 """
 import argparse
 import json
+import re
 import sys
+import time
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
@@ -45,6 +47,77 @@ def poster_url(src):
     return src.replace("/s332/", "/s592/")
 
 
+PROVIDER_ALIASES = {
+    "netflix": ["netflix"],
+    "svt": ["svt play"],
+    "tv4-play": ["tv4 play"],
+    "hbo-max": ["hbo max", "max"],
+    "amazon-prime-video": ["amazon prime video", "amazon video", "prime video"],
+    "viaplay": ["viaplay"],
+}
+
+
+def duration_minutes(value):
+    match = re.match(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", str(value or ""))
+    if not match:
+        return None
+    hours, minutes, seconds = (int(part or 0) for part in match.groups())
+    total = hours * 60 + minutes + (1 if seconds >= 30 else 0)
+    return total or None
+
+
+def detail_for(url, cache):
+    if url in cache:
+        return cache[url]
+    soup = BeautifulSoup(fetch(url), "html.parser")
+    script = soup.find("script", type="application/ld+json")
+    data = json.loads(script.get_text()) if script else {}
+    nodes = data.get("@graph") or [data]
+    movie = next((node for node in nodes if node.get("@type") == "Movie"), {})
+    rating = movie.get("aggregateRating") or {}
+    actions = []
+    for action in movie.get("potentialAction") or []:
+        offer = action.get("expectsAcceptanceOf") or {}
+        org = (offer.get("offeredBy") or {}).get("name")
+        target = (action.get("target") or {}).get("urlTemplate")
+        if org and target:
+            actions.append({
+                "provider": org,
+                "url": target,
+                "businessFunction": offer.get("businessFunction") or "",
+            })
+    details = {
+        "year": None,
+        "runtime": duration_minutes(movie.get("duration")),
+        "genres": movie.get("genre") if isinstance(movie.get("genre"), list) else ([movie.get("genre")] if movie.get("genre") else []),
+        "rating": rating.get("ratingValue"),
+        "ratingScale": rating.get("bestRating"),
+        "description": str(movie.get("description") or "").strip(),
+        "director": [person.get("name") for person in (movie.get("director") or []) if person.get("name")][:3],
+        "cast": [role.get("actor", {}).get("name") for role in (movie.get("actor") or []) if role.get("actor", {}).get("name")][:5],
+        "contentRating": movie.get("contentRating"),
+        "actions": actions,
+    }
+    date = str(movie.get("dateCreated") or movie.get("datePublished") or "")
+    year = re.search(r"\d{4}", date)
+    details["year"] = int(year.group()) if year else None
+    cache[url] = details
+    return details
+
+
+def watch_url(details, slug):
+    aliases = PROVIDER_ALIASES.get(slug, [])
+    actions = details.get("actions", [])
+    exact = [action for action in actions
+             if action["provider"].strip().lower() in aliases]
+    matches = exact or [action for action in actions
+                        if any(alias in action["provider"].lower() for alias in aliases)]
+    preferred = [action for action in matches
+                 if "provideservice" in action.get("businessFunction", "").lower()]
+    chosen = (preferred or matches)
+    return chosen[0]["url"] if chosen else ""
+
+
 def scrape_provider(slug, name, limit):
     # The page path uses the Swedish word "leverantör" (encoded).
     url = f"{BASE}/se/leverant%C3%B6r/{urllib.parse.quote(slug)}/nya"
@@ -79,6 +152,10 @@ def main():
                         help="Maximum movie cards per provider.")
     parser.add_argument("--providers", default="",
                         help="Comma-separated provider slugs; default all.")
+    parser.add_argument("--no-details", action="store_true",
+                        help="Skip movie detail pages (faster, less metadata).")
+    parser.add_argument("--detail-delay", type=float, default=0.15,
+                        help="Seconds between detail-page requests.")
     args = parser.parse_args()
 
     wanted = {p.strip() for p in args.providers.split(",") if p.strip()}
@@ -107,6 +184,26 @@ def main():
         for _, group in lists:
             if index < len(group):
                 items.append(group[index])
+
+    if not args.no_details:
+        cache = {}
+        for index, item in enumerate(items, 1):
+            try:
+                details = detail_for(item["url"], cache)
+                for key in ("year", "runtime", "genres", "rating", "ratingScale",
+                            "description", "director", "cast", "contentRating"):
+                    if details.get(key) not in (None, "", []):
+                        item[key] = details[key]
+                link = watch_url(details, item["providerSlug"])
+                if link:
+                    item["watchUrl"] = link
+                if index % 10 == 0:
+                    print(f"details: {index}/{len(items)}", file=sys.stderr)
+            except Exception as error:
+                errors.append(f"{item['title']}: detail {error}")
+                print(f"{item['title']}: detail failed: {error}", file=sys.stderr)
+            if args.detail_delay:
+                time.sleep(args.detail_delay)
 
     feed = {
         "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),

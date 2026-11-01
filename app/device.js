@@ -56,6 +56,19 @@
     try { api().launch(id, function () { finish(null); }, function (err) { finish(failure(err)); }); }
     catch (err) { finish(failure(err)); }
   }
+  function launchLink(id, uri, done) {
+    if (!api()) { unavailable(done); return; }
+    var finish = bounded(done);
+    function fallback() {
+      try { api().launch(id, function () { finish(null); }, function (err) { finish(failure(err)); }); }
+      catch (err) { finish(failure(err)); }
+    }
+    if (!uri) { fallback(); return; }
+    try {
+      var control = new tizen.ApplicationControl('http://tizen.org/appcontrol/operation/view', uri, null, null, null);
+      api().launchAppControl(control, id, function () { finish(null); }, fallback);
+    } catch (err) { fallback(); }
+  }
   function launch(brand, done) {
     if (!IDS[brand]) { done({message: 'This app has no launch target.'}); return; }
     launchApp(IDS[brand], done);
@@ -93,5 +106,5 @@
       }, function (err) { finish(failure(err)); });
     } catch (err) { finish(failure(err)); }
   }
-  window.FrameDevice = { launch: launch, launchApp: launchApp, art: art, home: home, settings: settings, apps: apps };
+  window.FrameDevice = { launch: launch, launchApp: launchApp, launchLink: launchLink, art: art, home: home, settings: settings, apps: apps };
 }());

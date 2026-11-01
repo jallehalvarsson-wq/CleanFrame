@@ -9,8 +9,8 @@ the CleanFrame dock and writes a small JSON feed.
 Netflix, SVT Play, TV4 Play, HBO Max, Prime Video, Viaplay
 ```
 
-Only movie pages (`/se/film/...`) are included. Stremio, Internet and YouTube
-are not catalog services and are not part of the feed.
+Only movie pages (`/se/film/...`) are included. Stremio, Internet, YouTube and
+Steam Link are not catalog services and are not part of the feed.
 
 ## Run locally
 
@@ -19,6 +19,10 @@ python3 -m venv .venv
 .venv/bin/pip install -r scripts/feed/requirements.txt
 .venv/bin/python scripts/feed/scrape.py --output docs/feed/new-se.json
 ```
+
+The scraper also fetches each movie's JustWatch detail page. Use
+`--no-details` for a faster basic feed, or `--detail-delay 0` to remove the
+small pause between detail requests.
 
 The JSON contains:
 
@@ -33,11 +37,24 @@ The JSON contains:
       "providerSlug": "netflix",
       "title": "Example",
       "url": "https://www.justwatch.com/se/film/example",
-      "poster": "https://images.justwatch.com/poster/.../s592/example.jpg"
+      "poster": "https://images.justwatch.com/poster/.../s592/example.jpg",
+      "year": 2025,
+      "runtime": 118,
+      "genres": ["Drama", "Thriller"],
+      "rating": 72,
+      "ratingScale": "100",
+      "description": "Short synopsis...",
+      "director": ["Director Name"],
+      "cast": ["Actor One", "Actor Two"],
+      "watchUrl": "https://www.netflix.com/title/..."
     }
   ]
 }
 ```
+
+The app uses the detail fields for the selected-movie view. `watchUrl` is used
+by the best-effort **Try exact link** action; it may be ignored by the
+provider app.
 
 ## GitHub Action
 
