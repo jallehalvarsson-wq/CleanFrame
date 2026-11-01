@@ -272,6 +272,14 @@ html,body{width:100%;height:100%;overflow:hidden;background:#000}
 .gt .t-name{position:absolute;left:12px;right:12px;top:56px;text-align:center;font-size:40px;line-height:56px;font-weight:600;letter-spacing:-1px;white-space:nowrap;overflow:hidden}
 .gt .state{position:absolute;left:8px;right:8px;top:164px;height:36px;display:flex;justify-content:center;align-items:center;font-size:28px;line-height:36px;font-weight:500;color:var(--mute);white-space:nowrap}
 .gt.is-focus .state{color:var(--ink)}
+.feed-tile{overflow:hidden}
+.feed-card{position:absolute;top:0;right:0;bottom:0;left:0;display:flex;align-items:stretch;border-radius:32px;overflow:hidden;transform-origin:50% 50%;transition:transform var(--t) var(--ease)}
+.feed-poster{width:144px;flex:none;overflow:hidden;background:rgba(0,0,0,.12)}
+.feed-poster img{width:144px;height:216px;object-fit:cover;display:block}
+.feed-copy{min-width:0;flex:1;display:flex;flex-direction:column;justify-content:center;padding:0 18px 0 16px}
+.feed-provider{font-size:24px;line-height:32px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;opacity:.66;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.feed-name{font-size:30px;line-height:38px;font-weight:500;letter-spacing:-.4px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.f-type .sheet .feed-tile.is-focus .feed-card{transform:scale(1.03)}
 .badge{width:26px;height:26px;flex:none;color:var(--ink)}
 .badge-tick{stroke:var(--knock)}
 .badge.is-off{color:var(--faint)}

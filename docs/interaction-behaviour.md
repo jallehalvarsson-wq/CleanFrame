@@ -37,6 +37,10 @@ The nine default apps keep their known native IDs. Other installed consumer apps
 
 Some installed apps are HbbTV stubs rather than normal web apps. SVT Play is one: its Tizen package is an empty shell, and the real content is the `hbbtv.link` metadata. A plain application launch starts the empty shell and leaves Samsung Home visible. The TV's own `hbbtv_launcher` sends that link to `org.tizen.hbbtv` as `hbbtv=<link>` plus `deeplink=true`. CleanFrame mirrors that app control for known HbbTV app IDs; it does not embed a web player or bypass the installed app.
 
+## New movies feed
+
+The **New** control in the top-right opens a poster grid of newly added movies in Sweden for the catalog apps currently on Home. The app fetches a JSON feed published on the `feed` branch, caches it locally, and filters it to the providers in the Home list. OK launches the matching provider app. Stremio, Internet and YouTube are not catalog services and are excluded. The JustWatch source is public but unofficial; the last cached feed remains usable if a refresh fails.
+
 ## All apps
 
 The panel reads `tizen.application.getAppsInfo` on entry and shows the filtered consumer apps alphabetically. Samsung's visibility flag alone also exposes system utilities, so EP packages, background services, ad players, account utilities, placeholders and duplicates are omitted. Known brands use bundled marks. Other apps use their local installed icon, with initials as a fallback.
