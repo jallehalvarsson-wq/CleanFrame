@@ -52,9 +52,9 @@ The JSON contains:
 }
 ```
 
-The app uses the detail fields for the selected-movie view. `watchUrl` is used
-by the best-effort **Try exact link** action; it may be ignored by the
-provider app.
+The app uses the detail fields for the selected-movie view. `watchUrl` is kept
+in the feed for future use; the current app opens the provider app's home
+screen rather than exposing an exact-link action.
 
 ## GitHub Action
 
