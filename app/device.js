@@ -20,6 +20,10 @@
   var INTERNAL = ['adplatform.ADPlayer', 'WykOS4t4F0.cmsWebApp', '25emanual3.emanual',
     'd0m1lV1nt2.emanual', '2022ePop01.SmartTV',
     'ZODRT12q2l.WebAccountExtension', 'ByJlgt0XeD.CastSettingsApp', 'tv6pbVMQFF.PrivacyChoices'];
+  /* HbbTV-backed apps are empty Tizen stubs. The TV's own hbbtv_launcher sends
+     hbbtv=<link> and deeplink=true to org.tizen.hbbtv; a plain launch only
+     starts the empty stub and leaves Samsung Home visible. */
+  var HBBTV = { '5exPmCT0nz.svtplay': 'https://hbbtv.play.svt.se/v2/index.xhtml' };
   var SELF = 'nClrkHome1.FrameHome';
   function api() { return window.tizen && window.tizen.application; }
   function selfId() {
@@ -40,6 +44,15 @@
   function launchApp(id, done) {
     if (!api()) { unavailable(done); return; }
     var finish = bounded(done);
+    if (HBBTV[id]) {
+      try {
+        var data = [new tizen.ApplicationControlData('hbbtv', [HBBTV[id]]),
+          new tizen.ApplicationControlData('deeplink', ['true'])];
+        var control = new tizen.ApplicationControl('http://tizen.org/appcontrol/operation/default', null, null, null, data);
+        api().launchAppControl(control, 'org.tizen.hbbtv', function () { finish(null); }, function (err) { finish(failure(err)); });
+      } catch (err) { finish(failure(err)); }
+      return;
+    }
     try { api().launch(id, function () { finish(null); }, function (err) { finish(failure(err)); }); }
     catch (err) { finish(failure(err)); }
   }

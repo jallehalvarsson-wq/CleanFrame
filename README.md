@@ -89,6 +89,20 @@ The browser checks use isolated Chromium profiles and a loopback preview. They n
 | [Asset sources](docs/asset-sources.md) | Photo credits and verification of the bundled third-party assets |
 | `.local/`, `dist/` | Ignored private setup, recovery data, generated files and packages |
 
+## Fork additions
+
+This fork adds:
+
+- HbbTV app launch support, so apps such as SVT Play open their HbbTV content
+  instead of their empty Tizen stub. See `app/device.js`.
+- A local weather line under the Home clock, with the city, temperature,
+  condition and real feel. See [weather](docs/weather.md).
+- Deck-side Art Mode helpers for uploading photos and inspecting Samsung Art
+  Mode. See [Art Mode helpers](docs/art-mode.md).
+
+These are personal additions on top of the original CleanFrame project. The
+original setup guide and safety notes still apply.
+
 ## Contribute
 
 Fork it, experiment and build something that suits your TV. If you find a useful fix or improve the setup instructions, contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) before a larger change. Reports should include model, firmware and the observed result, with private identifiers removed.

@@ -35,6 +35,8 @@ The selected font applies to Home app names, the clock and Home controls, includ
 
 The nine default apps keep their known native IDs. Other installed consumer apps can also be added to Home. Launching uses the public `tizen.application.launch` API with the app's native ID. Missing apps and denied launches produce a real error. No web player, placeholder success page or account credential is embedded.
 
+Some installed apps are HbbTV stubs rather than normal web apps. SVT Play is one: its Tizen package is an empty shell, and the real content is the `hbbtv.link` metadata. A plain application launch starts the empty shell and leaves Samsung Home visible. The TV's own `hbbtv_launcher` sends that link to `org.tizen.hbbtv` as `hbbtv=<link>` plus `deeplink=true`. CleanFrame mirrors that app control for known HbbTV app IDs; it does not embed a web player or bypass the installed app.
+
 ## All apps
 
 The panel reads `tizen.application.getAppsInfo` on entry and shows the filtered consumer apps alphabetically. Samsung's visibility flag alone also exposes system utilities, so EP packages, background services, ad players, account utilities, placeholders and duplicates are omitted. Known brands use bundled marks. Other apps use their local installed icon, with initials as a fallback.
@@ -80,6 +82,10 @@ Launcher wallpaper is separate from native Art Mode. Runtime photos, materials a
 - [Samsung application termination guide](https://developer.samsung.com/smarttv/develop/guides/fundamentals/terminating-applications.html): exiting is not treated as a deterministic Samsung Home route.
 
 The native Home operation and startup configuration from 19 October remain separate from this app update. Home from Netflix was confirmed for that configuration; power-on after Netflix remains provisional. Streaming apps retain their own Back navigation. Netflix did not exit on repeated Back in the observed test, so there was no app-exit destination to verify. No global Back interception or key-filter hook was installed. See [TV status](tv-status.md) for device evidence; this behaviour specification is not an installation or visual-verification record for 0.6.0.
+
+## Local weather
+
+Home shows the current Malmö weather under the clock when Open-Meteo is reachable. The line uses the same caption styling as the app name, caches the last successful reading in localStorage (`cleanframe.weather.v1`), refreshes about every 15 minutes, and stays hidden when no reading is available. It does not affect app launch or offline Home use.
 
 ## Clock and rendering
 
