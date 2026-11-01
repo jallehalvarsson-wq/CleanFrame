@@ -18,14 +18,13 @@ OK on a grid tile opens a **movie detail view** with:
 - Director and top cast
 - Synopsis
 - **Open <provider>**: launches the provider app on its home screen
-- **Try exact link**: best-effort attempt to open the provider URL for the
-  selected movie; some apps ignore it and fall back to the app home
 - **Back**: returns to the feed
 
-The exact link is not guaranteed: the TV apps do not expose a reliable public
-deep link for every title, and some rightsholders use provider-specific URLs.
-The detail view always shows the full title and synopsis even when the grid tile
-has to truncate a long name.
+The provider app opens on its home screen; the TV apps do not expose a reliable
+public per-title deep link. The detail view always shows the full title and
+synopsis even when the grid tile has to truncate a long name. The feed JSON
+also carries the provider watch URL, but the current app does not expose a
+separate exact-link action.
 
 Stremio, Internet, YouTube and Steam Link are not catalogue services, so they
 are not part of this feed.

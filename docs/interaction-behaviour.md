@@ -39,7 +39,7 @@ Some installed apps are HbbTV stubs rather than normal web apps. SVT Play is one
 
 ## New movies feed
 
-The **New** control in the top-right opens a poster grid of newly added movies in Sweden for the catalog apps currently on Home. The app fetches a JSON feed published on the `feed` branch, caches it locally, and filters it to the providers in the Home list. OK opens a movie detail view with the full title, provider, year, runtime, genres, director, cast and synopsis. The detail view offers **Open <provider>**, **Try exact link** and **Back**. The exact link is best-effort; some apps ignore it and open on their home screen. Stremio, Internet, YouTube and Steam Link are not catalog services and are excluded. The JustWatch source is public but unofficial; the last cached feed remains usable if a refresh fails.
+The **New** control in the top-right opens a poster grid of newly added movies in Sweden for the catalog apps currently on Home. The app fetches a JSON feed published on the `feed` branch, caches it locally, and filters it to the providers in the Home list. OK opens a movie detail view with the full title, provider, year, runtime, genres, director, cast and synopsis. The detail view offers **Open <provider>** and **Back**. The provider app opens on its home screen; the TV apps do not expose a reliable per-title deep link. Stremio, Internet, YouTube and Steam Link are not catalog services and are excluded. The JustWatch source is public but unofficial; the last cached feed remains usable if a refresh fails.
 
 ## All apps
 

@@ -616,19 +616,11 @@
     if (item.cast && item.cast.length) bits.push('Cast: ' + item.cast.join(', '));
     return bits.join(' · ');
   }
-  function feedDetailActions(item) {
-    var actions = ['open'];
-    if (item.watchUrl) actions.push('link');
-    actions.push('back');
-    return actions;
+  function feedDetailActions() {
+    return ['open', 'back'];
   }
   function openFeedDetail(item) {
     push({ id: 'feedDetail', item: item, f: { i: 0 } });
-  }
-  function openFeedLink(item) {
-    var id = FEED_PROVIDER[item.providerSlug];
-    if (!id || !item.watchUrl) { openFeedItem(item); return; }
-    perform(item.title, function (done) { FrameDevice.launchLink(id, item.watchUrl, done); });
   }
   function openEditor(origin) {
     var i = ensureSel();
@@ -857,17 +849,16 @@
   V.feedDetail = {
     sheet: true,
     norm: function (t) {
-      var n = feedDetailActions(t.item).length;
+      var n = feedDetailActions().length;
       t.f.i = clamp(t.f.i, 0, Math.max(0, n - 1));
     },
     key: function (t, k) {
-      var f = t.f, actions = feedDetailActions(t.item), n = actions.length;
+      var f = t.f, actions = feedDetailActions(), n = actions.length;
       if (k === 'back') { pop(); return; }
       if (k === 'left' && f.i > 0) f.i--;
       else if (k === 'right' && f.i < n - 1) f.i++;
       else if (k === 'ok') {
         if (actions[f.i] === 'open') openFeedItem(t.item);
-        else if (actions[f.i] === 'link') openFeedLink(t.item);
         else pop();
       }
     },
@@ -1828,8 +1819,8 @@
       el.after.className = 'row-cue grid-after' + (rows - t.top > vis ? ' is-on' : '');
     },
     feedDetail: function (t, el) {
-      var item = t.item, f = t.f, actions = feedDetailActions(item);
-      var labels = { open: 'Open ' + (item.provider || 'app'), link: 'Try exact link', back: 'Back' };
+      var item = t.item, f = t.f, actions = feedDetailActions();
+      var labels = { open: 'Open ' + (item.provider || 'app'), back: 'Back' };
       setHTML(el.poster, item.poster ? '<img src="' + esc(item.poster) + '" alt="">' : '');
       setHTML(el.provider, esc(item.provider || ''));
       setHTML(el.title, esc(item.title || ''));
@@ -1837,7 +1828,7 @@
       setHTML(el.credits, esc(feedCredits(item)));
       setHTML(el.desc, esc(item.description || 'No synopsis available.'));
       setHTML(el.actions, actions.map(function (action, i) {
-        var ico = action === 'link' ? 'right' : action === 'back' ? 'left' : 'play';
+        var ico = action === 'back' ? 'left' : 'play';
         return '<button type="button" tabindex="-1" class="btn movie-action' + (f.i === i ? ' is-focus' : '') + '" data-z="movie-action" data-i="' + i + '" data-action="feedDetail.' + action + '">'
           + icon(ico) + '<span>' + esc(labels[action]) + '</span></button>';
       }).join(''));
