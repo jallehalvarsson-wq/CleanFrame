@@ -9,6 +9,8 @@ movies in Sweden for the apps currently on Home.
 - Only movies (`/se/film/...`), not TV series
 - Only providers whose apps are on Home:
   `Netflix`, `SVT Play`, `TV4 Play`, `HBO Max`, `Prime Video`, `Viaplay`
+- The feed source (`JustWatch`) and a relative last-updated age, refreshed every
+  minute while the panel is open
 - A **Refresh** button; the feed is cached in localStorage
 
 OK on a grid tile opens a **movie detail view** with:
@@ -17,6 +19,7 @@ OK on a grid tile opens a **movie detail view** with:
 - Year, runtime and genres
 - Director and top cast
 - Synopsis
+- The source and last-updated line
 - **Open <provider>**: launches the provider app on its home screen
 - **Back**: returns to the feed
 
@@ -50,6 +53,10 @@ https://raw.githubusercontent.com/jallehalvarsson-wq/CleanFrame/feed/docs/feed/n
 The `feed` branch is separate from `main`, so daily feed commits do not clutter
 the main history. The action is in
 `.github/workflows/new-movies-feed.yml`; it can also be started manually.
+
+The JSON also carries `source` (`JustWatch`) and `generated` (an ISO-8601
+timestamp). The app uses those fields for the source and relative last-updated
+line; no extra network request is needed for the metadata.
 
 ## Limits
 

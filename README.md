@@ -95,13 +95,16 @@ This fork adds:
 
 - HbbTV app launch support, so apps such as SVT Play open their HbbTV content
   instead of their empty Tizen stub. See `app/device.js`.
-- A local weather line under the Home clock, with the city, temperature,
-  condition and real feel. See [weather](docs/weather.md).
+- A configurable local weather line under the Home clock, with the city,
+  temperature, condition and real feel. The public default is Stockholm; the
+  chosen city is saved only on the TV in Settings → Weather. See
+  [weather](docs/weather.md).
 - Deck-side Art Mode helpers for uploading photos and inspecting Samsung Art
   Mode. See [Art Mode helpers](docs/art-mode.md).
 - A **New in Sweden** movies feed, built by a GitHub Action from JustWatch and
   shown from a new top-right control, with a movie detail view for full titles,
-  metadata and synopsis. See [the movies feed](docs/feed.md).
+  metadata and synopsis. The grid and detail view show the source and a
+  relative last-updated age. See [the movies feed](docs/feed.md).
 
 These are personal additions on top of the original CleanFrame project. The
 original setup guide and safety notes still apply.

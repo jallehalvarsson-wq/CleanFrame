@@ -12,7 +12,7 @@
 
 ## Settings and appearance
 
-Settings opens a grouped overview: Background, Layout, Typography, Focus, Apps on Home and Samsung. OK opens a group. Appearance groups use a two-pane screen with visible choices on the left and the committed Home preview on the right.
+Settings opens a grouped overview: Background, Layout, Typography, Focus, Weather, Apps on Home and Samsung. OK opens a group. Appearance groups use a two-pane screen with visible choices on the left and the committed Home preview on the right.
 
 | Group | Choices |
 | --- | --- |
@@ -20,6 +20,7 @@ Settings opens a grouped overview: Background, Layout, Typography, Focus, Apps o
 | Layout | List or Dock; independent Text, Icons or Both choices for apps and Home controls |
 | Typography | Manrope, Neue Montreal, Mori, Pangram Sans, Geist and Newsreader, when available |
 | Focus | Type or Glass; Soft, Frost or Clear tint material |
+| Weather | A Swedish city for the Home weather line; saved only on this TV |
 | Apps on Home | Membership and arrangement editor |
 | Samsung | Samsung Home and TV settings |
 
@@ -39,7 +40,7 @@ Some installed apps are HbbTV stubs rather than normal web apps. SVT Play is one
 
 ## New movies feed
 
-The **New** control in the top-right opens a poster grid of newly added movies in Sweden for the catalog apps currently on Home. The app fetches a JSON feed published on the `feed` branch, caches it locally, and filters it to the providers in the Home list. OK opens a movie detail view with the full title, provider, year, runtime, genres, director, cast and synopsis. The detail view offers **Open <provider>** and **Back**. The provider app opens on its home screen; the TV apps do not expose a reliable per-title deep link. Stremio, Internet, YouTube and Steam Link are not catalog services and are excluded. The JustWatch source is public but unofficial; the last cached feed remains usable if a refresh fails.
+The **New** control in the top-right opens a poster grid of newly added movies in Sweden for the catalog apps currently on Home. The app fetches a JSON feed published on the `feed` branch, caches it locally, and filters it to the providers in the Home list. The header shows the feed source and a relative last-updated age, refreshed every minute while the panel is open. OK opens a movie detail view with the full title, provider, year, runtime, genres, director, cast, synopsis and the same source/updated line. The detail view offers **Open <provider>** and **Back**. The provider app opens on its home screen; the TV apps do not expose a reliable per-title deep link. Stremio, Internet, YouTube and Steam Link are not catalog services and are excluded. The JustWatch source is public but unofficial; the last cached feed remains usable if a refresh fails.
 
 ## All apps
 
@@ -89,7 +90,7 @@ The native Home operation and startup configuration from 19 October remain separ
 
 ## Local weather
 
-Home shows the current Malmö weather under the clock when Open-Meteo is reachable. The line uses the same caption styling as the app name, caches the last successful reading in localStorage (`cleanframe.weather.v1`), refreshes about every 15 minutes, and stays hidden when no reading is available. It does not affect app launch or offline Home use.
+Home shows the current weather for the city chosen in **Settings → Weather** when Open-Meteo is reachable. The public default is Stockholm, and the selection is stored only on the TV. The line uses the same caption styling as the app name, caches the last successful reading in localStorage (`cleanframe.weather.v1`), refreshes about every 15 minutes, and stays hidden when no reading is available. It does not affect app launch or offline Home use.
 
 ## Clock and rendering
 
