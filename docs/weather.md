@@ -3,20 +3,34 @@
 This fork adds a current-weather line under the Home clock. A typical line is:
 
 ```text
-Malmö · 10° Overcast · Feels like 7°
+Stockholm · 10° Overcast · Feels like 7°
 ```
 
 ## What it shows
 
 - A small weather icon
-- The city name
+- The selected city name
 - The current temperature in Celsius, rounded to the nearest degree
 - A short condition label
 - The real feel / apparent temperature
 
-The line is hidden until a reading is available. If the request fails, the
-last successful reading stays visible. It does not affect app launching or
-offline Home use.
+The line is hidden until a reading is available for the selected city. If the
+request fails, the last successful reading for that city stays visible. It does
+not affect app launching or offline Home use.
+
+## Choose the location
+
+Open **Settings → Weather** and select a city from the grid. The choice is saved
+only on the TV in localStorage under `cleanframe.weather.location.v1`. The
+public default is **Stockholm**, so a fresh install does not identify the
+owner's own city.
+
+The built-in list is in `WEATHER_PLACES` near the top of `app/main.js`. To add
+another Swedish city, add its name, latitude and longitude to that array and
+rebuild. Changing the city clears the weather cache and requests a new reading.
+
+The last reading is cached in `cleanframe.weather.v1`. It records the city ID,
+so a reading for a different city is ignored after a location change.
 
 ## Data source
 
@@ -25,31 +39,16 @@ no API key or account.
 
 ```text
 https://api.open-meteo.com/v1/forecast
-  ?latitude=55.60587
-  &longitude=13.00073
+  ?latitude=<selected latitude>
+  &longitude=<selected longitude>
   &current=temperature_2m,weather_code,is_day,apparent_temperature
   &temperature_unit=celsius
   &timezone=Europe%2FStockholm
 ```
 
 The request runs when Home starts, about every 15 minutes, and when the app
-returns to the foreground if the reading is more than 10 minutes old. The last
-reading is cached in localStorage under `cleanframe.weather.v1`.
-
-## Change the location
-
-Edit the `WEATHER` object near the top of `app/main.js`:
-
-```js
-var WEATHER = {
-  lat: 55.60587, lon: 13.00073, place: 'Malmö',
-  key: 'cleanframe.weather.v1', refresh: 15 * 60 * 1000
-};
-```
-
-Use the latitude and longitude from Open-Meteo's geocoding API, then rebuild
-and install. The place name is shown on Home and used in the screen-reader
-label. The WMO code labels and icons are in the `WMO` map in the same file.
+returns to the foreground if the reading is more than 10 minutes old. The WMO
+code labels and icons are in the `WMO` map in `app/main.js`.
 
 ## Permissions
 
@@ -72,3 +71,9 @@ web player or account credentials.
 3. Confirm the installed widget contains the `internet` privilege and the
    `<access>` element.
 4. Confirm the current WMO code is in the `WMO` map in `app/main.js`.
+5. Check **Settings → Weather** if the line shows a different city or is waiting
+   for its first reading.
+
+Launcher wallpaper is separate from native Art Mode. Runtime photos, materials and
+available fonts are local assets; they do not require the Mac or a network
+download.
