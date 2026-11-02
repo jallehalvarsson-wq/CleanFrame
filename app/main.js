@@ -1357,7 +1357,7 @@
   function fetchWeather(force) {
     if (weather.loading && !force) return;
     var request = ++weather.request, placeId = WEATHER.id;
-    var controller = typeof AbortController === 'function' ? new AbortController() : null;
+    var controller = typeof window.AbortController === 'function' ? new window.AbortController() : null;
     var timeout = controller ? setTimeout(function () { controller.abort(); }, 6000) : 0;
     weather.loading = true;
     var url = 'https://api.open-meteo.com/v1/forecast?latitude=' + WEATHER.lat
