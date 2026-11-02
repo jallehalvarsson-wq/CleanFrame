@@ -346,9 +346,9 @@ try {
           });
         }, { layout, controls });
         check(layout + '/' + controls + ' uses spacing between visible children at ' + width,
-          spacing.length === 3 && spacing.every(s => s.children === (controls === 'both' ? 2 : 1) && Math.abs(s.extraWidth - s.gap) < .5), spacing);
+          spacing.length === 4 && spacing.every(s => s.children === (controls === 'both' ? 2 : 1) && Math.abs(s.extraWidth - s.gap) < .5), spacing);
         const focused = [];
-        for (let i = 0; i < 3; i++) {
+        for (let i = 0; i < 4; i++) {
           if (i) await nav(layout === 'dock' ? 'right' : 'down');
           focused.push(await current.evaluate(() => {
             const button = document.querySelector('#utils .u.is-focus'), lens = document.querySelector('.ut-lens.is-current');
@@ -387,7 +387,7 @@ try {
         const scale = document.getElementById('stage').getBoundingClientRect().width / 1920;
         return elements.map(e => (e.querySelector('.ico').getBoundingClientRect().left - e.querySelector('.settings-group-copy').getBoundingClientRect().right) / scale);
       });
-      check('Settings group arrows stay separate from their copy at ' + width, groups.length === 6 && groups.every(gap => gap >= 31.5), groups);
+      check('Settings group arrows stay separate from their copy at ' + width, groups.length === 7 && groups.every(gap => gap >= 31.5), groups);
       await wallpaper();
       const caption = await current.locator('.wallpaper-preview-name').evaluate(e => {
         const scale = document.getElementById('stage').getBoundingClientRect().width / 1920;
