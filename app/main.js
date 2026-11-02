@@ -1357,18 +1357,23 @@
   function fetchWeather(force) {
     if (weather.loading && !force) return;
     var request = ++weather.request, placeId = WEATHER.id;
+    var controller = typeof AbortController === 'function' ? new AbortController() : null;
+    var timeout = controller ? setTimeout(function () { controller.abort(); }, 6000) : 0;
     weather.loading = true;
     var url = 'https://api.open-meteo.com/v1/forecast?latitude=' + WEATHER.lat
       + '&longitude=' + WEATHER.lon
       + '&current=temperature_2m,weather_code,is_day,apparent_temperature&temperature_unit=celsius&timezone=Europe%2FStockholm';
     function finish() {
+      if (timeout) clearTimeout(timeout);
       if (request !== weather.request) return;
       weather.loading = false;
       if (top().id === 'home' || isSettingsDetail(top())) updateClock();
     }
     function failed() { finish(); }
     try {
-      fetch(url, { cache: 'no-store' }).then(function (r) {
+      var options = { cache: 'no-store' };
+      if (controller) options.signal = controller.signal;
+      fetch(url, options).then(function (r) {
         if (!r.ok) throw new Error('HTTP ' + r.status);
         return r.json();
       }).then(function (j) {
