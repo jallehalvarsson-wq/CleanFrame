@@ -333,7 +333,7 @@ try {
         await look({ bg: 'photo', layout, controls, focus: 'glass', font: 'manrope' }); await scene('home');
         if ((await call('where')).zone === 'util') await nav('back');
         await nav(layout === 'dock' ? 'up' : 'right');
-        await nav(...Array(3).fill(layout === 'dock' ? 'left' : 'up'));
+        await nav(...Array(4).fill(layout === 'dock' ? 'left' : 'up'));
         await current.waitForTimeout(180);
         const spacing = await current.evaluate(({ layout, controls }) => {
           const scale = document.getElementById('stage').getBoundingClientRect().width / 1920;
@@ -346,9 +346,9 @@ try {
           });
         }, { layout, controls });
         check(layout + '/' + controls + ' uses spacing between visible children at ' + width,
-          spacing.length === 4 && spacing.every(s => s.children === (controls === 'both' ? 2 : 1) && Math.abs(s.extraWidth - s.gap) < .5), spacing);
+          spacing.length === 5 && spacing.every(s => s.children === (controls === 'both' ? 2 : 1) && Math.abs(s.extraWidth - s.gap) < .5), spacing);
         const focused = [];
-        for (let i = 0; i < 4; i++) {
+        for (let i = 0; i < 5; i++) {
           if (i) await nav(layout === 'dock' ? 'right' : 'down');
           focused.push(await current.evaluate(() => {
             const button = document.querySelector('#utils .u.is-focus'), lens = document.querySelector('.ut-lens.is-current');
@@ -363,6 +363,32 @@ try {
         check(layout + '/' + controls + ' keeps each focused control inside its lens at ' + width, focused.every(Boolean), focused);
       }
     }
+  });
+  await run('New and most-watched movie feeds share the movie view', async () => {
+    const movie = (title, url) => ({
+      provider: 'Netflix', providerSlug: 'netflix', title, url,
+      poster: 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==',
+      year: 2026, runtime: 101, genres: ['Drama'], description: 'A test movie synopsis.',
+      director: ['Test Director'], cast: ['Test Actor']
+    });
+    const feed = (kind, title) => JSON.stringify({
+      generated: new Date().toISOString(), country: 'SE', kind, source: 'JustWatch',
+      items: [movie(title, 'https://www.justwatch.com/se/film/' + kind + '-test')]
+    });
+    await page({}, p => {
+      p.route(/\/feed\/new-se\.json/, route => route.fulfill({ status: 200, contentType: 'application/json', body: feed('new', 'New Test Movie') }));
+      p.route(/\/feed\/popular-se\.json/, route => route.fulfill({ status: 200, contentType: 'application/json', body: feed('popular', 'Popular Test Movie') }));
+    });
+    await act('util.feed');
+    await current.waitForFunction(() => ShoreQA.where().view === 'feed' && document.querySelector('.s-title')?.textContent === 'New in Sweden');
+    check('New feed keeps its own title and movie', (await current.locator('.feed-name').allTextContents()).includes('New Test Movie'));
+    await nav('back');
+    await act('util.popular');
+    await current.waitForFunction(() => ShoreQA.where().view === 'feed' && document.querySelector('.s-title')?.textContent === 'Most watched in Sweden');
+    check('Most-watched feed loads its own title and movie', (await current.locator('.feed-name').allTextContents()).includes('Popular Test Movie'));
+    await nav('down', 'ok');
+    await current.waitForFunction(() => ShoreQA.where().view === 'feedDetail');
+    check('Most-watched detail uses the shared movie view', /Popular Test Movie/.test(await current.locator('.movie-title').innerText()) && /JustWatch/.test(await current.locator('.movie-source').innerText()));
   });
   await run('Panel spacing geometry', async () => {
     await page();

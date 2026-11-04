@@ -1,4 +1,4 @@
-name: New movies feed
+name: Movie feeds
 
 on:
   schedule:
@@ -18,16 +18,17 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r scripts/feed/requirements.txt
-      - run: python scripts/feed/scrape.py --output docs/feed/new-se.json
+      - run: python scripts/feed/scrape.py --kind new --output docs/feed/new-se.json
+      - run: python scripts/feed/scrape.py --kind popular --output docs/feed/popular-se.json
       - name: Publish feed branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -B feed
-          git add docs/feed/new-se.json
+          git add docs/feed/new-se.json docs/feed/popular-se.json
           if git diff --cached --quiet; then
             echo "No feed changes."
             exit 0
           fi
-          git commit -m "Update Sweden new-movies feed"
+          git commit -m "Update Sweden movie feeds"
           git push --force origin feed

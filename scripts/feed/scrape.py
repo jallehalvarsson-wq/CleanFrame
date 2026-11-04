@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Build a small "new movies in Sweden" feed from JustWatch.
+"""Build small movie feeds from the public JustWatch Sweden pages.
 
-This is a personal, low-volume scraper for the public JustWatch Sweden pages.
-It writes JSON for the CleanFrame TV app. JustWatch is not affiliated with this
-project; the page structure can change without notice.
+`new` reads the providers' "nya" (new) pages. `popular` reads their movie
+catalogues, which JustWatch orders by popularity. This is a personal,
+low-volume scraper; JustWatch is not affiliated with this project and the page
+structure can change without notice.
 """
 import argparse
 import json
@@ -28,6 +29,7 @@ PROVIDERS = [
     ("amazon-prime-video", "Prime Video"),
     ("viaplay", "Viaplay"),
 ]
+FEED_PAGES = {"new": "nya", "popular": "filmer"}
 
 
 def fetch(url):
@@ -118,9 +120,9 @@ def watch_url(details, slug):
     return chosen[0]["url"] if chosen else ""
 
 
-def scrape_provider(slug, name, limit):
+def scrape_provider(slug, name, limit, page):
     # The page path uses the Swedish word "leverantör" (encoded).
-    url = f"{BASE}/se/leverant%C3%B6r/{urllib.parse.quote(slug)}/nya"
+    url = f"{BASE}/se/leverant%C3%B6r/{urllib.parse.quote(slug)}/{page}"
     soup = BeautifulSoup(fetch(url), "html.parser")
     items, seen = [], set()
     for anchor in soup.select('a[href^="/se/film/"]'):
@@ -147,7 +149,10 @@ def scrape_provider(slug, name, limit):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output", default="docs/feed/new-se.json")
+    parser.add_argument("--kind", choices=sorted(FEED_PAGES), default="new",
+                        help="Feed to build: new releases or popular movies.")
+    parser.add_argument("--output",
+                        help="Output path; defaults to docs/feed/<kind>-se.json.")
     parser.add_argument("--limit", type=int, default=12,
                         help="Maximum movie cards per provider.")
     parser.add_argument("--providers", default="",
@@ -163,10 +168,11 @@ def main():
     if not selected:
         raise SystemExit("No matching providers.")
 
+    page = FEED_PAGES[args.kind]
     lists, errors = [], []
     for slug, name in selected:
         try:
-            items = scrape_provider(slug, name, args.limit)
+            items = scrape_provider(slug, name, args.limit, page)
             lists.append((slug, items))
             print(f"{name}: {len(items)} movie cards", file=sys.stderr)
         except Exception as error:
@@ -177,7 +183,8 @@ def main():
         raise SystemExit("No movie cards scraped. The page structure may have "
                          "changed or JustWatch is blocking this host.")
 
-    # Interleave providers so the first screen shows a mix.
+    # Interleave providers so the first screen shows a mix. The provider pages
+    # are already in JustWatch popularity order for both feed kinds.
     items = []
     longest = max((len(group) for _, group in lists), default=0)
     for index in range(longest):
@@ -208,12 +215,13 @@ def main():
     feed = {
         "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "country": "SE",
+        "kind": args.kind,
         "source": "JustWatch",
         "providers": [{"slug": slug, "name": name} for slug, name in selected],
         "errors": errors,
         "items": items,
     }
-    output = Path(args.output)
+    output = Path(args.output or f"docs/feed/{args.kind}-se.json")
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(feed, ensure_ascii=False, indent=2) + "\n",
                       encoding="utf-8")
