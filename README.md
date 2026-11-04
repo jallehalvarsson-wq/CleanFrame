@@ -101,10 +101,11 @@ This fork adds:
   [weather](docs/weather.md).
 - Deck-side Art Mode helpers for uploading photos and inspecting Samsung Art
   Mode. See [Art Mode helpers](docs/art-mode.md).
-- A **New in Sweden** movies feed, built by a GitHub Action from JustWatch and
-  shown from a new top-right control, with a movie detail view for full titles,
-  metadata and synopsis. The grid and detail view show the source and a
-  relative last-updated age. See [the movies feed](docs/feed.md).
+- **New in Sweden** and **Most watched in Sweden** movie feeds, built by a
+  GitHub Action from JustWatch and shown from top-right controls. Both use the
+  same poster grid and movie detail view for full titles, metadata and synopsis,
+  with the source and a relative last-updated age. See
+  [the movie feeds](docs/feed.md).
 
 These are personal additions on top of the original CleanFrame project. The
 original setup guide and safety notes still apply.

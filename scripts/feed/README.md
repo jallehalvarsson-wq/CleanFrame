@@ -1,7 +1,7 @@
-# Sweden new-movies feed
+# Sweden movie feeds
 
-`scrape.py` reads the public JustWatch Sweden "new" pages for the providers in
-the CleanFrame dock and writes a small JSON feed.
+`scrape.py` reads public JustWatch Sweden pages for the providers in the
+CleanFrame dock and writes small JSON feeds for the TV app.
 
 ## Providers
 
@@ -10,19 +10,31 @@ Netflix, SVT Play, TV4 Play, HBO Max, Prime Video, Viaplay
 ```
 
 Only movie pages (`/se/film/...`) are included. Stremio, Internet, YouTube and
-Steam Link are not catalog services and are not part of the feed.
+Steam Link are not catalog services and are not part of either feed.
+
+## Feed kinds
+
+- `new` reads each provider's `/nya` page and feeds the **New** panel.
+- `popular` reads each provider's movie catalogue (`/filmer`), which JustWatch
+  orders by popularity, and feeds the **Most watched** panel. This is a public
+  popularity signal, not a record of playback on the TV.
+
+The scraper interleaves providers so the first grid page mixes services while
+keeping each provider's most popular titles first.
 
 ## Run locally
 
 ```sh
 python3 -m venv .venv
 .venv/bin/pip install -r scripts/feed/requirements.txt
-.venv/bin/python scripts/feed/scrape.py --output docs/feed/new-se.json
+.venv/bin/python scripts/feed/scrape.py --kind new --output docs/feed/new-se.json
+.venv/bin/python scripts/feed/scrape.py --kind popular --output docs/feed/popular-se.json
 ```
 
 The scraper also fetches each movie's JustWatch detail page. Use
 `--no-details` for a faster basic feed, or `--detail-delay 0` to remove the
-small pause between detail requests.
+small pause between detail requests. If `--output` is omitted, it defaults to
+`docs/feed/<kind>-se.json`.
 
 The JSON contains:
 
@@ -30,6 +42,8 @@ The JSON contains:
 {
   "generated": "2026-11-01T...",
   "country": "SE",
+  "kind": "new",
+  "source": "JustWatch",
   "providers": [{"slug": "netflix", "name": "Netflix"}],
   "items": [
     {
@@ -58,11 +72,12 @@ screen rather than exposing an exact-link action.
 
 ## GitHub Action
 
-`.github/workflows/new-movies-feed.yml` runs the scraper daily and commits the
+`.github/workflows/new-movies-feed.yml` runs both scrapers daily and commits the
 JSON to the `feed` branch. The TV app reads:
 
 ```text
 https://raw.githubusercontent.com/jallehalvarsson-wq/CleanFrame/feed/docs/feed/new-se.json
+https://raw.githubusercontent.com/jallehalvarsson-wq/CleanFrame/feed/docs/feed/popular-se.json
 ```
 
 The branch is separate from `main`, so the daily feed commits do not clutter the

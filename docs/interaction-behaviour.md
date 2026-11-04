@@ -2,8 +2,8 @@
 
 ## Home
 
-- Dock: Left/Right scrolls the apps without wrapping. Up enters the top-right controls, starting with Art Mode or the last selected control. Left/Right moves between Art Mode, All apps and Settings. Down or Back returns to the selected app. The clock is at the top left.
-- List: Up/Down scrolls the apps without wrapping. Right enters the bottom-right controls, aligned with the clock above. Up/Down moves between Art Mode, All apps and Settings. Left or Back returns to the selected app. The list fades at both ends as it scrolls.
+- Dock: Left/Right scrolls the apps without wrapping. Up enters the top-right controls, starting with New or the last selected control. Left/Right moves between New, Most watched, Art Mode, All apps and Settings. Down or Back returns to the selected app. The clock is at the top left.
+- List: Up/Down scrolls the apps without wrapping. Right enters the bottom-right controls, aligned with the clock above. Up/Down moves between New, Most watched, Art Mode, All apps and Settings. Left or Back returns to the selected app. The list fades at both ends as it scrolls.
 - OK opens the selected item. Focus alone never launches an app.
 - Icons-only apps and controls reveal their names when focused. App presentation and control presentation are independent.
 - Back from the app list or Dock opens a choice to stay or open Samsung Home.
@@ -38,9 +38,9 @@ The nine default apps keep their known native IDs. Other installed consumer apps
 
 Some installed apps are HbbTV stubs rather than normal web apps. SVT Play is one: its Tizen package is an empty shell, and the real content is the `hbbtv.link` metadata. A plain application launch starts the empty shell and leaves Samsung Home visible. The TV's own `hbbtv_launcher` sends that link to `org.tizen.hbbtv` as `hbbtv=<link>` plus `deeplink=true`. CleanFrame mirrors that app control for known HbbTV app IDs; it does not embed a web player or bypass the installed app.
 
-## New movies feed
+## Movie feeds
 
-The **New** control in the top-right opens a poster grid of newly added movies in Sweden for the catalog apps currently on Home. The app fetches a JSON feed published on the `feed` branch, caches it locally, and filters it to the providers in the Home list. The header shows the feed source and a relative last-updated age, refreshed every minute while the panel is open. OK opens a movie detail view with the full title, provider, year, runtime, genres, director, cast, synopsis and the same source/updated line. The detail view offers **Open <provider>** and **Back**. The provider app opens on its home screen; the TV apps do not expose a reliable per-title deep link. Stremio, Internet, YouTube and Steam Link are not catalog services and are excluded. The JustWatch source is public but unofficial; the last cached feed remains usable if a refresh fails.
+The **New** and **Most watched** controls in the top-right open poster grids for the catalog apps currently on Home. **New** shows recently added movies; **Most watched** uses the provider catalogues in JustWatch popularity order. The app fetches separate JSON feeds published on the `feed` branch, caches each locally, and filters them to the providers in the Home list. Each header shows the feed source and a relative last-updated age, refreshed every minute while the panel is open. OK opens a movie detail view with the full title, provider, year, runtime, genres, director, cast, synopsis and the same source/updated line. The detail view offers **Open <provider>** and **Back**. The provider app opens on its home screen; the TV apps do not expose a reliable per-title deep link. Stremio, Internet, YouTube and Steam Link are not catalog services and are excluded. The JustWatch source is public but unofficial; the last cached copy of each feed remains usable if a refresh fails. “Most watched” is a popularity ranking, not a record of playback on the TV.
 
 ## All apps
 
