@@ -1,6 +1,7 @@
 {
-  "generated": "2026-11-04T05:54:58+00:00",
+  "generated": "2026-11-21T05:53:56+00:00",
   "country": "SE",
+  "kind": "new",
   "source": "JustWatch",
   "providers": [
     {
@@ -33,1532 +34,794 @@
     {
       "provider": "Netflix",
       "providerSlug": "netflix",
-      "title": "Evil Dead Burn",
-      "url": "https://www.justwatch.com/se/film/evil-dead-burn",
-      "poster": "https://images.justwatch.com/poster/346878968/s592/evil-dead-burn.jpg",
-      "year": 2026,
-      "runtime": 110,
+      "title": "Grinchen",
+      "url": "https://www.justwatch.com/se/film/the-grinch",
+      "poster": "https://images.justwatch.com/poster/292551417/s592/the-grinch.jpg",
+      "year": 2018,
+      "runtime": 85,
       "genres": [
-        "Skräck"
-      ],
-      "rating": "79",
-      "ratingScale": "100",
-      "description": "Efter att ha förlorat sin man söker en kvinna tröst hos sina svärföräldrar i deras ensligt belägna hus. Men när de en efter en förvandlas till Deadites – och sammankomsten förvandlas till en familjeåterförening från helvetet, inser hon att de löften hon gav i livet lever vidare även efter döden.",
-      "director": [
-        "Sébastien Vaniček"
-      ],
-      "cast": [
-        "Souheila Yacoub",
-        "Tandi Wright",
-        "Hunter Doohan",
-        "Luciane Buchanan",
-        "Erroll Shand"
-      ],
-      "contentRating": "15",
-      "watchUrl": "https://www.netflix.com/title/82715255"
-    },
-    {
-      "provider": "SVT Play",
-      "providerSlug": "svt",
-      "title": "Amadeus",
-      "url": "https://www.justwatch.com/se/film/amadeus",
-      "poster": "https://images.justwatch.com/poster/327418497/s592/amadeus.jpg",
-      "year": 1984,
-      "runtime": 160,
-      "genres": [
-        "Drama",
-        "Historia",
-        "Musik och musikal"
-      ],
-      "rating": "94",
-      "ratingScale": "100",
-      "description": "Han dyrkades av gudarna. Jagades av demoner. Krossades av mannen som beundrade och hatade honom. Ett briljant människodrama, en ärofylld lovprisning av Wolfgang Amadeus Mozarts musik.",
-      "director": [
-        "Miloš Forman"
-      ],
-      "cast": [
-        "F. Murray Abraham",
-        "Tom Hulce",
-        "Elizabeth Berridge",
-        "Simon Callow",
-        "Roy Dotrice"
-      ],
-      "contentRating": "7",
-      "watchUrl": "https://www.svtplay.se/video/jQ7EL1D/amadeus?id=86dbkNG"
-    },
-    {
-      "provider": "TV4 Play",
-      "providerSlug": "tv4-play",
-      "title": "Christmas at the Chalet",
-      "url": "https://www.justwatch.com/se/film/christmas-at-the-chalet",
-      "poster": "https://images.justwatch.com/poster/308783484/s592/christmas-at-the-chalet.jpg",
-      "year": 2023,
-      "runtime": 84,
-      "genres": [
-        "Romantik"
-      ],
-      "rating": "32",
-      "ratingScale": "100",
-      "description": "When ex TV host and socialite Lex finds herself faced with the possibility of spending Christmas sharing a luxury chalet with her son, ex husband and his new girlfriend, she volunteers to work in the chalet to avoid things getting too close to home, while documenting her every move for a new wave of followers loving this new chapter of her life.",
-      "director": [
-        "Lucie Guest"
-      ],
-      "cast": [
-        "Teri Hatcher",
-        "Brendan McRae",
-        "Dan Payne",
-        "Gigi Neil",
-        "William deVry"
-      ],
-      "watchUrl": "https://www.tv4play.se/program/791e3b21d061b7843d1e/christmas-at-the-chalet"
-    },
-    {
-      "provider": "HBO Max",
-      "providerSlug": "hbo-max",
-      "title": "A Story of Derry",
-      "url": "https://www.justwatch.com/se/film/a-story-of-derry",
-      "poster": "https://images.justwatch.com/poster/356409958/s592/a-story-of-derry.jpg",
-      "year": 2026,
-      "runtime": 30,
-      "genres": [
-        "Drama",
-        "Skräck",
-        "Mysterium och thriller"
-      ],
-      "rating": "84",
-      "ratingScale": "100",
-      "description": "Hundratals år före Pennywise ger sig tre barn ut på äventyr i skogen och träffar på en hemsk, uråldrig ande.",
-      "director": [
-        "Tazbah Chavez"
-      ],
-      "cast": [
-        "Kiawentiio",
-        "Isabel DeRoy-Olson",
-        "Michael Podemski",
-        "Zahn McClarnon",
-        "MorningStar Angeline"
-      ],
-      "watchUrl": "https://play.hbomax.com/video/watch/04048318-39ec-418c-8f19-aba8f416c55f?utm_source=universal_search"
-    },
-    {
-      "provider": "Prime Video",
-      "providerSlug": "amazon-prime-video",
-      "title": "Interstellar",
-      "url": "https://www.justwatch.com/se/film/interstellar",
-      "poster": "https://images.justwatch.com/poster/354698007/s592/interstellar.jpg",
-      "year": 2014,
-      "runtime": 169,
-      "genres": [
-        "Drama",
-        "Science-Fiction"
-      ],
-      "rating": "96",
-      "ratingScale": "100",
-      "description": "Vår tid på jorden närmar sig sitt slut, och ett team av upptäcksresenärer tar sig an historiens viktigaste uppdrag.",
-      "director": [
-        "Christopher Nolan"
-      ],
-      "cast": [
-        "Matthew McConaughey",
-        "Anne Hathaway",
-        "Michael Caine",
-        "Jessica Chastain",
-        "Casey Affleck"
-      ],
-      "contentRating": "11",
-      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.002e9637-838c-46be-ab16-e3afdcb578fe"
-    },
-    {
-      "provider": "Viaplay",
-      "providerSlug": "viaplay",
-      "title": "Nirvanna the Band the Show the Movie",
-      "url": "https://www.justwatch.com/se/film/nirvanna-the-band-the-show-the-movie",
-      "poster": "https://images.justwatch.com/poster/345463560/s592/nirvanna-the-band-the-show-the-movie.jpg",
-      "year": 2026,
-      "runtime": 100,
-      "genres": [
-        "Action och äventyr",
-        "Komedi",
-        "Science-Fiction"
-      ],
-      "rating": "82",
-      "ratingScale": "100",
-      "description": "I sjutton år har två misslyckade musiker försökt att boka en spelning på en och samma klubb. När deras senaste plan går katastrofalt snett, råkar de resa tillbaka till år 2008.",
-      "director": [
-        "Matt Johnson"
-      ],
-      "cast": [
-        "Matt Johnson",
-        "Jay McCarrol",
-        "Ben Petrie",
-        "Ethan Eng",
-        "Michael Scott"
-      ],
-      "watchUrl": "https://viaplay.se/store/nirvanna-the-band-the-show-the-movie-2025?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/1E9F-5238-4925-C10B-912C-M"
-    },
-    {
-      "provider": "Netflix",
-      "providerSlug": "netflix",
-      "title": "Svart oskuld",
-      "url": "https://www.justwatch.com/se/film/svart-oskuld",
-      "poster": "https://images.justwatch.com/poster/193804995/s592/svart-oskuld.jpg",
-      "year": 1993,
-      "runtime": 89,
-      "genres": [
-        "Deckare",
-        "Drama",
-        "Mysterium och thriller",
-        "Romantik"
-      ],
-      "rating": "74",
-      "ratingScale": "100",
-      "description": "En instabil 14-årig flicka blir förälskad i en äldre journalist. Kärlek som snabbt förvandlas till besatthet.",
-      "director": [
-        "Alan Shapiro"
-      ],
-      "cast": [
-        "Cary Elwes",
-        "Alicia Silverstone",
-        "Jennifer Rubin",
-        "Kurtwood Smith",
-        "Amber Benson"
-      ],
-      "contentRating": "15",
-      "watchUrl": "https://www.netflix.com/title/409583"
-    },
-    {
-      "provider": "SVT Play",
-      "providerSlug": "svt",
-      "title": "Gökboet",
-      "url": "https://www.justwatch.com/se/film/one-flew-over-the-cuckoos-nest",
-      "poster": "https://images.justwatch.com/poster/292161814/s592/one-flew-over-the-cuckoos-nest.jpg",
-      "year": 1975,
-      "runtime": 135,
-      "genres": [
-        "Drama"
-      ],
-      "rating": "96",
-      "ratingScale": "100",
-      "description": "Lugn och ro på ett statligt mentalsjukhus är väl bättre än en vistelse i fängelsecell, inte sant? P. McMurphy simulerar en sinnessjukdom och flyttar in till de han kallar nötterna. Han skapar snabbt oordning i den annars så disciplinerade vardagen.",
-      "director": [
-        "Miloš Forman"
-      ],
-      "cast": [
-        "Jack Nicholson",
-        "Brad Dourif",
-        "Louise Fletcher",
-        "Danny DeVito",
-        "William Redfield"
-      ],
-      "contentRating": "15",
-      "watchUrl": "https://www.svtplay.se/video/KXywNwg/gokboet?id=ew77ybR"
-    },
-    {
-      "provider": "TV4 Play",
-      "providerSlug": "tv4-play",
-      "title": "A Christmas Angel Match",
-      "url": "https://www.justwatch.com/se/film/a-christmas-angel-match",
-      "poster": "https://images.justwatch.com/poster/336646829/s592/a-christmas-angel-match.jpg",
-      "year": 2025,
-      "runtime": 84,
-      "genres": [
-        "Komedi",
-        "Romantik"
-      ],
-      "description": "Romantisk julkomedi om två änglar som har i uppgift att sammanföra kärlekspar och måste samarbeta när de får ett knepigt par på sitt bord.",
-      "director": [
-        "Christie Will"
-      ],
-      "cast": [
-        "Meghan Ory",
-        "Benjamin Ayres",
-        "Lindura",
-        "Francesco Filice",
-        "Amanda Jordan"
-      ],
-      "watchUrl": "https://www.tv4play.se/program/9f33aaf9441efa22fd29/a-christmas-angel-match"
-    },
-    {
-      "provider": "HBO Max",
-      "providerSlug": "hbo-max",
-      "title": "Sagan om ringen: Striden vid Rohan",
-      "url": "https://www.justwatch.com/se/film/the-lord-of-the-rings-the-war-of-the-rohirrim",
-      "poster": "https://images.justwatch.com/poster/322978535/s592/the-lord-of-the-rings-the-war-of-the-rohirrim.jpg",
-      "year": 2024,
-      "runtime": 134,
-      "genres": [
-        "Action och äventyr",
         "Animerat",
+        "Komedi",
         "Drama",
         "Fantasy",
-        "Historia"
-      ],
-      "rating": "77",
-      "ratingScale": "100",
-      "description": "Ett plötsligt anfall från Wulf, en listig och hänsynslös Dunlendning-ledare som söker hämnd för sin fars död, tvingar Helm Hammarnäve, den legendariske kungen av Rohan, och hans folk att göra ett djärvt sista försök att försvara sig i den uråldriga fästningen Hornborgen, en mäktig fästning som senare kommer att bli känd som Helms klyfta. När situationen blir alltmer desperat, måste Helms dotter Héra samla modet att leda motståndet mot en dödlig fiende som är fast besluten att förgöra dem.",
-      "director": [
-        "Kenji Kamiyama"
-      ],
-      "cast": [
-        "Brian Cox",
-        "Gaia Wise",
-        "Luke Pasqualino",
-        "Laurence Ubong Williams",
-        "Lorraine Ashbourne"
-      ],
-      "contentRating": "11",
-      "watchUrl": "https://play.hbomax.com/show/67e0695c-0b3b-47ca-ab8b-91d7682c47e9?utm_source=universal_search"
-    },
-    {
-      "provider": "Prime Video",
-      "providerSlug": "amazon-prime-video",
-      "title": "The Hateful Eight",
-      "url": "https://www.justwatch.com/se/film/the-hateful-eight",
-      "poster": "https://images.justwatch.com/poster/332365261/s592/the-hateful-eight.jpg",
-      "year": 2015,
-      "runtime": 167,
-      "genres": [
-        "Deckare",
-        "Drama",
-        "Mysterium och thriller",
-        "Västern"
-      ],
-      "rating": "93",
-      "ratingScale": "100",
-      "description": "Prisjägaren John \"The Hangman\" Ruth transporterar Daisy Domergue genom ett vintrigt Wyoming, mot Red Rock där hon ska ställas inför rätta. Längst med vägen plockar de upp två främlingar: en före detta soldat som nu blivit ökänd prisjägare, och en man som utger sig för att vara Red Rocks nya sheriff. När en snöstorm sveper in över slätterna, bestämmer sig de fyra för att ta skydd i en raststuga uppe i bergen. Väl där möts de inte av ägarna, utan av fyra okända ansikten.",
-      "director": [
-        "Quentin Tarantino"
-      ],
-      "cast": [
-        "Samuel L. Jackson",
-        "Kurt Russell",
-        "Jennifer Jason Leigh",
-        "Walton Goggins",
-        "Demián Bichir"
-      ],
-      "contentRating": "15",
-      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.ad8629b4-cab8-438a-bc29-f61f59ac6fbe"
-    },
-    {
-      "provider": "Viaplay",
-      "providerSlug": "viaplay",
-      "title": "The Plague",
-      "url": "https://www.justwatch.com/se/film/the-plague-2025",
-      "poster": "https://images.justwatch.com/poster/341454609/s592/the-plague-2025.jpg",
-      "year": 2025,
-      "runtime": 98,
-      "genres": [
-        "Drama",
-        "Mysterium och thriller"
-      ],
-      "rating": "69",
-      "ratingScale": "100",
-      "description": "På ett sommarläger för pojkar kämpar den socialt osäkre tolvårige Ben för att hitta sin plats i en skoningslös social hierarki. När han blir vän med Eli - en ensam outsider som de andra håller sig undan eftersom han påstås bära på en smittsam »pest« - dras Ben in i en grym och alltmer extrem ritual präglad av syndabockar och rädsla.",
-      "director": [
-        "Charlie Polinger"
-      ],
-      "cast": [
-        "Everett Blunck",
-        "Kayo Martin",
-        "Joel Edgerton",
-        "Kenny Rasmussen",
-        "Elliott Heffernan"
-      ],
-      "watchUrl": "https://viaplay.se/store/the-plague-2026?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/ADF0-E450-DE60-5F64-EA99-2"
-    },
-    {
-      "provider": "Netflix",
-      "providerSlug": "netflix",
-      "title": "Born to Be a Star",
-      "url": "https://www.justwatch.com/se/film/bucky-larson-born-to-be-a-star",
-      "poster": "https://images.justwatch.com/poster/239857291/s592/bucky-larson-born-to-be-a-star.jpg",
-      "year": 2011,
-      "runtime": 97,
-      "genres": [
-        "Komedi"
-      ],
-      "rating": "38",
-      "ratingScale": "100",
-      "description": "Historien kretsar kring en nördig kille som upptäcker att hans pryda, tillknäppta föräldrar var världsberömda porrstjärnor på 70-talet. Detta får honom att lämna småstaden i Iowa för Hollywood, där han hoppas följa i sina föräldrars fotspår och bli den största porrstjärnan någonsin.",
-      "director": [
-        "Tom Brady"
-      ],
-      "cast": [
-        "Nick Swardson",
-        "Christina Ricci",
-        "Don Johnson",
-        "Stephen Dorff",
-        "Ido Mosseri"
-      ],
-      "contentRating": "15",
-      "watchUrl": "https://www.netflix.com/title/70124560"
-    },
-    {
-      "provider": "SVT Play",
-      "providerSlug": "svt",
-      "title": "Speechless - Kampen om USA:s campus",
-      "url": "https://www.justwatch.com/se/film/speechless-kampen-om-usa-s-campus",
-      "poster": "https://images.justwatch.com/poster/347366137/s592/speechless-kampen-om-usa-s-campus.jpg",
-      "year": 2026,
-      "runtime": 173,
-      "genres": [
-        "Dokumentär"
-      ],
-      "description": "Filmaren Ric Bienstock undersöker USA:s universitet och kampen om uttrycksfrihet och makt som eskalerar till ett kulturkrig.Amerikansk dokumentär från 2026. En film i satsningen Why Freedom.",
-      "watchUrl": "https://www.svtplay.se/video/8Wv62N1/speechless-kampen-om-usa-s-campus?id=KkAw92w"
-    },
-    {
-      "provider": "TV4 Play",
-      "providerSlug": "tv4-play",
-      "title": "A Taste of Christmas",
-      "url": "https://www.justwatch.com/se/film/a-taste-of-christmas",
-      "poster": "https://images.justwatch.com/poster/238875690/s592/a-taste-of-christmas.jpg",
-      "year": 2020,
-      "runtime": 80,
-      "genres": [
-        "Komedi",
-        "Romantik"
-      ],
-      "description": "Natalie och kocken Stefano måste hjälpa hennes kusin Francesca med hennes restaurang, så att den är klar för öppning lagom till jul.",
-      "director": [
-        "Damián Romay"
-      ],
-      "cast": [
-        "Anni Krueger",
-        "Gilles Marini",
-        "Nia Vardalos",
-        "Andrew Brodeur",
-        "Emma Myers"
-      ],
-      "watchUrl": "https://www.tv4play.se/program/4846180a4cee8b830995/a-taste-of-christmas"
-    },
-    {
-      "provider": "HBO Max",
-      "providerSlug": "hbo-max",
-      "title": "Stargate - en julberättelse",
-      "url": "https://www.justwatch.com/se/film/stargate-en-julberattelse",
-      "poster": "https://images.justwatch.com/poster/339002326/s592/stargate-en-julberattelse.jpg",
-      "year": 2025,
-      "runtime": 90,
-      "genres": [
-        "Drama",
-        "Barn och familj"
-      ],
-      "description": "Tioåriga Ronja bor i ett hyreshus men drömmer om en timmerstuga i skogen, där vargarna ylar under den stjärnklara himlen. Det är december och pappa är arbetslös igen, ända tills han en dag får jobb som julgransförsäljare. Äntligen doftar lägenheten av granris, och kylskåpet är fullt - om än bara för en kort stund. Men ibland blir frestelserna för stora för pappa, och Ronja och storasyster Melissa måste klara sig själva. Tillsammans tar de över jobbet som julgransförsäljare och får erfara att även om livet kan vara riktigt tufft så kommer man långt med ett snabbtänkt huvud, lekfull optimism och en handfull goda hjälpare.",
-      "director": [
-        "Ida Sagmo Tvedte"
-      ],
-      "cast": [
-        "Bartek Kaminski",
-        "Tevje Espeland",
-        "Staffan Göthe",
-        "Jan Gunnar Røise"
-      ],
-      "contentRating": "7",
-      "watchUrl": "https://play.hbomax.com/show/2358db1d-e5be-4277-905e-2b0f6b707d27?utm_source=universal_search"
-    },
-    {
-      "provider": "Prime Video",
-      "providerSlug": "amazon-prime-video",
-      "title": "Hjärntvättad",
-      "url": "https://www.justwatch.com/se/film/hjarntvattad",
-      "poster": "https://images.justwatch.com/poster/8738467/s592/hjarntvattad.jpg",
-      "year": 1962,
-      "runtime": 126,
-      "genres": [
-        "Drama",
-        "Mysterium och thriller"
-      ],
-      "rating": "81",
-      "ratingScale": "100",
-      "description": "En amerikansk patrull tas till fånga av kommunistiska trupper och hjärntvättas för att sedan vända tillbaka till Amerika som ryska spioner.",
-      "director": [
-        "John Frankenheimer"
-      ],
-      "cast": [
-        "Frank Sinatra",
-        "Laurence Harvey",
-        "Angela Lansbury",
-        "Janet Leigh",
-        "James Gregory"
-      ],
-      "contentRating": "15",
-      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.ad6f5bb6-a4c2-4d4b-a588-35d9f33e91d2"
-    },
-    {
-      "provider": "Viaplay",
-      "providerSlug": "viaplay",
-      "title": "Vårt löfte",
-      "url": "https://www.justwatch.com/se/film/vart-lofte",
-      "poster": "https://images.justwatch.com/poster/354614614/s592/vart-lofte.jpg",
-      "year": 2026,
-      "runtime": 108,
-      "genres": [
-        "Drama"
-      ],
-      "description": "När TV-programledaren och tidigare professionella simmare Maria upptäcker att hennes man och tidigare tränare har hamnat i centrum för en rad offentliga anklagelser om sexuella övergrepp, tvingas hon att se med nya ögon på förhållandet som har varit grunden för hennes liv. Kan kärleken överleva när tvivlet infinner sig och sanningen utmanas?",
-      "director": [
-        "Pernille Fischer Christensen"
-      ],
-      "cast": [
-        "Danica Ćurčić",
-        "Lars Ranthe",
-        "Claus Maack Bahnsen",
-        "Sofie Torp",
-        "Rasmus Botoft"
-      ],
-      "watchUrl": "https://viaplay.se/store/vores-lofte-2026?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/5B19-B5D6-C145-4899-30B8-F"
-    },
-    {
-      "provider": "Netflix",
-      "providerSlug": "netflix",
-      "title": "En underbar jävla jul",
-      "url": "https://www.justwatch.com/se/film/a-holy-mess",
-      "poster": "https://images.justwatch.com/poster/292998337/s592/a-holy-mess.jpg",
-      "year": 2015,
-      "runtime": 108,
-      "genres": [
-        "Komedi",
-        "Drama",
-        "Producerat i Europa"
-      ],
-      "description": "27-åriga Simon och Oscar har varit ett par i tre år. Tillsammans med sin nära vän Cissi har de köpt ett \"karaktärsfullt\" hus i Bromma. Det är i stort behov av renovering men ett rum på övervåningen har de prioriterat. Barnkammaren. Den är klar! Cissi är i nionde månaden. Vem är pappan? Det kan vara Oscar ELLER Simon… Tillsammans ska trion bilda familj. Detta är dock en hemlighet som de skjutit på att berätta för sina egna familjer i snart ett år. Nu finns det ingen återvändo, det kan inte vänta längre. Hemligheten måste fram! Och vilken tidpunkt vore mer perfekt än julafton – toleransens högtid. Dagen då alla måste älska varandra, och vara snälla mot varandra. Jesus födelsedag!",
-      "director": [
-        "Helena Bergström"
-      ],
-      "cast": [
-        "Maria Lundqvist",
-        "Robert Gustafsson",
-        "Anastasios Soulis",
-        "Anton Lundqvist",
-        "Rakel Wärmländer"
-      ],
-      "contentRating": "7",
-      "watchUrl": "https://www.netflix.com/title/81233381"
-    },
-    {
-      "provider": "SVT Play",
-      "providerSlug": "svt",
-      "title": "Once Upon a Time in Hollywood",
-      "url": "https://www.justwatch.com/se/film/once-upon-a-time-in-hollywood",
-      "poster": "https://images.justwatch.com/poster/293860143/s592/once-upon-a-time-in-hollywood.jpg",
-      "year": 2019,
-      "runtime": 162,
-      "genres": [
-        "Komedi",
-        "Drama",
-        "Mysterium och thriller"
-      ],
-      "rating": "89",
-      "ratingScale": "100",
-      "description": "Filmen utspelar sig 1969 i Los Angeles, där allt håller på att förändras. TV-stjärnan Rick Dalton och hans stuntman Cliff Booth navigerar genom en industri som de knappt känner igen längre i denna hyllning till de sista ögonblicken i Hollywoods gyllene era.",
-      "director": [
-        "Quentin Tarantino"
-      ],
-      "cast": [
-        "Leonardo DiCaprio",
-        "Brad Pitt",
-        "Margot Robbie",
-        "Emile Hirsch",
-        "Margaret Qualley"
-      ],
-      "contentRating": "15",
-      "watchUrl": "https://www.svtplay.se/video/KBMYGNM/once-upon-a-time-in-hollywood?id=e6db2x9"
-    },
-    {
-      "provider": "TV4 Play",
-      "providerSlug": "tv4-play",
-      "title": "A Christmas Cookbook",
-      "url": "https://www.justwatch.com/se/film/the-christmas-cookbook",
-      "poster": "https://images.justwatch.com/poster/356265789/s592/the-christmas-cookbook.jpg",
-      "year": 2025,
-      "runtime": 81,
-      "genres": [
-        "Drama",
-        "Romantik"
-      ],
-      "description": "Nyblivna singeln Veronica träffar X-Mas Club, en informell grupp matälskande singlar som lagar mat och umgås, grundad av fotografen Cullen.",
-      "director": [
-        "Mars Horodyski"
-      ],
-      "cast": [
-        "Ashley Newbrough",
-        "Franco Lo Presti",
-        "Erica Deutschman",
-        "Zoe Doyle",
-        "Patrice Goodman"
-      ],
-      "watchUrl": "https://www.tv4play.se/program/b931ad5fb22781654d65/a-christmas-cookbook"
-    },
-    {
-      "provider": "HBO Max",
-      "providerSlug": "hbo-max",
-      "title": "Holiday Touchdown: A Bills Love Story",
-      "url": "https://www.justwatch.com/se/film/holiday-touchdown-a-bills-love-story",
-      "poster": "https://images.justwatch.com/poster/338129290/s592/holiday-touchdown-a-bills-love-story.jpg",
-      "year": 2025,
-      "runtime": 84,
-      "genres": [
-        "Komedi",
-        "Drama",
         "Barn och familj",
-        "Romantik"
-      ],
-      "rating": "42",
-      "ratingScale": "100",
-      "description": "Gnistan tänds mellan två Buffalo Bills-fans när de försöker ta reda på vem som är den mystiska julklappsgivaren.",
-      "director": [
-        "Dustin Rikert"
-      ],
-      "cast": [
-        "Holland Roden",
-        "Matthew Daddario",
-        "Joe Pantoliano",
-        "Tracy Pollan",
-        "Caroline Aaron"
-      ],
-      "watchUrl": "https://play.hbomax.com/show/8f96a8c0-ac41-4809-9017-f8a24d3a4c01?utm_source=universal_search"
-    },
-    {
-      "provider": "Prime Video",
-      "providerSlug": "amazon-prime-video",
-      "title": "The Apprentice",
-      "url": "https://www.justwatch.com/se/film/the-apprentice-2024",
-      "poster": "https://images.justwatch.com/poster/321930797/s592/the-apprentice-2024.jpg",
-      "year": 2024,
-      "runtime": 122,
-      "genres": [
-        "Drama",
-        "Historia"
-      ],
-      "rating": "82",
-      "ratingScale": "100",
-      "description": "I en tid då New Yorks skyline förändras lika snabbt som makten skiftar bakom kulisserna stiger en ung och ambitiös Donald J. Trump fram. 1970-talets Manhattan är en grogrund för stora drömmar och större risker, och Trump är fast besluten att lämna sin fars skugga och skriva sitt eget namn i stadens betong. På vägen till toppen möter han Roy Cohn, en politisk fixare och advokat med förmågan att manipulera både lagen och pressen. Under Cohns vägledning förvandlas Trump till en maktspelare utan samvete, där gränsen mellan framgång och fördärv suddas ut. Deras strategi av lögner, hot och mediespektakel banar väg för en framtid som ingen hade kunnat förutse.",
-      "director": [
-        "Ali Abbasi"
-      ],
-      "cast": [
-        "Sebastian Stan",
-        "Jeremy Strong",
-        "Martin Donovan",
-        "Maria Bakalova",
-        "Catherine McNally"
-      ],
-      "contentRating": "11",
-      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.4b464461-4a74-4a24-9499-a369caa7dd34"
-    },
-    {
-      "provider": "Viaplay",
-      "providerSlug": "viaplay",
-      "title": "The Gift",
-      "url": "https://www.justwatch.com/se/film/the-gift-2000",
-      "poster": "https://images.justwatch.com/poster/180992132/s592/the-gift-2000.jpg",
-      "year": 2000,
-      "runtime": 112,
-      "genres": [
-        "Drama",
-        "Fantasy",
-        "Skräck",
-        "Mysterium och thriller"
+        "Producerat i Europa"
       ],
       "rating": "87",
       "ratingScale": "100",
-      "description": "I den idylliska staden Brixton, försörjer sig den unga änkan Annie Wilson som traktens spåkvinna. Hennes synska gåva gör att hon med hjälp av tarotkort får föraningar om framtiden. När fästmön till skolans rektor plötsligt försvinner, befarar den lokala polisen att ett brott har begåtts. Efter fruktlösa försök att finna flickan, kontaktar polisen motvilligt till slut Annie. Hon får snart fasansfulla syner där hon ser den försvunna flickans döda kropp. Men ju mer Annie dras in i mordutredningen, desto hotfullare och mer skräckinjagande blir hennes syner.",
+      "description": "Varje år runt juletid stör de hans lugna ensamhet med sina allt större, mer skinande och mer högljudda festligheter. När invånarna i Vemdalen tillkännager att de detta år ska göra julen tre gånger så stor som förut, inser Grinchen att det enda sättet för honom att få lugn och ro är att stjäla julen. Han bestämmer sig för att klä ut sig till jultomten på julafton, och går så långt att han till och med fångar en ointresserad, missanpassad ren för att dra hans släde. Under tiden, nere i Vemdalen, smider Cindy-Lou Who, en ung flicka med en översvallande julkänsla, och hennes vänner planer. De ska fånga jultomten under hans julaftonsrunda så att hon kan tacka honom för allt han gjort för hennes utarbetade, ensamstående mamma. Men när julen närmar sig hotar hennes godhjärtade plan att kollidera med Grinchens inte så godhjärtade plan. Kommer Cindy-Lou äntligen att få träffa tomten? Kommer Grinchen att lyckas tysta Vemdalens julfirande en gång för alla?",
       "director": [
-        "Sam Raimi"
+        "Yarrow Cheney",
+        "Scott Mosier"
       ],
       "cast": [
-        "Cate Blanchett",
-        "Giovanni Ribisi",
-        "Keanu Reeves",
-        "Katie Holmes",
-        "Greg Kinnear"
+        "Benedict Cumberbatch",
+        "Rashida Jones",
+        "Kenan Thompson",
+        "Cameron Seely",
+        "Angela Lansbury"
       ],
-      "contentRating": "15",
-      "watchUrl": "https://viaplay.se/store/the-gift-2000?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/348B-B5D6-0184-88DC-66B2-7"
-    },
-    {
-      "provider": "Netflix",
-      "providerSlug": "netflix",
-      "title": "Gail Daughtry and the Celebrity Sex Pass",
-      "url": "https://www.justwatch.com/se/film/gail-daughtry-and-the-celebrity-sex-pass",
-      "poster": "https://images.justwatch.com/poster/345858302/s592/gail-daughtry-and-the-celebrity-sex-pass.jpg",
-      "year": 2026,
-      "runtime": 94,
-      "genres": [
-        "Komedi"
-      ],
-      "rating": "61",
-      "ratingScale": "100",
-      "description": "Småstadsfrisören Gail Daughtrys värld vänds upp och ner när hennes fästman ligger med sitt ”frikort”. Sviken reser Gail impulsivt till Los Angeles med sin bästa vän Otto för att rädda bröllopet och jämna ut oddsen med sitt eget frikort: Jon Hamm. Med hjälp av en Hollywoodassistent, en paparazzo och skådespelaren John Slattery hamnar de mitt bland kändisar och lönnmördare på jakt efter Hamm.",
-      "director": [
-        "David Wain"
-      ],
-      "cast": [
-        "Zoey Deutch",
-        "John Slattery",
-        "Ken Marino",
-        "Miles Gutierrez-Riley",
-        "Ben Wang"
-      ],
-      "contentRating": "16+",
-      "watchUrl": "https://www.netflix.com/title/83128963"
+      "watchUrl": "https://www.netflix.com/title/80996790"
     },
     {
       "provider": "SVT Play",
       "providerSlug": "svt",
-      "title": "Drömmarnas liga",
-      "url": "https://www.justwatch.com/se/film/drommarnas-liga",
-      "poster": "https://images.justwatch.com/poster/355689942/s592/drommarnas-liga.jpg",
-      "year": 2026,
-      "runtime": 30,
-      "genres": [
-        "Dokumentär"
-      ],
-      "description": "Kan Andreas ”Granen” Granqvist frälsa Ängelholms FF eller lurar ett svidande svek vid sidlinjen? Det här är historien om när en man skulle förverkliga den lilla klubbens drömmar om att ta klivet upp i fotbollens finrum. En berättelse om vikten av att våga drömma stort och aldrig ge sig - även när det inte blev som man tänkt. Svensk dokumentär av Henrik Ringnér.",
-      "cast": [
-        "Andreas Granqvist"
-      ],
-      "watchUrl": "https://www.svtplay.se/video/8WvrP1B/drommarnas-liga?id=86d1gLB"
-    },
-    {
-      "provider": "TV4 Play",
-      "providerSlug": "tv4-play",
-      "title": "Hälsoresan - En smal film av stor vikt",
-      "url": "https://www.justwatch.com/se/film/the-health-journey",
-      "poster": "https://images.justwatch.com/poster/292093788/s592/the-health-journey.jpg",
-      "year": 1999,
-      "runtime": 105,
-      "genres": [
-        "Komedi",
-        "Producerat i Europa"
-      ],
-      "rating": "6",
-      "ratingScale": "100",
-      "description": "Den ständigt aningslöse Stig Helmer och hans levnadsglade kompis Ole är tillbaka. Tillsammans provar de på det allra senaste i hälsobranschen och inom \"New Age\". Efter en skilsmässa återvänder Stig Helmer till Sverige och förvandlas till en riktig soffpotatis – tycker hans mamma. Men för Stig Helmer är det viktigare att veta vad den nyinflyttade grannen Rebecca tycker. Det är kanske dags att göra något åt saken.",
-      "director": [
-        "Lasse Åberg"
-      ],
-      "cast": [
-        "Lasse Åberg",
-        "Jon Skolmen",
-        "Anna Norberg",
-        "Mats Bergman",
-        "Ia Langhammer"
-      ],
-      "watchUrl": "https://www.tv4play.se/program/e37dab5bd4f1764dcce6/halsoresan"
-    },
-    {
-      "provider": "HBO Max",
-      "providerSlug": "hbo-max",
-      "title": "Single on the 25th",
-      "url": "https://www.justwatch.com/se/film/single-on-the-25th",
-      "poster": "https://images.justwatch.com/poster/338897039/s592/single-on-the-25th.jpg",
-      "year": 2025,
-      "runtime": 84,
-      "genres": [
-        "Komedi",
-        "Drama",
-        "Romantik"
-      ],
-      "description": "En kvinna som firar jul ensam i storstaden finner en oväntad vän när hon lär känna sin granne.",
-      "director": [
-        "Jonathan Wright"
-      ],
-      "cast": [
-        "Lyndsy Fonseca",
-        "Daniel Lissing",
-        "Teneisha Collins",
-        "Lauren Spencer-Smith",
-        "Victor Andres Trelles Turgeon"
-      ],
-      "watchUrl": "https://play.hbomax.com/show/cb05ed3e-273b-4a9f-be39-687004d8cdee?utm_source=universal_search"
-    },
-    {
-      "provider": "Prime Video",
-      "providerSlug": "amazon-prime-video",
-      "title": "I nattens hetta",
-      "url": "https://www.justwatch.com/se/film/in-the-heat-of-the-night",
-      "poster": "https://images.justwatch.com/poster/295618602/s592/in-the-heat-of-the-night.jpg",
-      "year": 1967,
-      "runtime": 109,
-      "genres": [
-        "Deckare",
-        "Drama",
-        "Mysterium och thriller"
-      ],
-      "rating": "89",
-      "ratingScale": "100",
-      "description": "Virgil Tibbs är på genomresa i södra USA och grips för ett mord endast på grund av sin svarta hud. När det visar sig att han i själva verket är oskyldig och därtill polis-specialiserad på mord låter hans chef i Philadelphia honom stanna kvar för att bistå den lokala polismyndigheten. Det blir en svår uppgift för Virgil, såväl att lösa mordgåtan som att handskas med fördomarna från lokalbefolkningen, inte minst från sin kollega Bill. Flerfaldigt Oscarsbelönad.",
-      "director": [
-        "Norman Jewison"
-      ],
-      "cast": [
-        "Sidney Poitier",
-        "Rod Steiger",
-        "Warren Oates",
-        "Lee Grant",
-        "Larry Gates"
-      ],
-      "contentRating": "15",
-      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.fd4d9c2a-a29c-4081-95c9-b4c74a99079b"
-    },
-    {
-      "provider": "Viaplay",
-      "providerSlug": "viaplay",
-      "title": "Köpenhamn finns inte",
-      "url": "https://www.justwatch.com/se/film/copenhagen-does-not-exist",
-      "poster": "https://images.justwatch.com/poster/346563079/s592/copenhagen-does-not-exist.jpg",
-      "year": 2023,
-      "runtime": 99,
-      "genres": [
-        "Drama"
-      ],
-      "description": "Köpenhamn, Danmark. Medan den unga Ida fortfarande är försvunnen förhörs Sander av två män i en tom lägenhet.",
-      "director": [
-        "Martin Skovbjerg"
-      ],
-      "cast": [
-        "Angela Bundalovic",
-        "Jonas Holst Schmidt",
-        "Zlatko Burić",
-        "Christopher Læssø",
-        "Vilmer Trier Brøgger"
-      ],
-      "contentRating": "15",
-      "watchUrl": "https://viaplay.se/film/copenhagen-does-not-exist-2022?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/EB9F-4816-A21D-4DB3-9BDA-O"
-    },
-    {
-      "provider": "Netflix",
-      "providerSlug": "netflix",
-      "title": "Blonde Ambition",
-      "url": "https://www.justwatch.com/se/film/blonde-ambition",
-      "poster": "https://images.justwatch.com/poster/181341852/s592/blonde-ambition.jpg",
-      "year": 2007,
-      "runtime": 93,
-      "genres": [
-        "Komedi",
-        "Romantik"
-      ],
-      "rating": "34",
-      "ratingScale": "100",
-      "description": "Staden som aldrig sover ska få träffa tjejen som aldrig ger upp. Jessica Simpson spelar Katie Gregerstitch, en småstadsskönhet från Oklahoma som har åkt till New York för att besöka sin pojkvän. Men efter att hon finner honom i armarna på en annan kvinna bestämmer Katie sig för att dumpa honom och finna sig själv istället.",
-      "director": [
-        "Scott Marshall"
-      ],
-      "cast": [
-        "Jessica Simpson",
-        "Luke Wilson",
-        "Rachael Leigh Cook",
-        "Penelope Ann Miller",
-        "Andy Dick"
-      ],
-      "contentRating": "Från 11 år",
-      "watchUrl": "https://www.netflix.com/title/70075021"
-    },
-    {
-      "provider": "SVT Play",
-      "providerSlug": "svt",
-      "title": "X",
-      "url": "https://www.justwatch.com/se/film/x",
-      "poster": "https://images.justwatch.com/poster/292582081/s592/x.jpg",
+      "title": "Wannsee 1942",
+      "url": "https://www.justwatch.com/se/film/the-conference",
+      "poster": "https://images.justwatch.com/poster/331164764/s592/the-conference.jpg",
       "year": 2022,
       "runtime": 105,
-      "genres": [
-        "Skräck",
-        "Mysterium och thriller"
-      ],
-      "rating": "86",
-      "ratingScale": "100",
-      "description": "Ett filmteam hyr in sig på en avlägsen gård i Texas för att ostört kunna spela in en vuxenfilm som de hoppas ska göra dem både rika och berömda. Stripporna Maxine och Bobby-Lynne ska agera framför kameran tillsammans med Bobby-Lynnes pojkvän Jackson. Maxines pojkvän, producenten Wayne, peppar teamet med visioner av deras förmodat fantastiska framtid i porrfilmsbranschen. Regissören RJ är en känslig själ som dyrkar avant garde-film och hävdar att porr absolut kan vara konst. Hans tillbakadragna tjej Lorraine är städslad för att sköta mickbommen. Men det äldre par som filmteamet hyr huset av visar sig ha en egen agenda och börjar snart att terrorisera sina hyresgäster, som i stället för att slutföra filmen måste slåss för sina liv.",
-      "director": [
-        "Ti West"
-      ],
-      "cast": [
-        "Mia Goth",
-        "Jenna Ortega",
-        "Brittany Snow",
-        "Kid Cudi",
-        "Martin Henderson"
-      ],
-      "contentRating": "15",
-      "watchUrl": "https://www.svtplay.se/video/KnDgRwd/x?id=jJdaEAA"
-    },
-    {
-      "provider": "TV4 Play",
-      "providerSlug": "tv4-play",
-      "title": "Prey for the Devil",
-      "url": "https://www.justwatch.com/se/film/the-devils-light",
-      "poster": "https://images.justwatch.com/poster/301245365/s592/the-devils-light.jpg",
-      "year": 2022,
-      "runtime": 93,
-      "genres": [
-        "Skräck",
-        "Mysterium och thriller"
-      ],
-      "rating": "70",
-      "ratingScale": "100",
-      "description": "Syster Ann tror att hon svarar på ett kall att bli den första kvinnliga exorcisten, men vem - eller vad - har kallat henne? Som svar på de ökande fallen av demonisk besatthet söker Ann sig till en skola för exorcism som har öppnats av den katolska kyrkan. Hittills har skolorna endast tränat präster i exorcism, men en professor känner igen syster Anns gåvor och är villig att utbilda henne. Tillsammans med sin studentkollega fader Dante kämpar hon för en ung flickas själ, som syster Ann tror är besatt av samma demon som plågade hennes mor för många år sedan. Ann är fast besluten att utrota det onda men inser snart att djävulen har fått henne dit han vill.",
-      "director": [
-        "Daniel Stamm"
-      ],
-      "cast": [
-        "Jacqueline Byers",
-        "Colin Salmon",
-        "Christian Navarro",
-        "Lisa Palfrey",
-        "Nicholas Ralph"
-      ],
-      "contentRating": "15",
-      "watchUrl": "https://www.tv4play.se/program/dc9271fa3dc83bc8a1b9/prey-for-the-devil"
-    },
-    {
-      "provider": "HBO Max",
-      "providerSlug": "hbo-max",
-      "title": "Beetlejuice Beetlejuice",
-      "url": "https://www.justwatch.com/se/film/beetlejuice-2",
-      "poster": "https://images.justwatch.com/poster/320071474/s592/beetlejuice-2.jpg",
-      "year": 2024,
-      "runtime": 105,
-      "genres": [
-        "Komedi",
-        "Fantasy",
-        "Skräck"
-      ],
-      "rating": "84",
-      "ratingScale": "100",
-      "description": "Efter en oväntad familjetragedi återvänder tre generationer av Deetz-familjen hem till Winter River. Fortfarande hemsökt av Beetlejuice vänds Lydias liv upp och ner när hennes rebelliska tonårsdotter Astrid upptäcker den mystiska modellen av staden på vinden och porten till livet efter detta öppnas av misstag. När problem uppstår i båda världarna, är det bara en tidsfråga innan någon säger Beetlejuices namn tre gånger och den skojfriske demonen återvänder för att släppa loss sin alldeles egna form av förödelse.",
-      "director": [
-        "Tim Burton"
-      ],
-      "cast": [
-        "Michael Keaton",
-        "Winona Ryder",
-        "Catherine O'Hara",
-        "Jenna Ortega",
-        "Justin Theroux"
-      ],
-      "contentRating": "11",
-      "watchUrl": "https://play.hbomax.com/show/69f69c59-fc16-402d-a1ad-cf8ea698b0e5?utm_source=universal_search"
-    },
-    {
-      "provider": "Prime Video",
-      "providerSlug": "amazon-prime-video",
-      "title": "I hetaste laget",
-      "url": "https://www.justwatch.com/se/film/some-like-it-hot",
-      "poster": "https://images.justwatch.com/poster/292161013/s592/some-like-it-hot.jpg",
-      "year": 1959,
-      "runtime": 123,
-      "genres": [
-        "Komedi",
-        "Deckare",
-        "Musik och musikal",
-        "Romantik"
-      ],
-      "rating": "93",
-      "ratingScale": "100",
-      "description": "När Chicagomusikerna Joe och Jerry av en händelse blir vittnen till en skottlossning mellan rivaliserande gäng, hoppar de snabbt på ett tåg till Florida, förklädda till Josephine och Daphne, två nya medlemmar i ett tjejjazzband. Förklädnaden fungerar perfekt... ända tills en kärlekskrank sångerska faller för \"Josephine\", en gammal playboy förälskar sig i \"Daphne\" och en maffiaboss vägrar att gå på deras bluff!",
-      "director": [
-        "Billy Wilder"
-      ],
-      "cast": [
-        "Tony Curtis",
-        "Jack Lemmon",
-        "Marilyn Monroe",
-        "George Raft",
-        "Pat O'Brien"
-      ],
-      "contentRating": "11",
-      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.e02be4f0-2fb0-440e-963d-9435063e86c1"
-    },
-    {
-      "provider": "Viaplay",
-      "providerSlug": "viaplay",
-      "title": "The Walk",
-      "url": "https://www.justwatch.com/se/film/the-walk",
-      "poster": "https://images.justwatch.com/poster/102615660/s592/the-walk.jpg",
-      "year": 2015,
-      "runtime": 123,
-      "genres": [
-        "Action och äventyr",
-        "Drama",
-        "Historia"
-      ],
-      "rating": "87",
-      "ratingScale": "100",
-      "description": "Endast en man har lyckats gå på lina mellan de två World Trade Center-tornen. Hans namn var Philippe Petit, en fransk lindansare, och det hela ägde rum den 7 augusti 1974.",
-      "director": [
-        "Robert Zemeckis"
-      ],
-      "cast": [
-        "Joseph Gordon-Levitt",
-        "Ben Kingsley",
-        "Charlotte Le Bon",
-        "James Badge Dale",
-        "Clément Sibony"
-      ],
-      "contentRating": "7",
-      "watchUrl": "https://viaplay.se/film/the-walk-2015?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/4041-53CA-91FF-5294-1567-O"
-    },
-    {
-      "provider": "Netflix",
-      "providerSlug": "netflix",
-      "title": "Jag kommer hem igen till jul",
-      "url": "https://www.justwatch.com/se/film/jag-kommer-hem-igen-till-jul",
-      "poster": "https://images.justwatch.com/poster/320267183/s592/jag-kommer-hem-igen-till-jul.jpg",
-      "year": 2019,
-      "runtime": 113,
-      "genres": [
-        "Drama",
-        "Musik och musikal",
-        "Producerat i Europa"
-      ],
-      "description": "Världsstjärnan Simon kommer hem till Sverige för att fira jul. I det lilla samhället han växte upp arrangerar hans bror Anders den årliga julkonserten och Simon har övertalats att vara med. Anders, som alltid levt i skuggan av sin bror, är inte helt nöjd med detta. Simon däremot tar lätt på det hela, tills gamla minnen väcks till liv och han konfronteras med begravda familjehemligheter.",
-      "director": [
-        "Ella Lemhagen"
-      ],
-      "cast": [
-        "Peter Jöback",
-        "Johannes Bah Kuhnke",
-        "Suzanne Reuter",
-        "Jennie Silfverhjelm",
-        "Loa Falkman"
-      ],
-      "contentRating": "7",
-      "watchUrl": "https://www.netflix.com/title/81522199"
-    },
-    {
-      "provider": "SVT Play",
-      "providerSlug": "svt",
-      "title": "Joyland",
-      "url": "https://www.justwatch.com/se/film/joyland",
-      "poster": "https://images.justwatch.com/poster/307624291/s592/joyland.jpg",
-      "year": 2022,
-      "runtime": 127,
-      "genres": [
-        "Komedi",
-        "Deckare",
-        "Drama",
-        "Romantik"
-      ],
-      "rating": "64",
-      "ratingScale": "100",
-      "description": "Pakistanska Haider lever instängd mellan familjens förväntningar och sina egna drömmar. När han börjar arbeta i en Bollywood-dansgrupp och lär känna den karismatiska transkvinnan Biba ställs hela familjens hederskod mot en ny sorts frihetslängtan. Prisbelönat drama om kärlek, skam och modet att välja sitt eget liv.",
-      "director": [
-        "Saim Sadiq"
-      ],
-      "cast": [
-        "Ali Junejo",
-        "Rasti Farooq",
-        "Alina Khan",
-        "Sarwat Gilani",
-        "Salmaan Peerzada"
-      ],
-      "contentRating": "15",
-      "watchUrl": "https://www.svtplay.se/video/KNw7AxQ/joyland?id=eQrBaQo"
-    },
-    {
-      "provider": "TV4 Play",
-      "providerSlug": "tv4-play",
-      "title": "GW:s mord - Familjetragedin i Svartöstaden",
-      "url": "https://www.justwatch.com/se/film/gw-s-mord-familjetragedin-i-svartostaden",
-      "poster": "https://images.justwatch.com/poster/356419981/s592/gw-s-mord-familjetragedin-i-svartostaden.jpg",
-      "year": 2026,
-      "runtime": 23,
-      "genres": [
-        "Deckare"
-      ],
-      "description": "I området Svartöstaden är det lugnt och stilla. I en av villorna bor en familj, vars yngsta son försvinner allt längre in i sig själv. En iskall vårvintermorgon bryts morgonlugnet av avgrundsvrål, när ynglingen går till besinningslös attack mot sin mamma och storebror. ”Jag har förlorat hela min familj”, säger pappan som larmar 112. Minuter senare grips hans 19-årige son barfota i snön på gården.",
-      "cast": [
-        "Leif G.W. Persson"
-      ],
-      "contentRating": "15",
-      "watchUrl": "https://www.tv4play.se/program/c75ab1c9e07585751e9c/gw-s-mord-familjetragedin-i-svartostaden"
-    },
-    {
-      "provider": "HBO Max",
-      "providerSlug": "hbo-max",
-      "title": "Joker: Folie à Deux",
-      "url": "https://www.justwatch.com/se/film/joker-2",
-      "poster": "https://images.justwatch.com/poster/320856086/s592/joker-2.jpg",
-      "year": 2024,
-      "runtime": 138,
-      "genres": [
-        "Drama",
-        "Mysterium och thriller"
-      ],
-      "rating": "46",
-      "ratingScale": "100",
-      "description": "Arthur Fleck är intagen på Arkham i väntan på rättegång för sina brott som Joker. Samtidigt som han kämpar med sin dubbla identitet snubblar Arthur inte bara över sann kärlek utan hittar också musiken som alltid har funnits inom honom.",
-      "director": [
-        "Todd Phillips"
-      ],
-      "cast": [
-        "Joaquin Phoenix",
-        "Lady Gaga",
-        "Brendan Gleeson",
-        "Catherine Keener",
-        "Zazie Beetz"
-      ],
-      "contentRating": "15",
-      "watchUrl": "https://play.hbomax.com/show/1d69f205-398a-40b9-8162-586dc80ce2a5?utm_source=universal_search"
-    },
-    {
-      "provider": "Prime Video",
-      "providerSlug": "amazon-prime-video",
-      "title": "Apocalipsis Z: Nuevo Mundo",
-      "url": "https://www.justwatch.com/se/film/apocalipsis-z-nuevo-mundo",
-      "poster": "https://images.justwatch.com/poster/356429426/s592/apocalipsis-z-nuevo-mundo.jpg",
-      "year": 2026,
-      "runtime": 96,
-      "genres": [
-        "Action och äventyr",
-        "Skräck",
-        "Mysterium och thriller"
-      ],
-      "rating": "54",
-      "ratingScale": "100",
-      "description": "Efter TSJ-virusets utbrott, har Kanarieöarna blivit Europas sista fristad. När en militärpatrull reser till Madrid för att hämta förnödenheter, följer Roberto med patrullen med tvivelaktiga intentioner. Omgivna av smittade, tvingas de slåss för att överleva, samtidigt som de står inför ett moraliskt dilemma: rädda sig själva eller riskera allt för det som finns kvar av mänskligheten.",
-      "director": [
-        "Carles Torrens"
-      ],
-      "cast": [
-        "Carlos Alcaide",
-        "José María Yázpik",
-        "Mónica López",
-        "Tamara Casellas",
-        "Berta Vázquez"
-      ],
-      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8a132dd0-3df2-4bab-93ab-4e64bd720a97"
-    },
-    {
-      "provider": "Viaplay",
-      "providerSlug": "viaplay",
-      "title": "Wardriver",
-      "url": "https://www.justwatch.com/se/film/wardriver",
-      "poster": "https://images.justwatch.com/poster/343813038/s592/wardriver.jpg",
-      "year": 2026,
-      "runtime": 93,
-      "genres": [
-        "Deckare",
-        "Mysterium och thriller"
-      ],
-      "rating": "65",
-      "ratingScale": "100",
-      "description": "Cole är en hackare som lever på högteknologiska rån. Från sin bil bryter han sig in i trådlösa nätverk medan han kör - alltid i rörelse, alltid oåtkomlig. Han intalar sig att ingen tar skada. Men allt förändras när den hänsynslöse brottslingen Oscar upptäcker hans talang och tvingar in honom i en cyberkupp värd en miljon dollar. Offret är Sarah - och snart kämpar Cole för att rädda dem båda.",
-      "director": [
-        "Rebecca Thomas"
-      ],
-      "cast": [
-        "Dane DeHaan",
-        "Sasha Calle",
-        "Mamoudou Athie",
-        "Jeffrey Donovan",
-        "William Belleau"
-      ],
-      "watchUrl": "https://viaplay.se/store/wardriver-2026?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/1B00-CDBC-1590-DBF2-9FF0-A"
-    },
-    {
-      "provider": "Netflix",
-      "providerSlug": "netflix",
-      "title": "A Very Harold & Kumar Christmas",
-      "url": "https://www.justwatch.com/se/film/a-very-harold-and-kumar-christmas",
-      "poster": "https://images.justwatch.com/poster/175827463/s592/a-very-harold-and-kumar-christmas.jpg",
-      "year": 2011,
-      "runtime": 90,
-      "genres": [
-        "Komedi"
-      ],
-      "rating": "77",
-      "ratingScale": "100",
-      "description": "Harold och Kumar återförenas när en prisbelönt julgran genom en olyckshändelse går upp i rök. Istället för att bekänna sin skuld för sina svärföräldrar väljer Harold en annan väg och han och Kumar ger sig av på en galen resa för att leta efter den perfekta nya julgranen. På vägen hittar de sång, dans, den sanna julandan och den legendariske Neil Patrick Harris.",
-      "director": [
-        "Todd Strauss-Schulson"
-      ],
-      "cast": [
-        "John Cho",
-        "Kal Penn",
-        "Paula Garcés",
-        "Neil Patrick Harris",
-        "Elias Koteas"
-      ],
-      "contentRating": "15",
-      "watchUrl": "https://www.netflix.com/title/70178622"
-    },
-    {
-      "provider": "SVT Play",
-      "providerSlug": "svt",
-      "title": "Hit Man",
-      "url": "https://www.justwatch.com/se/film/hit-man",
-      "poster": "https://images.justwatch.com/poster/316075230/s592/hit-man.jpg",
-      "year": 2024,
-      "runtime": 116,
-      "genres": [
-        "Komedi",
-        "Deckare",
-        "Romantik"
-      ],
-      "rating": "85",
-      "ratingScale": "100",
-      "description": "Gary Johnson är en helt vanlig universitetslärare som extraknäcker som falsk yrkesmördare för New Orleans-polisen. Han har en naturlig talang för att anta olika personligheter, men hans tillvaro blir mycket komplicerad den dagen han förälskar sig i den potentiella klienten Maddy. Hon i sin tur attraheras av Gary, som utger sig för att vara den mystiske, sexige Ron. Men vad skulle Maddy tycka om den verklige Gary, och hur länge kommer hans plan att fungera?",
-      "director": [
-        "Richard Linklater"
-      ],
-      "cast": [
-        "Glen Powell",
-        "Adria Arjona",
-        "Austin Amelio",
-        "Retta",
-        "Sanjay Rao"
-      ],
-      "contentRating": "11",
-      "watchUrl": "https://www.svtplay.se/video/KBMYnkg/hit-man?id=89dyqMx"
-    },
-    {
-      "provider": "TV4 Play",
-      "providerSlug": "tv4-play",
-      "title": "BlackJack",
-      "url": "https://www.justwatch.com/se/film/blackjack",
-      "poster": "https://images.justwatch.com/poster/294592911/s592/blackjack.jpg",
-      "year": 1990,
-      "runtime": 111,
-      "genres": [
-        "Drama",
-        "Musik och musikal",
-        "Producerat i Europa"
-      ],
-      "rating": "9",
-      "ratingScale": "100",
-      "description": "En historia om fasta förhållanden och lösa förbindelser. Inger, en ensamstående mamma, återvänder till sin hemstad efter ett par år i Stockholm. När helgen kommer gör hon som alla andra – hon går ut och dansar. Det gör också polarna Kaj, Lennart och Robert. Den blyge Kaj faller pladask för Ingers charm. Inger däremot dras mot äventyr och dansbandstrummisen Tommy, van att nedlägga brudar som troféer under sina turnéer…",
-      "director": [
-        "Colin Nutley"
-      ],
-      "cast": [
-        "Helena Bergström",
-        "Reine Brynolfsson",
-        "Johannes Brost",
-        "Ing-Marie Carlsson",
-        "Jan Mybrand"
-      ],
-      "contentRating": "7",
-      "watchUrl": "https://www.tv4play.se/program/299b47f95e487b117c73/black-jack"
-    },
-    {
-      "provider": "Prime Video",
-      "providerSlug": "amazon-prime-video",
-      "title": "Golda",
-      "url": "https://www.justwatch.com/se/film/golda",
-      "poster": "https://images.justwatch.com/poster/308557215/s592/golda.jpg",
-      "year": 2023,
-      "runtime": 100,
       "genres": [
         "Drama",
         "Historia",
         "Krig"
       ],
-      "rating": "73",
+      "rating": "79",
       "ratingScale": "100",
-      "description": "Israels premiärminister Golda Meir måste efter jom kippur-krigets utbrott på hösten 1973 plötsligt leda en kapplöpning mot tiden för att rädda sitt land. Miljontals liv står på spel medan Golda tyngs av svåra politiska beslut och av en sjukdom som hon försöker förtränga. \"Israels järnlady\" frustreras av interna stridigheter i sitt helt manliga kabinett, men kanske kan hennes vänskap med Henry Kissinger bli till hjälp om hon sköter sina kort rätt.",
+      "description": "Ett historiskt drama som skildrar den ökända Wannseekonferensen i Tyskland den 20 januari 1942, där nazistiska ledare samlades för att diskutera och planera den systematiska förintelsen av Europas judar. Filmen bygger på de dokument som finns kvar efter konferensen.",
       "director": [
-        "Guy Nattiv"
+        "Matti Geschonneck"
       ],
       "cast": [
-        "Helen Mirren",
-        "Camille Cottin",
-        "Liev Schreiber",
-        "Lior Ashkenazi",
-        "Rami Heuberger"
+        "Philipp Hochmair",
+        "Johannes Allmayer",
+        "Maximilian Brückner",
+        "Matthias Bundschuh",
+        "Fabian Busch"
       ],
       "contentRating": "11",
-      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.2c7990de-6b89-4fcb-83f4-af914cfa89b6"
-    },
-    {
-      "provider": "Viaplay",
-      "providerSlug": "viaplay",
-      "title": "No Man of God",
-      "url": "https://www.justwatch.com/se/film/no-man-of-god",
-      "poster": "https://images.justwatch.com/poster/250112399/s592/no-man-of-god.jpg",
-      "year": 2021,
-      "runtime": 100,
-      "genres": [
-        "Deckare",
-        "Drama",
-        "Mysterium och thriller"
-      ],
-      "rating": "73",
-      "ratingScale": "100",
-      "description": "Ted Bundy var serimördaren som satte skräck i 70-talet med sina brutalt hänsynslösa brott. Bill Hagmaier var FBI-agenten som bestämde sig för att han skulle förstå sig på vad som drev den dömde till sina hemska gärningar. Det här är skildringen av deras fascinerande band som knöts under deras möten. Baserad på arkivmaterialet från Hagmaier och Bundys samtal skildrar No Man of God de sista åren av mördarens dödsdom. Med Elijah Wood och Luke Kirby i huvudrollerna.",
-      "director": [
-        "Amber Sealey"
-      ],
-      "cast": [
-        "Elijah Wood",
-        "Luke Kirby",
-        "Aleksa Palladino",
-        "Robert Patrick",
-        "W. Earl Brown"
-      ],
-      "contentRating": "15",
-      "watchUrl": "https://viaplay.se/film/no-man-of-god-2021?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/33A6-787B-9444-BB99-3B41-I"
-    },
-    {
-      "provider": "Netflix",
-      "providerSlug": "netflix",
-      "title": "My Hero Academia: Two Heroes",
-      "url": "https://www.justwatch.com/se/film/my-hero-academia-two-heroes",
-      "poster": "https://images.justwatch.com/poster/121773690/s592/my-hero-academia-two-heroes.jpg",
-      "year": 2018,
-      "runtime": 96,
-      "genres": [
-        "Action och äventyr",
-        "Animerat",
-        "Fantasy",
-        "Science-Fiction"
-      ],
-      "rating": "82",
-      "ratingScale": "100",
-      "description": "All Might and Deku accept an invitation to go abroad to a floating and mobile manmade city, called 'I-Island', where they research quirks as well as hero supplemental items at the special 'I-Expo' convention that is currently being held on the island. During that time, suddenly, despite an iron wall of security surrounding the island, the system is breached by a villain, and the only ones able to stop him are the students of Class 1-A.",
-      "director": [
-        "Kenji Nagasaki"
-      ],
-      "cast": [
-        "Daiki Yamashita",
-        "Kenta Miyake",
-        "Mirai Shida",
-        "Katsuhisa Namase",
-        "Nobuhiko Okamoto"
-      ],
-      "contentRating": "13+",
-      "watchUrl": "https://www.netflix.com/title/81051689"
-    },
-    {
-      "provider": "SVT Play",
-      "providerSlug": "svt",
-      "title": "Skråbock",
-      "url": "https://www.justwatch.com/se/film/skrabock",
-      "poster": "https://images.justwatch.com/poster/355045634/s592/skrabock.jpg",
-      "year": 2025,
-      "runtime": 13,
-      "genres": [
-        "Drama",
-        "Mysterium och thriller"
-      ],
-      "description": "Tre tonåringar klär ut sig för ritualen ”Skråbock”, en lokal tradition där man tigger om julrester. De besöker sina grannars hus och släpps in med mer eller mindre entusiasm. Men tonåringarna hungrar efter mer än mat och utforskar ritualens gränser. En film från 2025 av Emily Norling.",
-      "director": [
-        "Emily Norling"
-      ],
-      "contentRating": "11",
-      "watchUrl": "https://www.svtplay.se/video/KVk4ALv/skrabock?id=jp5oERW"
+      "watchUrl": "https://www.svtplay.se/video/KzVdD3d/wannsee-1942?id=jMyMRPg"
     },
     {
       "provider": "TV4 Play",
       "providerSlug": "tv4-play",
-      "title": "Underworld",
-      "url": "https://www.justwatch.com/se/film/underworld",
-      "poster": "https://images.justwatch.com/poster/100337045/s592/underworld.jpg",
-      "year": 2003,
-      "runtime": 122,
+      "title": "Den stora flykten",
+      "url": "https://www.justwatch.com/se/film/the-great-escape",
+      "poster": "https://images.justwatch.com/poster/345744895/s592/the-great-escape.jpg",
+      "year": 1963,
+      "runtime": 173,
       "genres": [
         "Action och äventyr",
-        "Fantasy",
+        "Drama",
         "Mysterium och thriller",
-        "Producerat i Europa"
+        "Krig"
       ],
-      "rating": "93",
+      "rating": "92",
       "ratingScale": "100",
-      "description": "Vampyrer och varulvar har utkämpat ett nattligt krig mot varandra i århundraden. Men allt förändras när en kvinnlig vampyrkrigare vid namn Selene, känd för sin styrka och tapperhet i varulvsjakt, blir förälskad i en fredsälskande manlig varulv, Michael, som vill göra slut på kriget.",
+      "description": "Under andra världskriget har tyskarna samlat de mest rymningsbenägna krigsfångarna i ett hårt bevakat specialläger. Men britterna och amerikanerna är fast beslutna att till varje pris organisera en massflykt - och nu har ju nazisterna hjälpt dem genom att samla alla allierade rymningsexperter på samma ställe.",
       "director": [
-        "Len Wiseman"
+        "John Sturges"
       ],
       "cast": [
-        "Kate Beckinsale",
-        "Scott Speedman",
-        "Michael Sheen",
-        "Shane Brolly",
-        "Bill Nighy"
+        "Steve McQueen",
+        "James Garner",
+        "Richard Attenborough",
+        "James Donald",
+        "Charles Bronson"
       ],
       "contentRating": "15",
-      "watchUrl": "https://www.tv4play.se/program/dad1901fd16e593ece7a/underworld"
+      "watchUrl": "https://www.tv4play.se/program/8e981b81374f30ed201d/den-stora-flykten"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "The Haunted Museum: 3 Ring Inferno",
+      "url": "https://www.justwatch.com/se/film/the-haunted-museum-3-ring-inferno",
+      "poster": "https://images.justwatch.com/poster/301445774/s592/the-haunted-museum-3-ring-inferno.jpg",
+      "year": 2022,
+      "runtime": 82,
+      "genres": [
+        "Skräck"
+      ],
+      "rating": "13",
+      "ratingScale": "100",
+      "description": "Zak Bagans och filmskaparen Eli Roth presentera en skrämmande filmantologi inspirerad av sånt som finns i Zaks egen samling av hemsökta artefakter.",
+      "director": [
+        "Chad Archibald",
+        "Cody Calahan"
+      ],
+      "cast": [
+        "Logan Burns",
+        "Daniel Christian Jones",
+        "Tom Bolton",
+        "Leland Tilden",
+        "Jim Ordolis"
+      ],
+      "contentRating": "13+",
+      "watchUrl": "https://play.hbomax.com/video/watch/242efcbe-a25c-49e1-af1e-cef471ddf8ef?utm_source=universal_search"
     },
     {
       "provider": "Prime Video",
       "providerSlug": "amazon-prime-video",
-      "title": "Slaxx",
-      "url": "https://www.justwatch.com/se/film/slaxx",
-      "poster": "https://images.justwatch.com/poster/254002524/s592/slaxx.jpg",
-      "year": 2020,
-      "runtime": 77,
+      "title": "Begynnelser",
+      "url": "https://www.justwatch.com/se/film/begynnelser",
+      "poster": "https://images.justwatch.com/poster/344382436/s592/begynnelser.jpg",
+      "year": 2025,
+      "runtime": 97,
       "genres": [
-        "Komedi",
-        "Skräck"
+        "Drama"
       ],
-      "rating": "55",
-      "ratingScale": "100",
-      "description": "När ett par besatta jeans börjar döda personalen i en trendig modebutik, är det upp till Libby, en idealistisk ung säljare, att stoppa deras blodiga framfart.",
+      "description": "Ane och Thomas befinner sig mitt i en skilsmässa, men har ännu inte berättat det för barnen. Thomas är precis på väg att flytta ihop med sin nya flickvän när Ane plötsligt drabbas av en livsförändrande blodpropp. De beslutar sig för att fortsätta bo tillsammans tills Ane mår bättre, och medan hon med stor envishet kämpar för att hitta tillbaka till sitt gamla jag tvingas de båda att möta en ny verklighet och försöka hålla hoppet uppe.",
       "director": [
-        "Elza Kephart"
+        "Jeanette Nordahl"
       ],
       "cast": [
-        "Romane Denis",
-        "Brett Donahue",
-        "Sehar Bhojani",
-        "Kenny Wong",
-        "Tianna Nori"
+        "Trine Dyrholm",
+        "David Dencik",
+        "Johanne Louise Schmidt",
+        "Alvin Olid Bursøe",
+        "Christine Gjerulff"
       ],
-      "contentRating": "15",
-      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.7fdfe3e4-e3c7-4cef-8a0e-ea920325816f"
+      "contentRating": "11",
+      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8101b331-afbf-45a0-83a0-29c749840388"
     },
     {
       "provider": "Viaplay",
       "providerSlug": "viaplay",
-      "title": "My Friend Dahmer",
-      "url": "https://www.justwatch.com/se/film/my-friend-dahmer",
-      "poster": "https://images.justwatch.com/poster/43874266/s592/my-friend-dahmer.jpg",
+      "title": "Last Christmas",
+      "url": "https://www.justwatch.com/se/film/last-christmas",
+      "poster": "https://images.justwatch.com/poster/293940315/s592/last-christmas.jpg",
+      "year": 2019,
+      "runtime": 103,
+      "genres": [
+        "Komedi",
+        "Drama",
+        "Fantasy",
+        "Romantik",
+        "Producerat i Europa"
+      ],
+      "rating": "83",
+      "ratingScale": "100",
+      "description": "Kate ränner runt i London och fattar en massa dåliga beslut till ljudet av bjällrorna på hennes skor - ytterligare en irriterande grej med hennes jobb som tomtens medhjälpare i en året-runt-öppen julaffär. När Tom dyker upp i Kates liv, verkar han vara för bra för att vara sann och han genomskådar många av hennes känslomässiga barriärer. Fast London under julen förvandlas till världens underbaraste stad, verkar ingenting fungera för de här två. Men ibland måste man bara låta saker hända och lyssna på sitt hjärta ... och hysa lite hopp.",
+      "director": [
+        "Paul Feig"
+      ],
+      "cast": [
+        "Emilia Clarke",
+        "Henry Golding",
+        "Michelle Yeoh",
+        "Emma Thompson",
+        "Lydia Leonard"
+      ],
+      "contentRating": "7",
+      "watchUrl": "https://viaplay.se/film/last-christmas-2019?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/0931-C9BE-79EC-E101-0E09-R"
+    },
+    {
+      "provider": "Netflix",
+      "providerSlug": "netflix",
+      "title": "Heartland",
+      "url": "https://www.justwatch.com/se/film/heartland-2026",
+      "poster": "https://images.justwatch.com/poster/355278075/s592/heartland-2026.jpg",
+      "year": 2026,
+      "runtime": 113,
+      "genres": [
+        "Drama",
+        "Mysterium och thriller"
+      ],
+      "rating": "59",
+      "ratingScale": "100",
+      "description": "Före detta countrylegenden Misty Jones (Jessica Chastain) återvänder till Nashville för att ta reda på sanningen bakom sin brorsdotters försvinnande.",
+      "director": [
+        "Shana Feste"
+      ],
+      "cast": [
+        "Jessica Chastain",
+        "Garrett Hedlund",
+        "Ross Lynch",
+        "Jennifer Nettles",
+        "Paul Sparks"
+      ],
+      "watchUrl": "https://www.netflix.com/title/81486332"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "The Bookshop",
+      "url": "https://www.justwatch.com/se/film/the-bookshop",
+      "poster": "https://images.justwatch.com/poster/63644277/s592/the-bookshop.jpg",
       "year": 2017,
-      "runtime": 107,
+      "runtime": 113,
+      "genres": [
+        "Drama",
+        "Producerat i Europa"
+      ],
+      "rating": "79",
+      "ratingScale": "100",
+      "description": "Änkan Florence Green öppnar år 1959 en bokhandel i den sömniga engelska småstaden Hardborough. Hon stöter på inskränkt motstånd till en början, men sedan leder hennes verksamhet till ett kulturellt uppvaknande för invånarna.",
+      "director": [
+        "Isabel Coixet"
+      ],
+      "cast": [
+        "Emily Mortimer",
+        "Bill Nighy",
+        "Patricia Clarkson",
+        "James Lance",
+        "Hunter Tremayne"
+      ],
+      "contentRating": "A",
+      "watchUrl": "https://www.svtplay.se/video/jE4Y1od/the-bookshop?id=eozYyop"
+    },
+    {
+      "provider": "TV4 Play",
+      "providerSlug": "tv4-play",
+      "title": "Jönssonligan får guldfeber",
+      "url": "https://www.justwatch.com/se/film/the-jonsson-gang-gets-gold-fever",
+      "poster": "https://images.justwatch.com/poster/293308590/s592/the-jonsson-gang-gets-gold-fever.jpg",
+      "year": 1984,
+      "runtime": 100,
+      "genres": [
+        "Komedi",
+        "Deckare",
+        "Producerat i Europa"
+      ],
+      "rating": "15",
+      "ratingScale": "100",
+      "description": "Charles-Ingvar \"Sickan\" Jönsson har fått vetskap om en topphemlig generalplan, där Sverige i framtiden ska indelas i ett försvarsområde, ett boendeområde och ett fritidsområde. Planen finns på ett datachip hos Försvarsmakten och Sickan vill stjäla chipet och sälja det till sin ärkefiende Wall-Enberg, då en tysk affärsman i turistindustrin har erbjudit denne 55 miljoner kronor för informationen.",
+      "director": [
+        "Mikael Ekman"
+      ],
+      "cast": [
+        "Gösta Ekman",
+        "Ulf Brunnberg",
+        "Björn Gustafson",
+        "Birgitta Andersson",
+        "Per Grundén"
+      ],
+      "watchUrl": "https://www.tv4play.se/program/0dd547ec1220a754fa1b/jonssonligan-far-guldfeber"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "The Secret Agent",
+      "url": "https://www.justwatch.com/se/film/the-secret-agent",
+      "poster": "https://images.justwatch.com/poster/341522570/s592/the-secret-agent.jpg",
+      "year": 2025,
+      "runtime": 161,
       "genres": [
         "Deckare",
         "Drama",
-        "Historia",
+        "Mysterium och thriller"
+      ],
+      "rating": "80",
+      "ratingScale": "100",
+      "description": "Brasilien, 1977. Marcelo, en teknikexpert i 40-årsåldern, är på flykt. Han anländer till Recife under karnevalsveckan i hopp om att återförenas med sin son, men han inser snart att staden är långt ifrån den fristad som han har sökt.",
+      "director": [
+        "Kleber Mendonça Filho"
+      ],
+      "cast": [
+        "Wagner Moura",
+        "Alice Carvalho",
+        "Gabriel Leone",
+        "Isabél Zuaa",
+        "Maria Fernanda Cândido"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://play.hbomax.com/show/1e03130b-b05d-4097-b889-3a066d60e01a?utm_source=universal_search"
+    },
+    {
+      "provider": "Prime Video",
+      "providerSlug": "amazon-prime-video",
+      "title": "Cops and Robbers",
+      "url": "https://www.justwatch.com/se/film/cops-and-robbers-2017",
+      "poster": "https://images.justwatch.com/poster/42554137/s592/cops-and-robbers-2017.jpg",
+      "year": 2017,
+      "runtime": 88,
+      "genres": [
+        "Action och äventyr",
+        "Deckare",
+        "Mysterium och thriller"
+      ],
+      "description": "En stressad och nervös gisslansförhandlare kämpar med att avsluta en spänd gisslansituation som uppstår under ett bankrån.",
+      "director": [
+        "Scott Windhauser"
+      ],
+      "cast": [
+        "Tom Berenger",
+        "Michael Jai White",
+        "Randy Wayne",
+        "Victoria Pratt",
+        "Quinton 'Rampage' Jackson"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.4bff21e2-e814-4dfc-8dcb-bac633a02219"
+    },
+    {
+      "provider": "Viaplay",
+      "providerSlug": "viaplay",
+      "title": "Välkommen till familjen",
+      "url": "https://www.justwatch.com/se/film/the-family-stone",
+      "poster": "https://images.justwatch.com/poster/354676421/s592/the-family-stone.jpg",
+      "year": 2005,
+      "runtime": 103,
+      "genres": [
+        "Komedi",
+        "Drama",
+        "Romantik"
+      ],
+      "rating": "77",
+      "ratingScale": "100",
+      "description": "Att spendera en långhelg med släkten och hålla sams - är sällan enkelt. I den här familjen är det nästintill omöjligt. Everett har tagit med sig sin flickvän, Meredith (Sarah Jessica Parker) hem till familjen över helgen med planer på att fria till henne. Meredith är dock en inbiten karriärskvinna och smälter ungefär lika bra in i den bohemiska familjen Stone, som en elefant i en porslinsaffär och alla hennes försök att göra ett gott intryck slutar i smärre katastrofer.",
+      "director": [
+        "Thomas Bezucha"
+      ],
+      "cast": [
+        "Dermot Mulroney",
+        "Sarah Jessica Parker",
+        "Diane Keaton",
+        "Luke Wilson",
+        "Claire Danes"
+      ],
+      "contentRating": "Barntillåten",
+      "watchUrl": "https://viaplay.se/film/valkommen-till-familjen-2005?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/3258-DD82-D92C-A7FA-346E-B"
+    },
+    {
+      "provider": "Netflix",
+      "providerSlug": "netflix",
+      "title": "Russell Brand: Open Secret",
+      "url": "https://www.justwatch.com/se/film/russell-brand-open-secret",
+      "poster": "https://images.justwatch.com/poster/357114404/s592/russell-brand-open-secret.jpg",
+      "year": 2026,
+      "runtime": 83,
+      "genres": [
+        "Deckare",
+        "Dokumentär"
+      ],
+      "description": "Komikern Russell Brand slog igenom stort på 2000‑talet. Men när en journalist började gräva i hans liv 2019 uppdagades en rad brottsanklagelser.",
+      "watchUrl": "https://www.netflix.com/title/81746457"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "Take Shelter",
+      "url": "https://www.justwatch.com/se/film/take-shelter",
+      "poster": "https://images.justwatch.com/poster/348286170/s592/take-shelter.jpg",
+      "year": 2011,
+      "runtime": 120,
+      "genres": [
+        "Drama",
         "Skräck",
         "Mysterium och thriller"
       ],
-      "rating": "66",
+      "rating": "83",
       "ratingScale": "100",
-      "description": "Seriemördare, nekrofil och kannibal. 1992 dömdes Jeffrey Dahmer till sexton livstidsstraff, och man kan inte annat än fråga sig: hur blev det så? \"My Friend Dahmer\" är den sanna historien om Dahmers tidigare liv, en berättelse om en blyg tonåring som gör sitt allt för att försöka passa in. Den mörka bakgrunden till ett förskräckligt livsöde, förvandlingen från ung man till monstruös mördare.",
+      "description": "Curtis LaForche bor i en liten stad i Ohio med sin fru Samantha och dottern Hannah, en sexårig ​​döv flicka. När Curtis börjar ha skrämmande drömmar, håller han visionerna för sig själv, kanaliserar sin ångest genom att tvångsmässigt bygga ett stormskydd på bakgården. Hans till synes oförklarliga beteende förvirrar de närmasta omkring honom men belastningen på hans äktenskap och spänningarna i området där han bor kan inte jämföras med Curtis egen rädsla för vad hans drömmar verkligen kan betyda.",
       "director": [
-        "Marc Meyers"
+        "Jeff Nichols"
       ],
       "cast": [
-        "Ross Lynch",
-        "Alex Wolff",
-        "Anne Heche",
-        "Dallas Roberts",
-        "Liam Koeth"
+        "Michael Shannon",
+        "Jessica Chastain",
+        "Shea Whigham",
+        "Tova Stewart",
+        "Katy Mixon"
       ],
-      "contentRating": "15",
-      "watchUrl": "https://viaplay.se/film/my-friend-dahmer-2017?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/67F0-07CC-5918-DBA3-97D8-A"
-    },
-    {
-      "provider": "Netflix",
-      "providerSlug": "netflix",
-      "title": "Kollisionskurs",
-      "url": "https://www.justwatch.com/se/film/kollisionskurs",
-      "poster": "https://images.justwatch.com/poster/355797100/s592/kollisionskurs.jpg",
-      "year": 2026,
-      "runtime": 122,
-      "genres": [
-        "Deckare",
-        "Drama",
-        "Mysterium och thriller"
-      ],
-      "rating": "54",
-      "ratingScale": "100",
-      "description": "Spain, 2013. After robbing a bank, a getaway crash reveals the hidden side of each thief, exposing betrayals and lies that began long before the heist.",
-      "director": [
-        "Daniel Sánchez Arévalo"
-      ],
-      "cast": [
-        "Laia Costa",
-        "Karra Elejalde",
-        "Luis Zahera",
-        "Tamar Novas",
-        "Álvaro Cervantes"
-      ],
-      "watchUrl": "https://www.netflix.com/title/82078375"
-    },
-    {
-      "provider": "SVT Play",
-      "providerSlug": "svt",
-      "title": "Leva sitt liv",
-      "url": "https://www.justwatch.com/se/film/vivre-sa-vie",
-      "poster": "https://images.justwatch.com/poster/319626813/s592/vivre-sa-vie.jpg",
-      "year": 1962,
-      "runtime": 84,
-      "genres": [
-        "Drama",
-        "Producerat i Europa"
-      ],
-      "rating": "66",
-      "ratingScale": "100",
-      "description": "Nana jobbar i en skivbutik men har kommit efter med hyran och blivit vräkt. Portvakterskan har hennes nyckel och vägrar att lämna tillbaka den. Nana blir tagen av polisen då hon försöker behålla en sedel som hon hittar på gatan. Hon börjar prostituera sig och hamnar i klorna på en hallick, Raoul.",
-      "director": [
-        "Jean-Luc Godard"
-      ],
-      "cast": [
-        "Anna Karina",
-        "Sady Rebbot",
-        "André S. Labarthe",
-        "Guylaine Schlumberger",
-        "Gérard Hoffman"
-      ],
-      "contentRating": "15",
-      "watchUrl": "https://www.svtplay.se/video/edPg7bM/leva-sitt-liv?id=eXvkD3N"
+      "contentRating": "11",
+      "watchUrl": "https://www.svtplay.se/video/e55ZBre/take-shelter?id=eJEkRwQ"
     },
     {
       "provider": "TV4 Play",
       "providerSlug": "tv4-play",
-      "title": "Point Break - Dödens utmanare",
-      "url": "https://www.justwatch.com/se/film/point-break-1991",
-      "poster": "https://images.justwatch.com/poster/45089359/s592/point-break-1991.jpg",
-      "year": 1991,
-      "runtime": 122,
+      "title": "GW:s mord - Mordet på Wilma",
+      "url": "https://www.justwatch.com/se/film/gw-s-mord-mordet-pa-wilma",
+      "poster": "https://images.justwatch.com/poster/355718351/s592/gw-s-mord-mordet-pa-wilma.jpg",
+      "year": 2026,
+      "runtime": 23,
       "genres": [
-        "Action och äventyr",
-        "Deckare",
-        "Mysterium och thriller"
+        "Dokumentär"
       ],
-      "rating": "94",
-      "ratingScale": "100",
-      "description": "FBI-agenten Johnny infiltrerar en grupp surfare misstänkta för att ligga bakom en rad bankrån. Surfarna leds av den karismatiske Bodhi och snart dras Johnny in i en värld av adrenalin och brottslighet, där gränsen mellan rätt och fel blir allt suddigare.",
+      "description": "Efter uppbrottet från pojkvännen är Wilma, 17, borta. Grannar hör förtvivlade skrik. Två veckor senare gör polisen ett makabert fynd i en resväska.",
+      "cast": [
+        "Leif G.W. Persson"
+      ],
+      "watchUrl": "https://www.tv4play.se/program/7bd20661a3297c003563/gw-s-mord-mordet-pa-wilma"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "A Newport Christmas",
+      "url": "https://www.justwatch.com/se/film/a-newport-christmas",
+      "poster": "https://images.justwatch.com/poster/339105724/s592/a-newport-christmas.jpg",
+      "year": 2025,
+      "runtime": 84,
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Romantik"
+      ],
+      "description": "Ella är en rik, ung dam i Newport 1905. Hon får veta att hennes pappa tänker gifta bort henne med en okänd man och önskar sig ett annat liv.",
       "director": [
-        "Kathryn Bigelow"
+        "Dustin Rikert"
       ],
       "cast": [
-        "Keanu Reeves",
-        "Patrick Swayze",
-        "Lori Petty",
-        "Gary Busey",
-        "John C. McGinley"
+        "Ginna Claire",
+        "Wes Brown",
+        "Evan Alexander Smith",
+        "David O'Donnell",
+        "Paige Cummings"
       ],
-      "contentRating": "15",
-      "watchUrl": "https://www.tv4play.se/program/55a36c660c3b6482d7cd/point-break"
+      "watchUrl": "https://play.hbomax.com/show/86a9c1f3-f925-4dd6-82f9-c590c72f3353?utm_source=universal_search"
     },
     {
       "provider": "Prime Video",
       "providerSlug": "amazon-prime-video",
-      "title": "The Green Inferno",
-      "url": "https://www.justwatch.com/se/film/the-green-inferno",
-      "poster": "https://images.justwatch.com/poster/154089568/s592/the-green-inferno.jpg",
-      "year": 2014,
+      "title": "Beyond the Deep",
+      "url": "https://www.justwatch.com/se/film/beyond-the-deep",
+      "poster": "https://images.justwatch.com/poster/332761148/s592/beyond-the-deep.jpg",
+      "year": 2025,
       "runtime": 103,
       "genres": [
-        "Skräck"
+        "Dokumentär"
       ],
-      "rating": "74",
-      "ratingScale": "100",
-      "description": "En grupp studenter och miljöaktivister från New York reser till en avlägsen del av Perus djungel för att iscensätta en protestaktion. Men när de stöter på en stam med kannibaler tvingas de snart kämpa för sina liv.",
+      "description": "Beyond the Deep följer Karlis Bardelis, den första personen att ensam ro över Stilla havet - 26 673 km på 715 dagar. En rå och andlig resa som utforskar livet till havs, mänsklig uthållighet och att möta det väldiga havet ensam. Ett världsunik äventyr med musik av Kaspars Niklasons och Gints Smukais.",
       "director": [
-        "Eli Roth"
+        "Kārlis Bardelis"
       ],
       "cast": [
-        "Lorenza Izzo",
-        "Ariel Levy",
-        "Sky Ferreira",
-        "Ramón Llao",
-        "Daryl Sabara"
+        "Kārlis Bardelis"
       ],
-      "contentRating": "15",
-      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.1d044706-8437-431b-acbc-b89d7736448e"
+      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.05116e73-b4c5-4ed7-b18c-d9ccaa6c2f8c"
     },
     {
       "provider": "Viaplay",
       "providerSlug": "viaplay",
-      "title": "Undertone",
-      "url": "https://www.justwatch.com/se/film/undertone",
-      "poster": "https://images.justwatch.com/poster/340813644/s592/undertone.jpg",
+      "title": "Borta bäst, hemma värst",
+      "url": "https://www.justwatch.com/se/film/four-christmases",
+      "poster": "https://images.justwatch.com/poster/176298421/s592/four-christmases.jpg",
+      "year": 2008,
+      "runtime": 85,
+      "genres": [
+        "Komedi",
+        "Drama",
+        "Romantik",
+        "Producerat i Europa"
+      ],
+      "rating": "79",
+      "ratingScale": "100",
+      "description": "Paret Brad och Kate träffas på en biograf på självaste julafton. De har båda tagit sin tillflykt dit för att slippa besvärliga familjesammankomster. De blir kära och inser att deras lycka ligger i att fortsätta undvika sina dysfunktionella familjer, varje år hittar de på värre och värre lögner för att slippa fira jul med sina familjer. Denna jul är planen att fly till Maldiverna, men flygplatsen stängs ned och alla flyg blir inställda. Paret tvingas tacka ja till en familjemiddag hos Kates mamma. Det ena leder till det andra och innan de vet ordet av har paret lovat att fira jul med samtliga av sina fyra frånskilda föräldrar.",
+      "director": [
+        "Seth Gordon"
+      ],
+      "cast": [
+        "Vince Vaughn",
+        "Reese Witherspoon",
+        "Robert Duvall",
+        "Sissy Spacek",
+        "Mary Steenburgen"
+      ],
+      "watchUrl": "https://viaplay.se/film/borta-bast-hemma-varst-2008?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/AA80-A005-A3E3-ACD9-5D85-S"
+    },
+    {
+      "provider": "Netflix",
+      "providerSlug": "netflix",
+      "title": "Brawlers",
+      "url": "https://www.justwatch.com/se/film/brawlers",
+      "poster": "https://images.justwatch.com/poster/357160323/s592/brawlers.jpg",
       "year": 2026,
-      "runtime": 94,
+      "runtime": 98,
+      "genres": [
+        "Action och äventyr",
+        "Komedi"
+      ],
+      "rating": "37",
+      "ratingScale": "100",
+      "description": "Naïm is a sweetheart in everyday life but a beast when it comes to fighting. To afford treatment for his aging dog, he's forced to join \"Hello Brawl\", a service of street fighters resolving conflicts with punches.",
+      "director": [
+        "Julien Royal"
+      ],
+      "cast": [
+        "Nassim Lyes",
+        "Anaïde Rozam",
+        "Ramzy Bedia",
+        "Hedi Bouchenafa",
+        "Arriles Amrani"
+      ],
+      "contentRating": "13+",
+      "watchUrl": "https://www.netflix.com/title/81953587"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "Kvinnan på tåget",
+      "url": "https://www.justwatch.com/se/film/the-girl-on-the-train-2016",
+      "poster": "https://images.justwatch.com/poster/294114416/s592/the-girl-on-the-train-2016.jpg",
+      "year": 2016,
+      "runtime": 112,
+      "genres": [
+        "Deckare",
+        "Drama",
+        "Mysterium och thriller"
+      ],
+      "rating": "84",
+      "ratingScale": "100",
+      "description": "Rachel är i sorg efter sin skilsmässa. Varje dag spenderar hon sin dagliga pendeltågsresa fantiserandes om det tillsynes perfekta paret som bor i ett hus som hennes tåg passerar varje dag. En morgon ser hon någonting chockerande hända genom tågfönstret som kommer att förändra allt.",
+      "director": [
+        "Tate Taylor"
+      ],
+      "cast": [
+        "Emily Blunt",
+        "Rebecca Ferguson",
+        "Haley Bennett",
+        "Justin Theroux",
+        "Luke Evans"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://www.svtplay.se/video/ja4EWgr/kvinnan-pa-taget?id=KXv1E27"
+    },
+    {
+      "provider": "TV4 Play",
+      "providerSlug": "tv4-play",
+      "title": "Drömkåken",
+      "url": "https://www.justwatch.com/se/film/the-dream-house",
+      "poster": "https://images.justwatch.com/poster/311790362/s592/the-dream-house.jpg",
+      "year": 1993,
+      "runtime": 97,
+      "genres": [
+        "Komedi",
+        "Producerat i Europa"
+      ],
+      "rating": "24",
+      "ratingScale": "100",
+      "description": "När familjen befinner sig ute på sjön bestämmer sig Göran för att överraska fru och barn med att bli husägare. På exekutiv auktion gör han sitt livs fynd – Drömkåken. Full av förväntan möter han sen familjen på Centralen. Med bindel för ögonen på frun kör han iväg för att visa upp deras nya hem. Optimistisk och full av energi sätter Göran i gång med renoveringen av den gamla trävillan. Det visar sig dock snart att Drömkåken ruvar på en livsfarlig hemlighet…",
+      "director": [
+        "Peter Dalle"
+      ],
+      "cast": [
+        "Björn Skifs",
+        "Suzanne Reuter",
+        "Zara Zetterqvist",
+        "Mikael Håck",
+        "Lena Nyman"
+      ],
+      "contentRating": "7",
+      "watchUrl": "https://www.tv4play.se/program/52e8e960eedba4f2b0d6/dromkaken"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "Cold Pursuit",
+      "url": "https://www.justwatch.com/se/film/cold-pursuit",
+      "poster": "https://images.justwatch.com/poster/340065700/s592/cold-pursuit.jpg",
+      "year": 2019,
+      "runtime": 119,
+      "genres": [
+        "Action och äventyr",
+        "Komedi",
+        "Deckare",
+        "Drama",
+        "Mysterium och thriller"
+      ],
+      "rating": "82",
+      "ratingScale": "100",
+      "description": "Den tystlåtne och hårt arbetande familjemannen Nels är hjärtat i den lilla skidorten i Klippiga bergen där han bor. Hans uppgift är nämligen att ploga och hålla vägarna öppna mot omvärlden. Hans lugna liv krossas dock när hans son mördas av en lokal drogkung. Besatt av hämnd och med inget att förlora bestämmer han sig för att slå tillbaka. Men hans agerande initierar ett gängkrig som snart eskalerar.",
+      "director": [
+        "Hans Petter Moland"
+      ],
+      "cast": [
+        "Liam Neeson",
+        "Tom Bateman",
+        "Tom Jackson",
+        "Laura Dern",
+        "Nicholas Holmes"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://play.hbomax.com/show/c4e4f5ca-baa1-41e4-b73c-8b88fee96d58?utm_source=universal_search"
+    },
+    {
+      "provider": "Prime Video",
+      "providerSlug": "amazon-prime-video",
+      "title": "Videoteka",
+      "url": "https://www.justwatch.com/se/film/videoteka",
+      "poster": "https://images.justwatch.com/poster/310064354/s592/videoteka.jpg",
+      "year": 2025,
+      "runtime": 112,
+      "genres": [
+        "Fantasy",
+        "Skräck",
+        "Mysterium och thriller"
+      ],
+      "rating": "3",
+      "ratingScale": "100",
+      "description": "På flykt från polisen hittar en småtjuv en tillflykt i en övergiven videobutik. Tvingad att tillbringa natten där bestämmer han sig för att titta på tre skräckfilmer.",
+      "director": [
+        "Luka Bursać"
+      ],
+      "cast": [
+        "Miona Marković",
+        "Bogdan Farcaș",
+        "Zoran Cvijanović",
+        "Igor Benčina",
+        "Petar Zekavica"
+      ],
+      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.9733ab5f-5088-44b8-822d-46db1999de64"
+    },
+    {
+      "provider": "Viaplay",
+      "providerSlug": "viaplay",
+      "title": "Power Ballad",
+      "url": "https://www.justwatch.com/se/film/power-ballad",
+      "poster": "https://images.justwatch.com/poster/346326739/s592/power-ballad.jpg",
+      "year": 2026,
+      "runtime": 99,
+      "genres": [
+        "Komedi",
+        "Drama",
+        "Musik och musikal"
+      ],
+      "rating": "76",
+      "ratingScale": "100",
+      "description": "Rick, en urholkad bröllopssångare, och Danny, en före detta pojkbandsstjärna, bondar över musik en sen kväll. När Danny gör Ricks låt till en hit, ger sig Rick ut för att återta det erkännande han anser sig förtjäna.",
+      "director": [
+        "John Carney"
+      ],
+      "cast": [
+        "Paul Rudd",
+        "Nick Jonas",
+        "Peter McDonald",
+        "Marcella Plunkett",
+        "Havana Rose Liu"
+      ],
+      "watchUrl": "https://viaplay.se/store/power-ballad-2026?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/C263-708C-43D1-AED6-DBBD-3"
+    },
+    {
+      "provider": "Netflix",
+      "providerSlug": "netflix",
+      "title": "Ranabaali",
+      "url": "https://www.justwatch.com/se/film/ranabaali",
+      "poster": "https://images.justwatch.com/poster/356408710/s592/ranabaali.jpg",
+      "year": 2026,
+      "runtime": 179,
+      "genres": [
+        "Action och äventyr",
+        "Drama",
+        "Historia"
+      ],
+      "rating": "11",
+      "ratingScale": "100",
+      "description": "Set in 19th-century British India, a fierce leader rises from a drought-stricken land to fight colonial oppression and atrocities.",
+      "director": [
+        "Rahul Sankrityan"
+      ],
+      "cast": [
+        "Vijay Deverakonda",
+        "Rashmika Mandanna",
+        "Arnold Vosloo",
+        "Easwari Rao",
+        "Vinod Sagar"
+      ],
+      "contentRating": "16+",
+      "watchUrl": "https://www.netflix.com/title/81900289"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "We Own the Night",
+      "url": "https://www.justwatch.com/se/film/we-own-the-night",
+      "poster": "https://images.justwatch.com/poster/326348633/s592/we-own-the-night.jpg",
+      "year": 2007,
+      "runtime": 118,
+      "genres": [
+        "Deckare",
+        "Drama",
+        "Mysterium och thriller"
+      ],
+      "rating": "86",
+      "ratingScale": "100",
+      "description": "Nattklubbsvärlden på 80-talet i Queens, New York. Ett regelrätt krig om kontrollen över nattlivet pågår mellan NYPD och den ryska maffian. När maffian börjar hota poliskårens familjer, trappas kriget upp. NYPD sätter upp banderoller med texten \"We own the night\" på polishusens fasader och ökar insatsen för att motverka maffian. En nattklubbschef försöker rädda sin bror, som är polis, undan den skoningslösa ryska maffian som är ute efter hans liv.",
+      "director": [
+        "James Gray"
+      ],
+      "cast": [
+        "Joaquin Phoenix",
+        "Mark Wahlberg",
+        "Eva Mendes",
+        "Robert Duvall",
+        "Alex Veadov"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://www.svtplay.se/video/eXYgwN7/we-own-the-night?id=jd6qdqd"
+    },
+    {
+      "provider": "TV4 Play",
+      "providerSlug": "tv4-play",
+      "title": "Släkten är värst",
+      "url": "https://www.justwatch.com/se/film/meet-the-parents",
+      "poster": "https://images.justwatch.com/poster/338318443/s592/meet-the-parents.jpg",
+      "year": 2000,
+      "runtime": 108,
+      "genres": [
+        "Komedi",
+        "Romantik"
+      ],
+      "rating": "92",
+      "ratingScale": "100",
+      "description": "Den manlige sjuksköterskan Greg Focker tänker fria till flickvännen Pam under en helg hos hennes föräldrar. Det finns dock en hake: han måste först fråga hennes pappa. Tyvärr blir Jack Byrnes, Pams kattälskande pappa och tillika CIA-veteran, hysteriskt spelad av Robert de Niro, genast fientligt inställd mot honom. Gregs strävan efter att bli godkänd kommer alltmer i skymundan och oturen tar över. En rad komiska olyckshändelser gör honom till en katastrofernas mästare och i familjens ögon blir han alltmer föraktad, med ett undantag: den chockade flickvännen som inte kan förstå att hon fortfarande älskar pojkvännen som gör allting fel.",
+      "director": [
+        "Jay Roach"
+      ],
+      "cast": [
+        "Ben Stiller",
+        "Robert De Niro",
+        "Teri Polo",
+        "Blythe Danner",
+        "Jon Abrahams"
+      ],
+      "contentRating": "7",
+      "watchUrl": "https://www.tv4play.se/program/247fab91713e6f03e56c/meet-the-parents-slakten-ar-varst"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "The Commuter",
+      "url": "https://www.justwatch.com/se/film/the-commuter",
+      "poster": "https://images.justwatch.com/poster/293731443/s592/the-commuter.jpg",
+      "year": 2018,
+      "runtime": 105,
+      "genres": [
+        "Action och äventyr",
+        "Drama",
+        "Mysterium och thriller",
+        "Producerat i Europa"
+      ],
+      "rating": "89",
+      "ratingScale": "100",
+      "description": "Michael, som just förlorat sitt kontorsjobb, tar som vanligt pendeltåget hem när en mystisk främling slår sig ned framför honom. Hon väcker hans intresse i att försöka finna en särskild passagerare innan tågets slutstation, mot en summa pengar som skulle rädda dotterns utbildning. Mysteriet tätnar och Michael tvingas använda alla specialkunskaper från sitt förflutna som polis, när han kämpar mot tidtabellen och för sitt och sin familjs liv.",
+      "director": [
+        "Jaume Collet-Serra"
+      ],
+      "cast": [
+        "Liam Neeson",
+        "Patrick Wilson",
+        "Sam Neill",
+        "Jonathan Banks",
+        "Vera Farmiga"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://play.hbomax.com/show/5c55d5e4-98c8-4d66-8f31-a7fe0b4bba0b?utm_source=universal_search"
+    },
+    {
+      "provider": "Prime Video",
+      "providerSlug": "amazon-prime-video",
+      "title": "Women & the Wind",
+      "url": "https://www.justwatch.com/se/film/women-och-the-wind",
+      "poster": "https://images.justwatch.com/poster/340944863/s592/women-och-the-wind.jpg",
+      "year": 2025,
+      "runtime": 90,
+      "genres": [
+        "Dokumentär"
+      ],
+      "rating": "6",
+      "ratingScale": "100",
+      "description": "Filmen, som filmades under 30 dagar till sjöss, dokumenterar gruppens resa över Nordatlanten – från stunder av stillhet och lugn till kaoset av stormar och motgångar. Med ett observerande tillvägagångssätt och ett öga för de känslomässiga och fysiska rytmerna i livet till sjöss fångar Jireh inte bara det yttre landskapet, utan även de inre förändringar som följer med att navigera i det vidsträckta okända.",
+      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.3cf8ce31-f098-43fc-8ecf-a61725709211"
+    },
+    {
+      "provider": "Viaplay",
+      "providerSlug": "viaplay",
+      "title": "Vivarium",
+      "url": "https://www.justwatch.com/se/film/vivarium",
+      "poster": "https://images.justwatch.com/poster/173146405/s592/vivarium.jpg",
+      "year": 2019,
+      "runtime": 99,
       "genres": [
         "Skräck",
         "Mysterium och thriller",
@@ -1566,295 +829,1162 @@
       ],
       "rating": "72",
       "ratingScale": "100",
-      "description": "Programledaren för en populär paranormal podcast hemsöks av skrämmande inspelningar som mystiskt skickas till henne.",
-      "cast": [
-        "Nina Kiri",
-        "Adam DiMarco",
-        "Michèle Duquet",
-        "Keana Bastidas",
-        "Jeff Yung"
-      ],
-      "watchUrl": "https://viaplay.se/film/undertone-2025?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/6982-647F-BE72-68B7-5D2B-7"
-    },
-    {
-      "provider": "Netflix",
-      "providerSlug": "netflix",
-      "title": "Presenten",
-      "url": "https://www.justwatch.com/se/film/presenten",
-      "poster": "https://images.justwatch.com/poster/355625294/s592/presenten.jpg",
-      "year": 2026,
-      "runtime": 86,
-      "genres": [
-        "Komedi"
-      ],
-      "rating": "45",
-      "ratingScale": "100",
-      "description": "Single mother Marlene Frischmann organizes a birthday party for her son Theo at her brother's chic country villa, which quickly spirals into family drama, world-view quarrels, and chaos.",
+      "description": "Det unga paret Gemma och Tom kör vilse i den nybyggda förortsidyllen Yonders. Hur de än kör hamnar de vid hus nummer 9. Så dyker två lådor upp. Den ena innehåller mat, den andra ett spädbarn och lappen ”uppfostra barnet för att friges\".",
       "director": [
-        "Vanessa Jopp"
+        "Lorcan Finnegan"
       ],
       "cast": [
-        "Jeanne Goursaud",
-        "Edin Hasanović",
-        "Heiner Lauterbach",
-        "Sogol Faghani",
-        "Amal Keller"
-      ],
-      "watchUrl": "https://www.netflix.com/title/81746037"
-    },
-    {
-      "provider": "SVT Play",
-      "providerSlug": "svt",
-      "title": "Bränn alla mina brev",
-      "url": "https://www.justwatch.com/se/film/burn-all-my-letters",
-      "poster": "https://images.justwatch.com/poster/300969786/s592/burn-all-my-letters.jpg",
-      "year": 2022,
-      "runtime": 120,
-      "genres": [
-        "Drama",
-        "Historia",
-        "Romantik"
-      ],
-      "rating": "26",
-      "ratingScale": "100",
-      "description": "Efter ett gräl med sin fru inser Alex Schulman att han måste ta itu med sin vrede. En ilska som har gått i arv i generationer. Släktens alla konflikter och vendettor tycks ha börjat hos en och samma person: morfar Sven Stolpe. I början av 1930-talet hade Svens fru, Karin, en kort affär med Olof Lagercrantz, vilket skapade svallvågor över årtionden.",
-      "director": [
-        "Björn Runge"
-      ],
-      "cast": [
-        "Asta Kamma August",
-        "Bill Skarsgård",
-        "Gustav Lindh",
-        "Marika Lindström",
-        "Sten Ljunggren"
-      ],
-      "contentRating": "11",
-      "watchUrl": "https://www.svtplay.se/video/8opaGA1/brann-alla-mina-brev?id=82DdLXv"
-    },
-    {
-      "provider": "TV4 Play",
-      "providerSlug": "tv4-play",
-      "title": "Den ofrivillige golfaren",
-      "url": "https://www.justwatch.com/se/film/the-accidental-golfer",
-      "poster": "https://images.justwatch.com/poster/292094375/s592/the-accidental-golfer.jpg",
-      "year": 1991,
-      "runtime": 107,
-      "genres": [
-        "Komedi",
-        "Sport",
-        "Producerat i Europa"
-      ],
-      "rating": "22",
-      "ratingScale": "100",
-      "description": "En mindre genomtänkt vadslagning tvingar vår vän Stig Helmer Olsson att bege sig till Skottland och förkovra sig i den nya massrörelsen golf. Hans instruktör blir golfläraren Roderic McDougall, en galen man med en mycket vacker dotter. Vid Stig Helmers sida återser vi självklart norrmannen Ole, som alltid är redo att ge goda råd. Men frågan är om tiden räcker för att ge Stig Helmer en swing som kan slå börshajen Bruno Anderhage med häpnad…",
-      "director": [
-        "Lasse Åberg"
-      ],
-      "cast": [
-        "Lasse Åberg",
-        "Jon Skolmen",
-        "Mats Bergman",
-        "Hege Schøyen",
-        "Ulf Eklund"
-      ],
-      "watchUrl": "https://www.tv4play.se/program/f50754c5f8dac9b90917/den-ofrivillige-golfaren"
-    },
-    {
-      "provider": "Prime Video",
-      "providerSlug": "amazon-prime-video",
-      "title": "The Seed",
-      "url": "https://www.justwatch.com/se/film/the-seed-2021-0",
-      "poster": "https://images.justwatch.com/poster/267502101/s592/the-seed-2021-0.jpg",
-      "year": 2021,
-      "runtime": 91,
-      "genres": [
-        "Komedi",
-        "Skräck",
-        "Science-Fiction"
-      ],
-      "rating": "49",
-      "ratingScale": "100",
-      "description": "Tre väninnor hyr ett hus i Mojaveöknen för en tjejhelg, där de ska uppleva meteorregn och skapa innehåll för sina sociala kanaler. Deras vistelse är allt som de önskat, tills meteorregnet är över och de hittar något utomjordiskt i poolen… plötsligt hotas semestern av skräck, terror och ond bråd död.",
-      "director": [
-        "Sam Walker"
-      ],
-      "cast": [
-        "Sophie Vavasseur",
-        "Lucy Martin",
-        "Chelsea Edge",
-        "Anthony Edridge",
-        "Shirley Barchou Pisani"
+        "Imogen Poots",
+        "Jesse Eisenberg",
+        "Senan Jennings",
+        "Éanna Hardwicke",
+        "Jonathan Aris"
       ],
       "contentRating": "15",
-      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.a7d162f6-fa8a-4bfe-8aa1-c3432bff24d4"
-    },
-    {
-      "provider": "Viaplay",
-      "providerSlug": "viaplay",
-      "title": "Hobbit: En oväntad resa",
-      "url": "https://www.justwatch.com/se/film/the-hobbit-an-unexpected-journey",
-      "poster": "https://images.justwatch.com/poster/294064709/s592/the-hobbit-an-unexpected-journey.jpg",
-      "year": 2012,
-      "runtime": 166,
-      "genres": [
-        "Action och äventyr",
-        "Fantasy"
-      ],
-      "rating": "93",
-      "ratingScale": "100",
-      "description": "Berättelsen om Bilbo Baggers resa för att återkräva dvärgarnas kungadöme Erebor som för länge sedan erövrades av draken Smaug.",
-      "director": [
-        "Peter Jackson"
-      ],
-      "cast": [
-        "Martin Freeman",
-        "Ian McKellen",
-        "Richard Armitage",
-        "James Nesbitt",
-        "Ken Stott"
-      ],
-      "contentRating": "11",
-      "watchUrl": "https://viaplay.se/film/hobbit-en-ovantad-resa-2012?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/074E-596C-285C-7A04-1A01-F"
+      "watchUrl": "https://viaplay.se/store/vivarium-2019?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/D461-D59A-E158-27EB-D5A2-B"
     },
     {
       "provider": "Netflix",
       "providerSlug": "netflix",
-      "title": "SCTV: The Greatest Show You've Never Heard Of",
-      "url": "https://www.justwatch.com/se/film/sctv-the-greatest-show-youve-never-heard-of",
-      "poster": "https://images.justwatch.com/poster/356407049/s592/sctv-the-greatest-show-youve-never-heard-of.jpg",
+      "title": "Daayra",
+      "url": "https://www.justwatch.com/se/film/daayra",
+      "poster": "https://images.justwatch.com/poster/348266091/s592/daayra.jpg",
       "year": 2026,
-      "runtime": 88,
-      "genres": [
-        "Komedi",
-        "Dokumentär"
-      ],
-      "rating": "29",
-      "ratingScale": "100",
-      "description": "Legendary \"SCTV\" cast members reunite in this documentary for a funny and heartfelt celebration of how a scrappy Canadian sketch show made comedy history.",
-      "director": [
-        "Jason Hehir"
-      ],
-      "cast": [
-        "Martin Short",
-        "Eugene Levy",
-        "John Candy",
-        "Andrea Martin",
-        "Rick Moranis"
-      ],
-      "watchUrl": "https://www.netflix.com/title/82059675"
-    },
-    {
-      "provider": "SVT Play",
-      "providerSlug": "svt",
-      "title": "Pissa i motvind",
-      "url": "https://www.justwatch.com/se/film/the-worst-ones",
-      "poster": "https://images.justwatch.com/poster/347763269/s592/the-worst-ones.jpg",
-      "year": 2022,
-      "runtime": 100,
-      "genres": [
-        "Komedi",
-        "Drama"
-      ],
-      "rating": "60",
-      "ratingScale": "100",
-      "description": "En filminspelning är på gång i förorten Picasso, ett miljonprogramsområde i norra Frankrike. De söker ungdomar till rollerna och kön till provfilmningen ringlar lång. När valet faller på områdets riktiga ”värstingar” grusas förhoppningarna om att höja statusen på det nedgångna området. Under inspelningen utsätter regissören sina unga skådespelare för orimliga prövningar. Men den som varit utsatt under hela sitt liv vet hur en smäll ska tas, och det visar sig till slut att de ”värsta” är de bästa.",
-      "director": [
-        "Lise Akoka",
-        "Romane Gueret"
-      ],
-      "cast": [
-        "Mallory Wanecque",
-        "Timéo Mahaut",
-        "Johan Heldenbergh",
-        "Loïc Pech",
-        "Mélina Vanderplancke"
-      ],
-      "contentRating": "11",
-      "watchUrl": "https://www.svtplay.se/video/ep3YnD6/pissa-i-motvind?id=jLJQMXo"
-    },
-    {
-      "provider": "TV4 Play",
-      "providerSlug": "tv4-play",
-      "title": "Marlowe",
-      "url": "https://www.justwatch.com/se/film/marlowe",
-      "poster": "https://images.justwatch.com/poster/304141923/s592/marlowe.jpg",
-      "year": 2023,
-      "runtime": 109,
+      "runtime": 143,
       "genres": [
         "Deckare",
         "Drama",
         "Mysterium och thriller"
       ],
-      "rating": "60",
+      "rating": "8",
       "ratingScale": "100",
-      "description": "I 1939 års Los Angeles anlitas privatdetektiven Philip Marlowe av den förmögna arvingen Clare Cavendish. Hans uppdrag är att hitta hennes försvunne älskare Nico Peterson, rekvisitör vid Pacific Film Studios. Marlowe upptäcker att Peterson antas vara död efter att ha ramlat på fyllan och blivit påkörd av en bil utanför en exklusiv klubb. Marlowe är dock skeptisk mot omständigheterna kring Petersons förmodade död och börjar utreda saken vidare, trots hans väns – mordutredare Joe Green – bristande intresse. Marlowe gräver djupare i fallet och uppdagar en härva av lögner och korruption bland stadens elit.",
+      "description": "A gripping investigative narrative that explores how a diabolical act creates polarizing reactions throughout society, fracturing opinions and challenging viewers to seek truth beyond easy answers.",
       "director": [
-        "Neil Jordan"
+        "Meghna Gulzar"
       ],
       "cast": [
-        "Liam Neeson",
-        "Diane Kruger",
-        "Jessica Lange",
-        "Danny Huston",
-        "Alan Cumming"
+        "Kareena Kapoor Khan",
+        "Prithviraj Sukumaran",
+        "Pragati Mishra",
+        "Prammod Sanghi",
+        "Upendra Chauhan"
+      ],
+      "contentRating": "16+",
+      "watchUrl": "https://www.netflix.com/title/82083479"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "Bron över floden Kwai",
+      "url": "https://www.justwatch.com/se/film/the-bridge-on-the-river-kwai",
+      "poster": "https://images.justwatch.com/poster/292126990/s592/the-bridge-on-the-river-kwai.jpg",
+      "year": 1957,
+      "runtime": 161,
+      "genres": [
+        "Drama",
+        "Krig"
+      ],
+      "rating": "90",
+      "ratingScale": "100",
+      "description": "Allierade kommandostyrkor skickas iväg djupt in i den burmesiska djungeln för att bomba en strategisk bro byggd av brittiska krigsfångar.",
+      "director": [
+        "David Lean"
+      ],
+      "cast": [
+        "William Holden",
+        "Alec Guinness",
+        "Jack Hawkins",
+        "Sessue Hayakawa",
+        "James Donald"
       ],
       "contentRating": "15",
-      "watchUrl": "https://www.tv4play.se/program/6f9038feae37e825a0cc/marlowe"
+      "watchUrl": "https://www.svtplay.se/video/8qbz1Ax/bron-over-floden-kwai?id=jdqBoNa"
+    },
+    {
+      "provider": "TV4 Play",
+      "providerSlug": "tv4-play",
+      "title": "Familjen är värre",
+      "url": "https://www.justwatch.com/se/film/meet-the-fockers",
+      "poster": "https://images.justwatch.com/poster/338318519/s592/meet-the-fockers.jpg",
+      "year": 2004,
+      "runtime": 115,
+      "genres": [
+        "Komedi",
+        "Romantik"
+      ],
+      "rating": "89",
+      "ratingScale": "100",
+      "description": "Nu har Greg slutligen lyckats vinna de blivande svärföräldrarnas gunst och livet leker för honom och Pam när de planerar sitt stundande bröllop. Det finns bara en liten ynka detalj som måste klaras ut innan Pam och Greg kan ställa sig framför altaret: Pams föräldrar ska spendera en helg tillsammans med Gregs föräldrar Bernie och Roz Focker. Till en början går allt fint, men det är innan Pams pappa upptäcker att föräldrarna som Greg har presenterat som advokat och läkare i själva verket fördriver sina dagar som liberal hemmaman respektive sexterapeut åt pensionärer. Till detta måste läggas en viss toalettincident, en fotbollsmatch fylld av brinnande iver och kubansk cateringmat med en mycket speciell krydda...",
+      "director": [
+        "Jay Roach"
+      ],
+      "cast": [
+        "Ben Stiller",
+        "Robert De Niro",
+        "Dustin Hoffman",
+        "Barbra Streisand",
+        "Blythe Danner"
+      ],
+      "contentRating": "11",
+      "watchUrl": "https://www.tv4play.se/program/3fe24ea3705fbd93d6ce/meet-the-fockers-familjen-ar-varre"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "Det är aldrig för sent Larry Crowne",
+      "url": "https://www.justwatch.com/se/film/larry-crowne",
+      "poster": "https://images.justwatch.com/poster/62786071/s592/larry-crowne.jpg",
+      "year": 2011,
+      "runtime": 98,
+      "genres": [
+        "Komedi",
+        "Drama",
+        "Romantik"
+      ],
+      "rating": "78",
+      "ratingScale": "100",
+      "description": "När den sympatiske, men högst vanlige, Larry Crowne utan förklaring får sparken från sitt ganska intetsägande jobb, inser han att det är dags att göra något meningsfullt i livet. Han är djupt skuldsatt och har inga direkta planer, men bestämmer sig för att återvända till college där han blir vän med en grupp studenter och så småningom blir väldigt förtjust i sin vackra lärare.",
+      "director": [
+        "Tom Hanks"
+      ],
+      "cast": [
+        "Tom Hanks",
+        "Julia Roberts",
+        "Bryan Cranston",
+        "Cedric the Entertainer",
+        "Taraji P. Henson"
+      ],
+      "contentRating": "A",
+      "watchUrl": "https://play.hbomax.com/show/0e638cab-7354-48dd-8b62-1000a5940347?utm_source=universal_search"
     },
     {
       "provider": "Prime Video",
       "providerSlug": "amazon-prime-video",
-      "title": "Perfect",
-      "url": "https://www.justwatch.com/se/film/perfect-2019",
-      "poster": "https://images.justwatch.com/poster/246429607/s592/perfect-2019.jpg",
-      "year": 2019,
-      "runtime": 85,
+      "title": "Jacob Tyler",
+      "url": "https://www.justwatch.com/se/film/jacob-tyler",
+      "poster": "https://images.justwatch.com/poster/251809199/s592/jacob-tyler.jpg",
+      "year": 2024,
+      "runtime": 133,
+      "genres": [
+        "Action och äventyr",
+        "Mysterium och thriller"
+      ],
+      "rating": "7",
+      "ratingScale": "100",
+      "description": "Jacob Tyler, en före detta soldat i den brittiska armén, återvänder till sin hemstad för att slå sig ner en gång för alla. Det visar sig att Jacob trots allt inte vill slå sig ner när han tar itu med ett misstänkt clowngäng som orsakar kaos i staden Calder.",
+      "cast": [
+        "Daniel Reynolds",
+        "Rohanne Woods"
+      ],
+      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.a309e6ad-0168-4911-a2c5-156d59130c7b"
+    },
+    {
+      "provider": "Viaplay",
+      "providerSlug": "viaplay",
+      "title": "Medan du sov",
+      "url": "https://www.justwatch.com/se/film/while-you-were-sleeping",
+      "poster": "https://images.justwatch.com/poster/293892512/s592/while-you-were-sleeping.jpg",
+      "year": 1995,
+      "runtime": 103,
+      "genres": [
+        "Komedi",
+        "Drama",
+        "Romantik"
+      ],
+      "rating": "91",
+      "ratingScale": "100",
+      "description": "Lucy jobbar i en tunnelbanespärr och förälskar sig i en pendlare. En dag räddar hon honom vid ett rån och följer med honom till sjukhuset där han faller i koma. En sköterska berättar för hans familj att Lucy är mannens flickvän och de bjuder hem henne till sig för att fira jul. Lucy har ingen familj att fira jul med och vågar inte berätta hur det egentligen ligger till.",
+      "director": [
+        "Jon Turteltaub"
+      ],
+      "cast": [
+        "Sandra Bullock",
+        "Bill Pullman",
+        "Peter Gallagher",
+        "Peter Boyle",
+        "Jack Warden"
+      ],
+      "contentRating": "7",
+      "watchUrl": "https://viaplay.se/film/medan-du-sov-1995?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/0AC1-B6E9-F14A-C0EB-9986-H"
+    },
+    {
+      "provider": "Netflix",
+      "providerSlug": "netflix",
+      "title": "Tjejligan",
+      "url": "https://www.justwatch.com/se/film/a-league-of-their-own",
+      "poster": "https://images.justwatch.com/poster/294688751/s592/a-league-of-their-own.jpg",
+      "year": 1992,
+      "runtime": 128,
+      "genres": [
+        "Komedi",
+        "Drama",
+        "Sport"
+      ],
+      "rating": "95",
+      "ratingScale": "100",
+      "description": "Året är 1943. Alla amerikanska arbetsföra män får rycka ut i kriget, även de avgudade basebollstjärnorna. Lösningen blir att organisera en basebolliga för kvinnor. Talangscouter reser landet runt och handplockar de största begåvningarna.",
+      "director": [
+        "Penny Marshall"
+      ],
+      "cast": [
+        "Tom Hanks",
+        "Geena Davis",
+        "Lori Petty",
+        "Madonna",
+        "Rosie O'Donnell"
+      ],
+      "watchUrl": "https://www.netflix.com/title/691124"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "Hjärta av glas",
+      "url": "https://www.justwatch.com/se/film/heart-of-glass",
+      "poster": "https://images.justwatch.com/poster/346876116/s592/heart-of-glass.jpg",
+      "year": 1976,
+      "runtime": 94,
+      "genres": [
+        "Drama",
+        "Producerat i Europa"
+      ],
+      "rating": "33",
+      "ratingScale": "100",
+      "description": "En liten by är helt beroende av sin glasfabrik för försörjning. När fabrikens ägare oväntat dör tar han med sig den hemliga formeln för rubinglaset i graven. En formel han en gång fått från en kringvandrande apokalyptisk visionär. Hans son försöker återskapa rubinglaset för att rädda fabriken och byn från undergång.",
+      "director": [
+        "Werner Herzog"
+      ],
+      "cast": [
+        "Josef Bierbichler",
+        "Stefan Güttler",
+        "Clemens Scheitz",
+        "Sonja Skiba",
+        "Volker Prechtel"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://www.svtplay.se/video/KVk3QzY/hjarta-av-glas?id=KPB9mMQ"
+    },
+    {
+      "provider": "TV4 Play",
+      "providerSlug": "tv4-play",
+      "title": "The Big Sick",
+      "url": "https://www.justwatch.com/se/film/the-big-sick",
+      "poster": "https://images.justwatch.com/poster/23499135/s592/the-big-sick.jpg",
+      "year": 2017,
+      "runtime": 120,
+      "genres": [
+        "Komedi",
+        "Drama",
+        "Romantik"
+      ],
+      "rating": "89",
+      "ratingScale": "100",
+      "description": "Kumail Nanjiani vet redan innan han träffar Emily att det inte kommer bli helt okomplicerat att övervinna uråldriga traditioner och skyhöga förväntningar hos sin familj. Föräldrarnas högsta önskan är nämligen att han utbildar sig till advokat och träffar en smart, vacker och välutbildad pakistansk tjej att gifta sig med. Istället blir han ståuppkomiker och skådespelare. Som om inte det skulle vara nog, blir han förälskad i en amerikansk tjej, Emily, som han dessutom vill gifta sig med.",
+      "director": [
+        "Michael Showalter"
+      ],
+      "cast": [
+        "Kumail Nanjiani",
+        "Zoe Kazan",
+        "Holly Hunter",
+        "Ray Romano",
+        "Anupam Kher"
+      ],
+      "contentRating": "A",
+      "watchUrl": "https://www.tv4play.se/program/d4d4fa0b6d54fb21d526/the-big-sick"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "Memory",
+      "url": "https://www.justwatch.com/se/film/memory",
+      "poster": "https://images.justwatch.com/poster/279307471/s592/memory.jpg",
+      "year": 2022,
+      "runtime": 114,
+      "genres": [
+        "Action och äventyr",
+        "Deckare",
+        "Mysterium och thriller"
+      ],
+      "rating": "81",
+      "ratingScale": "100",
+      "description": "Alex Lewis är en lönnmördare i ett vägskäl. Han bor i El Paso i Texas och försöker acceptera sitt sviktande minne samtidigt som han planerar att gå i pension. När han gör sig redo för att avsluta en lång karriär av våld och hemligheter får han ett sista uppdrag av en gammal kontakt.",
+      "director": [
+        "Martin Campbell"
+      ],
+      "cast": [
+        "Liam Neeson",
+        "Guy Pearce",
+        "Taj Atwal",
+        "Harold Torres",
+        "Ray Fearon"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://play.hbomax.com/show/61d675c3-0874-46f8-b4e3-f55256f5c632?utm_source=universal_search"
+    },
+    {
+      "provider": "Prime Video",
+      "providerSlug": "amazon-prime-video",
+      "title": "The Killings At Outpost Zeta",
+      "url": "https://www.justwatch.com/se/film/the-killings-at-outpost-zeta",
+      "poster": "https://images.justwatch.com/poster/347356024/s592/the-killings-at-outpost-zeta.jpg",
+      "year": 1980,
+      "runtime": 89,
       "genres": [
         "Skräck",
         "Mysterium och thriller",
         "Science-Fiction"
       ],
-      "description": "En ung man med ett våldsamt förflutet skriver in sig på en mystisk klinik där patienterna transformerar sina kroppar och sinnen med genteknik.",
+      "description": "1980. Ett team av män och kvinnor undersöker de mystiska dödsfallen för två tidigare expeditioner till en strategiskt viktig men karg värld. Sci-fi-äventyr.",
       "director": [
-        "Eddie Alcazar"
+        "Allan Sandler",
+        "Robert Emenegger"
       ],
       "cast": [
-        "Garrett Wareing",
-        "Courtney Eaton",
-        "Tao Okamoto",
-        "Maurice Compte",
-        "Abbie Cornish"
+        "Paul Comi"
       ],
-      "contentRating": "15",
-      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.638ef80b-9df5-48db-aad8-db445ffbd02a"
+      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.d9b2c07e-863b-44b8-885e-4e61e7fad04c"
     },
     {
       "provider": "Viaplay",
       "providerSlug": "viaplay",
-      "title": "The Apprentice",
-      "url": "https://www.justwatch.com/se/film/the-apprentice-2024",
-      "poster": "https://images.justwatch.com/poster/321930797/s592/the-apprentice-2024.jpg",
-      "year": 2024,
-      "runtime": 122,
+      "title": "The Perfect Lie",
+      "url": "https://www.justwatch.com/se/film/the-perfect-lie",
+      "poster": "https://images.justwatch.com/poster/356388023/s592/the-perfect-lie.jpg",
+      "year": 2026,
+      "runtime": 96,
       "genres": [
         "Drama",
-        "Historia"
+        "Mysterium och thriller"
+      ],
+      "description": "Clara lever ett till synes perfekt liv med en framgångsrik karriär och sin charmige pojkvän Tobias. Men när hon av en slump stöter på Katrine börjar fasaden krackelera. Trots sina olikheter upptäcker de två kvinnorna att de har en sak gemensamt: Tobias. I åratal har de båda haft ett förhållande med samma man. Claras värld rasar samman, och i jakten på sanningen snärjs hon in i ett svårgenomträngligt spel där gränserna mellan sanning och lögn, begär och bedrägeri flyter samman – och där det blir allt svårare att avgöra vem som egentligen manipulerar vem.",
+      "director": [
+        "Julie R. Ølgaard",
+        "Esben Tønnesen"
+      ],
+      "cast": [
+        "Neel Rønholt",
+        "Youssef Wayne Hvidtfeldt",
+        "Julie R. Ølgaard",
+        "Ellen Hillingsø",
+        "Peter Gantzler"
+      ],
+      "watchUrl": "https://viaplay.se/store/the-perfect-lie-2026?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/352D-7A3B-6A8B-E8F5-1F63-Y"
+    },
+    {
+      "provider": "Netflix",
+      "providerSlug": "netflix",
+      "title": "Ett päron till farsa firar jul",
+      "url": "https://www.justwatch.com/se/film/national-lampoons-christmas-vacation",
+      "poster": "https://images.justwatch.com/poster/311636382/s592/national-lampoons-christmas-vacation.jpg",
+      "year": 1989,
+      "runtime": 97,
+      "genres": [
+        "Komedi",
+        "Producerat i Europa"
+      ],
+      "rating": "92",
+      "ratingScale": "100",
+      "description": "Längtar ni efter en härlig, hemtrevlig gammaldags jul med hela familjen samlad? Det gör Clark Griswold också, men det blir inte riktigt som han hade tänkt sig... Snötäckta tak är hala och kalkon är svårt att laga. När sedan kusinerna från landet dyker upp med familj och husvagn är julefriden ett minne blott.",
+      "director": [
+        "Jeremiah S. Chechik"
+      ],
+      "cast": [
+        "Chevy Chase",
+        "Beverly D'Angelo",
+        "Juliette Lewis",
+        "Johnny Galecki",
+        "John Randolph"
+      ],
+      "contentRating": "7",
+      "watchUrl": "https://www.netflix.com/title/60031686"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "Sisu",
+      "url": "https://www.justwatch.com/se/film/sisu-2023",
+      "poster": "https://images.justwatch.com/poster/340292747/s592/sisu-2023.jpg",
+      "year": 2023,
+      "runtime": 91,
+      "genres": [
+        "Action och äventyr",
+        "Mysterium och thriller",
+        "Krig"
+      ],
+      "rating": "89",
+      "ratingScale": "100",
+      "description": "En ensam, tystlåten finsk guldgrävare tvingas tampas med såväl nazister som ryssar i andra världskrigets slutskede.",
+      "director": [
+        "Jalmari Helander"
+      ],
+      "cast": [
+        "Jorma Tommila",
+        "Aksel Hennie",
+        "Jack Doolan",
+        "Mimosa Willamo",
+        "Onni Tommila"
+      ],
+      "contentRating": "16+",
+      "watchUrl": "https://www.svtplay.se/video/ePvLMgQ/sisu?id=jLJazrG"
+    },
+    {
+      "provider": "TV4 Play",
+      "providerSlug": "tv4-play",
+      "title": "En runda till",
+      "url": "https://www.justwatch.com/se/film/another-round",
+      "poster": "https://images.justwatch.com/poster/301682308/s592/another-round.jpg",
+      "year": 2020,
+      "runtime": 117,
+      "genres": [
+        "Komedi",
+        "Drama"
+      ],
+      "rating": "92",
+      "ratingScale": "100",
+      "description": "En norsk filosof hävdar att människan är född med en blodalkoholnivå som är en halv promille för låg. Inspirerad av den här teorin kastar sig Martin och tre av hans vänner, som är gymnasielärare, in i ett experiment. De ser sina liv som en räcka av trivialiteter så det här projektet kan vara precis vad de behöver.",
+      "director": [
+        "Thomas Vinterberg"
+      ],
+      "cast": [
+        "Mads Mikkelsen",
+        "Thomas Bo Larsen",
+        "Magnus Millang",
+        "Lars Ranthe",
+        "Maria Bonnevie"
+      ],
+      "contentRating": "11",
+      "watchUrl": "https://www.tv4play.se/program/47017e59e8164f9041bf/en-runda-till"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "The Contractor",
+      "url": "https://www.justwatch.com/se/film/violence-of-action",
+      "poster": "https://images.justwatch.com/poster/265699663/s592/violence-of-action.jpg",
+      "year": 2022,
+      "runtime": 103,
+      "genres": [
+        "Action och äventyr",
+        "Drama",
+        "Mysterium och thriller"
+      ],
+      "rating": "80",
+      "ratingScale": "100",
+      "description": "Sergeant James Harper skrivs ofrivilligt ut från armén och blir därmed även avstängd från sin pension. I ett berg av skulder, utan valmöjligheter och desperat att försörja sin familj tar Harper ett jobb för en privat och hemlig militärstyrka. När det allra första uppdraget går helt fel finner sig elitsoldaten jagad och på flykt, fångad i en livsfarlig konspiration. Han behöver kämpa för att överleva tillräckligt länge för att komma hem och avslöja de verkliga motiven för dem som förrådde honom.",
+      "director": [
+        "Tarik Saleh"
+      ],
+      "cast": [
+        "Chris Pine",
+        "Kiefer Sutherland",
+        "Ben Foster",
+        "Gillian Jacobs",
+        "Sander Thomas"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://play.hbomax.com/show/541c9b19-d326-46b5-b192-cc1e3817b3d7?utm_source=universal_search"
+    },
+    {
+      "provider": "Prime Video",
+      "providerSlug": "amazon-prime-video",
+      "title": "The Rough And The Smooth",
+      "url": "https://www.justwatch.com/se/film/the-rough-and-the-smooth",
+      "poster": "https://images.justwatch.com/poster/301800818/s592/the-rough-and-the-smooth.jpg",
+      "year": 1959,
+      "runtime": 96,
+      "genres": [
+        "Drama"
+      ],
+      "description": "1959. En arkeolog från överklassen har problem med att få tag på en taxi, så hon ber om att få dela en som redan är hyrd med en vacker tysk kvinna, och även om hon är försiktig går hon så småningom med på det.",
+      "director": [
+        "Robert Siodmak"
+      ],
+      "cast": [
+        "Nadja Tiller",
+        "Tony Britton",
+        "William Bendix",
+        "Natasha Parry",
+        "Adrienne Corri"
+      ],
+      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.5fb92100-be82-4bf1-a3cd-30d4ee94e6e0"
+    },
+    {
+      "provider": "Viaplay",
+      "providerSlug": "viaplay",
+      "title": "Fargo",
+      "url": "https://www.justwatch.com/se/film/fargo",
+      "poster": "https://images.justwatch.com/poster/205722428/s592/fargo.jpg",
+      "year": 1996,
+      "runtime": 99,
+      "genres": [
+        "Deckare",
+        "Drama",
+        "Mysterium och thriller"
+      ],
+      "rating": "95",
+      "ratingScale": "100",
+      "description": "Jerry Lundegaard är en bilförsäljare från Minnesota med ett enda stort problem. Trots ett lyckligt familjeliv är han en desperat man. Han behöver pengar – massor av pengar. Jerry har satt sig i så stor skuld att han inte ser någon annan utväg än att leja småförbrytarna Carl Showlater och Gaear Grimsrud för att kidnappa sin egen fru och pressa sin rika svärfar på pengar. Det verkar vara en simpel affär, men detta är innan polischefen Marge Gunderson från byn Brainerd sätts på fallet. Hon vaggar från spår till spår och närmar sig sakta men säkert den desperate Jerry, som i sin tur har mycket stora problem att hålla både sin svärfar och de båda kidnapparna i schack.",
+      "director": [
+        "Joel Coen"
+      ],
+      "cast": [
+        "Frances McDormand",
+        "William H. Macy",
+        "Steve Buscemi",
+        "Peter Stormare",
+        "Harve Presnell"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://viaplay.se/film/fargo-1996?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/9824-4212-BADD-A847-068B-1"
+    },
+    {
+      "provider": "Netflix",
+      "providerSlug": "netflix",
+      "title": "Funny People",
+      "url": "https://www.justwatch.com/se/film/funny-people",
+      "poster": "https://images.justwatch.com/poster/179569912/s592/funny-people.jpg",
+      "year": 2009,
+      "runtime": 146,
+      "genres": [
+        "Komedi",
+        "Drama",
+        "Producerat i Europa"
+      ],
+      "rating": "74",
+      "ratingScale": "100",
+      "description": "En garvad ståupp-komiker med en obotlig sjukdom. Under sitt sista levnadsår vill han få uppleva riktig vänskap och utföra en god handling. Han tar där en yngre, kämpande komiker under singa vingars beskydd och låter honom bli hans personlige assistent.",
+      "director": [
+        "Judd Apatow"
+      ],
+      "cast": [
+        "Adam Sandler",
+        "Seth Rogen",
+        "Leslie Mann",
+        "Eric Bana",
+        "Jonah Hill"
+      ],
+      "contentRating": "7",
+      "watchUrl": "https://www.netflix.com/title/70108781"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "Allt jag hade var tomhet: Att skildra förintelsen",
+      "url": "https://www.justwatch.com/se/film/allt-jag-hade-var-tomhet-att-skildra-forintelsen",
+      "poster": "https://images.justwatch.com/poster/344515283/s592/allt-jag-hade-var-tomhet-att-skildra-forintelsen.jpg",
+      "year": 2025,
+      "runtime": 94,
+      "genres": [
+        "Dokumentär",
+        "Historia",
+        "Krig"
+      ],
+      "description": "Dokumentärfilmen Shoah från 1985 är ett banbrytande verk som för alltid förändrade hur Förintelsen skildras. I tolv år arbetade den franska regissören och journalisten Claude Lanzmann med den nio timmar långa filmen. Fyra decennier senare utforskar regissören Guillaume Ribot de över 220 timmar tidigare osedda inspelningarna. I sin kompromisslösa jakt på sanningen mötte Lanzmann offer, vittnen och förövare världen över. Trots tvivel, motgångar och återvändsgränder skapade han ett av filmhistoriens mest betydelsefulla verk, som 2023 upptogs i Unescos världsminnesregister. Med Lanzmanns egna ord ur hans memoarer och tidigare osedda bilder hyllar Ribot en filmskapare som vägrade ge upp i försöket att skildra det obeskrivliga. Fransk dokumentär från 2025.",
+      "director": [
+        "Guillaume Ribot"
+      ],
+      "cast": [
+        "Claude Lanzmann"
+      ],
+      "watchUrl": "https://www.svtplay.se/video/KBMYAz6/allt-jag-hade-var-tomhet-att-skildra-forintelsen?id=e4d6ra5"
+    },
+    {
+      "provider": "TV4 Play",
+      "providerSlug": "tv4-play",
+      "title": "Göta Kanal eller Vem drog ur proppen?",
+      "url": "https://www.justwatch.com/se/film/who-pulled-the-plug",
+      "poster": "https://images.justwatch.com/poster/293751675/s592/who-pulled-the-plug.jpg",
+      "year": 1981,
+      "runtime": 99,
+      "genres": [
+        "Komedi",
+        "Producerat i Europa"
+      ],
+      "rating": "16",
+      "ratingScale": "100",
+      "description": "En stenrik man från Mellanöstern vill lägga en stororder på 1.000 svenska motorbåtar. Dock lider han av beslutsångest, och utlyser därför en tävling mellan två båtar genom Göta Kanal. Den båt som kommer först till Göteborg får kontraktet. Tävlingen står mellan det stora, nästan multinationella företaget Uniship och Anderssons båtvarv. En fullständigt vansinnig jakt genom Göta Kanal påbörjas.",
+      "director": [
+        "Hans Iveberg"
+      ],
+      "cast": [
+        "Kim Anderzon",
+        "Janne 'Loffe' Carlsson",
+        "Stig Ossian Ericson",
+        "Yvonne Lombard",
+        "Nils Eklund"
+      ],
+      "contentRating": "7",
+      "watchUrl": "https://www.tv4play.se/program/12e125aecdc80002e975/gota-kanal-eller-vem-drog-ur-proppen"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "The Marksman",
+      "url": "https://www.justwatch.com/se/film/the-marksman",
+      "poster": "https://images.justwatch.com/poster/294735329/s592/the-marksman.jpg",
+      "year": 2021,
+      "runtime": 108,
+      "genres": [
+        "Action och äventyr",
+        "Drama",
+        "Mysterium och thriller"
+      ],
+      "rating": "81",
+      "ratingScale": "100",
+      "description": "Jim är en ranchägare med ett förflutet inom marinkåren vars ägor gränsar till Mexiko. När han en dag räddar en pojke på flykt från en knarkkartell, inleds en dödlig jakt på det udda paret genom USA.",
+      "director": [
+        "Robert Lorenz"
+      ],
+      "cast": [
+        "Liam Neeson",
+        "Jacob Perez",
+        "Katheryn Winnick",
+        "Teresa Ruiz",
+        "Sean A. Rosales"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://play.hbomax.com/show/60448230-ff18-4daa-9232-dda56e6e4d04?utm_source=universal_search"
+    },
+    {
+      "provider": "Prime Video",
+      "providerSlug": "amazon-prime-video",
+      "title": "Vi fara till Sahara",
+      "url": "https://www.justwatch.com/se/film/the-flying-deuces",
+      "poster": "https://images.justwatch.com/poster/306418092/s592/the-flying-deuces.jpg",
+      "year": 1939,
+      "runtime": 69,
+      "genres": [
+        "Komedi",
+        "Barn och familj",
+        "Krig"
+      ],
+      "rating": "48",
+      "ratingScale": "100",
+      "description": "Helans hjärta krossas när han får reda på att hans stora kärlek är gift med en officer från den franska främlingslegionen. För att försöka glömma henne tar han värvning i legionen och Halvan får förstås följa med!",
+      "director": [
+        "A. Edward Sutherland"
+      ],
+      "cast": [
+        "Stan Laurel",
+        "Oliver Hardy",
+        "Jean Parker",
+        "Reginald Gardiner",
+        "Charles Middleton"
+      ],
+      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.783d6dd9-812d-4464-9a71-97143e90abdc"
+    },
+    {
+      "provider": "Viaplay",
+      "providerSlug": "viaplay",
+      "title": "Exodus: Gods and Kings",
+      "url": "https://www.justwatch.com/se/film/exodus-gods-and-kings",
+      "poster": "https://images.justwatch.com/poster/60042339/s592/exodus-gods-and-kings.jpg",
+      "year": 2014,
+      "runtime": 150,
+      "genres": [
+        "Action och äventyr",
+        "Drama",
+        "Fantasy"
+      ],
+      "rating": "76",
+      "ratingScale": "100",
+      "description": "Han växte upp som son i Faraos palats efter att knappt ha undgått en säker död, men när han satte sig upp mot kungen blev han tvingad i exil och den som ledde de förslavade hebréerna till frihet. Moses tidigare familj blev nu hans bittra fiender. Kultförklarade Ridley Scott, som bland annat givit oss Gladiator, har regisserat Exodus: Gods and Kings. I huvudrollen som Moses ser vi Christian Bale och hans halvbror Rhamses spelas av Joel Edgerton. I övriga roller ser vi bland andra Aaron Paul, Sigourney Weaver, Ben Kingsley och John Torturro.",
+      "director": [
+        "Ridley Scott"
+      ],
+      "cast": [
+        "Christian Bale",
+        "Joel Edgerton",
+        "Ben Kingsley",
+        "John Turturro",
+        "Aaron Paul"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://viaplay.se/film/exodus-gods-and-kings-2014?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/2FB4-7CEE-1210-B6E5-9B3D-A"
+    },
+    {
+      "provider": "Netflix",
+      "providerSlug": "netflix",
+      "title": "Transformers",
+      "url": "https://www.justwatch.com/se/film/transformers",
+      "poster": "https://images.justwatch.com/poster/292690468/s592/transformers.jpg",
+      "year": 2007,
+      "runtime": 144,
+      "genres": [
+        "Action och äventyr",
+        "Science-Fiction"
+      ],
+      "rating": "92",
+      "ratingScale": "100",
+      "description": "Robotar från yttre rymden kraschlandar på jorden där de kämpar för att ta kontrollen över den viktigaste energikällan - Energon. De heroiska Autobots och de onda Decepticons utkämpar vilda strider, med människans överlevnad helt beroende av utgången. Människornas sista chans att överleva vilar i händerna på tonårige Sam Witwicky.",
+      "director": [
+        "Michael Bay"
+      ],
+      "cast": [
+        "Shia LaBeouf",
+        "Megan Fox",
+        "Mark Ryan",
+        "Peter Cullen",
+        "Hugo Weaving"
+      ],
+      "contentRating": "11",
+      "watchUrl": "https://www.netflix.com/title/70058026"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "A Christmas Feast",
+      "url": "https://www.justwatch.com/se/film/feast-of-the-seven-fishes",
+      "poster": "https://images.justwatch.com/poster/338884117/s592/feast-of-the-seven-fishes.jpg",
+      "year": 2019,
+      "runtime": 99,
+      "genres": [
+        "Komedi",
+        "Drama",
+        "Romantik"
+      ],
+      "rating": "72",
+      "ratingScale": "100",
+      "description": "En varm romantisk komedi om den italiensk-amerikanska arbetarfamiljen Oliverio som förbereder sig för den traditionella julmiddagen. När unge familjemedlemmen Tony möter den rika och charmiga Beth så uppstår oväntade känslor som komplicerar julfirandet.",
+      "director": [
+        "Shane Flaherty",
+        "Robert Tinnell"
+      ],
+      "cast": [
+        "Skyler Gisondo",
+        "Madison Iseman",
+        "Josh Helman",
+        "Addison Timlin",
+        "Ray Abruzzo"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://www.svtplay.se/video/KzVB9XL/a-christmas-feast?id=86ddvEn"
+    },
+    {
+      "provider": "TV4 Play",
+      "providerSlug": "tv4-play",
+      "title": "Wild Rose",
+      "url": "https://www.justwatch.com/se/film/wild-rose",
+      "poster": "https://images.justwatch.com/poster/298473959/s592/wild-rose.jpg",
+      "year": 2019,
+      "runtime": 101,
+      "genres": [
+        "Komedi",
+        "Drama",
+        "Musik och musikal"
+      ],
+      "rating": "73",
+      "ratingScale": "100",
+      "description": "Unga, upproriska Rose-Lynn har aldrig velat något annat än att sjunga, men hittills har hon bara uppträtt på små lokala scener. Hon brinner för den råa country som består av tre ackord och sanningen om livet, men vägen från Glasgow till Nashville är lång - speciellt för en arbetartjej som klarat av ett fängelsestraff och som blev mamma redan i tonåren. Medan Rose-Lynn jagar framgången söker hennes två barn trygghet hos hennes egen mamma Marion, som tagit sina snytingar och ser mer realistiskt på tillvaron. Genom ett städjobb får Rose-Lynn kontakter som kan leda till en sångkarriär på allvar. Nu satsar hon allt, men vad är hon beredd att förlora på vägen?",
+      "director": [
+        "Tom Harper"
+      ],
+      "cast": [
+        "Jessie Buckley",
+        "Julie Walters",
+        "Sophie Okonedo",
+        "Jamie Sives",
+        "Craig Parkinson"
+      ],
+      "contentRating": "7",
+      "watchUrl": "https://www.tv4play.se/program/ba0d2dbe3cd3c1e02671/wild-rose"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "Mortal Kombat 2",
+      "url": "https://www.justwatch.com/se/film/mortal-kombat-2",
+      "poster": "https://images.justwatch.com/poster/344656231/s592/mortal-kombat-2.jpg",
+      "year": 2026,
+      "runtime": 116,
+      "genres": [
+        "Action och äventyr",
+        "Komedi",
+        "Fantasy",
+        "Mysterium och thriller",
+        "Science-Fiction"
+      ],
+      "rating": "81",
+      "ratingScale": "100",
+      "description": "Fansens favorithjältar - nu tillsammans med självaste Johnny Cage - ställs mot varandra i den ultimata och fullständigt skoningslösa, blodiga kampen för att besegra Shao Kahns mörka härskande, som hotar själva existensen av Earthrealm och dess försvarare.",
+      "director": [
+        "Simon McQuoid"
+      ],
+      "cast": [
+        "Karl Urban",
+        "Adeline Rudolph",
+        "Ludi Lin",
+        "Jessica McNamee",
+        "Martyn Ford"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://play.hbomax.com/show/c6b2cd04-09b3-4e4c-b3aa-36569ea18289?utm_source=universal_search"
+    },
+    {
+      "provider": "Prime Video",
+      "providerSlug": "amazon-prime-video",
+      "title": "Gobblefoot",
+      "url": "https://www.justwatch.com/se/film/gobblefoot",
+      "poster": "https://images.justwatch.com/poster/340586756/s592/gobblefoot.jpg",
+      "year": 2025,
+      "runtime": 71,
+      "genres": [
+        "Skräck"
+      ],
+      "description": "En vecka före Thanksgiving terroriseras en liten by i New England av ett mytomspunnet odjur - hälften kalkon, hälften Bigfoot! I takt med att liken hopar sig måste en professor i folktro avslöja sanningen om \"Gobblefoot\", innan lokalbefolkningen hamnar på menyn som huvudrätt.",
+      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.7ebf8e23-5adf-4dee-a2ec-5bc795fd24ed"
+    },
+    {
+      "provider": "Viaplay",
+      "providerSlug": "viaplay",
+      "title": "Björnen",
+      "url": "https://www.justwatch.com/se/film/the-bear-1988",
+      "poster": "https://images.justwatch.com/poster/294358789/s592/the-bear-1988.jpg",
+      "year": 1988,
+      "runtime": 93,
+      "genres": [
+        "Drama",
+        "Barn och familj",
+        "Producerat i Europa"
+      ],
+      "rating": "72",
+      "ratingScale": "100",
+      "description": "En föräldralös björnunge slår följe med en vuxen hane när dom försöker undvika mänskliga jägare.",
+      "director": [
+        "Jean-Jacques Annaud"
+      ],
+      "cast": [
+        "Tchéky Karyo",
+        "Bart The Bear",
+        "Jack Wallace",
+        "André Lacombe",
+        "Bozo the Bear"
+      ],
+      "contentRating": "7",
+      "watchUrl": "https://viaplay.se/store/bjornen-1988?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/B4F6-2D9E-6377-95AC-2DF7-8"
+    },
+    {
+      "provider": "Netflix",
+      "providerSlug": "netflix",
+      "title": "En lysande jul",
+      "url": "https://www.justwatch.com/se/film/deck-the-halls-2006",
+      "poster": "https://images.justwatch.com/poster/176158201/s592/deck-the-halls-2006.jpg",
+      "year": 2006,
+      "runtime": 93,
+      "genres": [
+        "Komedi",
+        "Barn och familj"
+      ],
+      "rating": "72",
+      "ratingScale": "100",
+      "description": "Steve är fast besluten att degradera  sin granne Buddys informella titel som \"julens konung\" i byn där de bor. Buddy täcker varje millimeter av sitt hus med så mycket julbelysning att det skulle vara fullt synligt från rymden! När deras fruar och barn blir vänner eskalerar de två männens rivalitet – och deras dekorationer likaså! Gissa om den här julen blir lika lysande som livlig?",
+      "director": [
+        "John Whitesell"
+      ],
+      "cast": [
+        "Danny DeVito",
+        "Matthew Broderick",
+        "Kristin Davis",
+        "Kristin Chenoweth",
+        "Alia Shawkat"
+      ],
+      "watchUrl": "https://www.netflix.com/title/70052697"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "The Survivor",
+      "url": "https://www.justwatch.com/se/film/the-survivor",
+      "poster": "https://images.justwatch.com/poster/341616365/s592/the-survivor.jpg",
+      "year": 2022,
+      "runtime": 129,
+      "genres": [
+        "Action och äventyr",
+        "Drama",
+        "Historia",
+        "Sport",
+        "Krig"
+      ],
+      "rating": "62",
+      "ratingScale": "100",
+      "description": "Efter andra världskriget är Harry Haft en boxare som har tvingats att slåss mot medfångar i koncentrationslägren för att överleva. Hemsökt av minnen och skuld försöker han använda högprofilerade boxningsmatcher mot legender som Rocky Marciano för att hitta sin första kärlek igen.",
+      "director": [
+        "Barry Levinson"
+      ],
+      "cast": [
+        "Ben Foster",
+        "Billy Magnussen",
+        "Vicky Krieps",
+        "Peter Sarsgaard",
+        "Saro Emirze"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://www.svtplay.se/video/jAB755z/the-survivor?id=8E3YYdb"
+    },
+    {
+      "provider": "TV4 Play",
+      "providerSlug": "tv4-play",
+      "title": "Meet the Parents: Little Fockers",
+      "url": "https://www.justwatch.com/se/film/little-fockers",
+      "poster": "https://images.justwatch.com/poster/11087098/s592/little-fockers.jpg",
+      "year": 2010,
+      "runtime": 98,
+      "genres": [
+        "Komedi",
+        "Romantik"
       ],
       "rating": "82",
       "ratingScale": "100",
-      "description": "I en tid då New Yorks skyline förändras lika snabbt som makten skiftar bakom kulisserna stiger en ung och ambitiös Donald J. Trump fram. 1970-talets Manhattan är en grogrund för stora drömmar och större risker, och Trump är fast besluten att lämna sin fars skugga och skriva sitt eget namn i stadens betong. På vägen till toppen möter han Roy Cohn, en politisk fixare och advokat med förmågan att manipulera både lagen och pressen. Under Cohns vägledning förvandlas Trump till en maktspelare utan samvete, där gränsen mellan framgång och fördärv suddas ut. Deras strategi av lögner, hot och mediespektakel banar väg för en framtid som ingen hade kunnat förutse.",
+      "description": "Efter tio år, där otaliga hinder har legat i Gregs väg, och han fått två små Fockers med frun Pam, börjar den minst sagt svåråtkomlige svärfadern Jack äntligen att acceptera Greg. När den panke tvåbarnspappan tar ett extrajobb hos ett läkemedelsbolag börjar dock Jack, ännu en gång, att fatta misstankar mot sin favoritsjuksköterska.När Greg och Pams hela släkt, inklusive Pams trånande ex, Kevin, dykerupp på tvillingarnas födelsedagskalas, måste Greg ännu en gång bevisa för Jack att han är fullt kapabelatt ikläda sig rollen som mannen i huset. Men kommer Greg, trots alla missförstånd, spionerier och uppdrag under täckmantel, att klara Jacks slutgiltiga prövning och bli släktens näste patriark – eller kommer cirkeln av förtroende att för alltid brytas?",
       "director": [
-        "Ali Abbasi"
+        "Paul Weitz"
       ],
       "cast": [
-        "Sebastian Stan",
-        "Jeremy Strong",
-        "Martin Donovan",
-        "Maria Bakalova",
-        "Catherine McNally"
+        "Ben Stiller",
+        "Robert De Niro",
+        "Owen Wilson",
+        "Dustin Hoffman",
+        "Barbra Streisand"
+      ],
+      "contentRating": "Från 7 år",
+      "watchUrl": "https://www.tv4play.se/program/b9b7b89503183580d499/meet-the-parents-little-fockers"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "Supergirl",
+      "url": "https://www.justwatch.com/se/film/supergirl-2026",
+      "poster": "https://images.justwatch.com/poster/346438404/s592/supergirl-2026.jpg",
+      "year": 2026,
+      "runtime": 108,
+      "genres": [
+        "Action och äventyr",
+        "Fantasy",
+        "Science-Fiction"
+      ],
+      "rating": "75",
+      "ratingScale": "100",
+      "description": "När en oväntad och skoningslös fiende slår till alltför nära hemmet, tvingas Kara Zor-El, även känd som Supergirl, motvilligt slå sig ihop med en osannolik följeslagare på en episk, interstellär resa fylld av hämnd och rättvisa.",
+      "director": [
+        "Craig Gillespie"
+      ],
+      "cast": [
+        "Milly Alcock",
+        "Eve Ridley",
+        "Matthias Schoenaerts",
+        "Jason Momoa",
+        "David Krumholtz"
       ],
       "contentRating": "11",
-      "watchUrl": "https://viaplay.se/store/the-apprentice-2024?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/32B0-1EE5-F391-33F0-8396-O"
+      "watchUrl": "https://play.hbomax.com/show/c9f565d4-be87-4f55-8a5d-6fa138b41c8f?utm_source=universal_search"
+    },
+    {
+      "provider": "Prime Video",
+      "providerSlug": "amazon-prime-video",
+      "title": "Sagan om konungens återkomst - härskarringen",
+      "url": "https://www.justwatch.com/se/film/the-lord-of-the-rings-the-return-of-the-king",
+      "poster": "https://images.justwatch.com/poster/346025995/s592/the-lord-of-the-rings-the-return-of-the-king.jpg",
+      "year": 2003,
+      "runtime": 193,
+      "genres": [
+        "Action och äventyr",
+        "Drama",
+        "Fantasy"
+      ],
+      "rating": "98",
+      "ratingScale": "100",
+      "description": "Medan härarna samlas till det sista stora slaget, där världens öde ska beseglas, ställs uråldriga krafter av ljus och mörker mot varandra. Men det enda hoppet om seger över ondskan vilar på den tappre hoben Frodo, som tillsammans med sin trogne vän Sam och den vedervärdige, eländige Gollum färdas allt djupare in i Mordors mörka hjärta, i sitt till synes omöjliga uppdrag att förgöra Härskarringen.",
+      "director": [
+        "Peter Jackson"
+      ],
+      "cast": [
+        "Elijah Wood",
+        "Ian McKellen",
+        "Viggo Mortensen",
+        "Sean Astin",
+        "Andy Serkis"
+      ],
+      "contentRating": "11",
+      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.91d91081-a2e1-4004-af7d-4efb31e99e27"
+    },
+    {
+      "provider": "Viaplay",
+      "providerSlug": "viaplay",
+      "title": "Pojkarna från Brasilien",
+      "url": "https://www.justwatch.com/se/film/the-boys-from-brazil",
+      "poster": "https://images.justwatch.com/poster/346028040/s592/the-boys-from-brazil.jpg",
+      "year": 1978,
+      "runtime": 125,
+      "genres": [
+        "Drama",
+        "Mysterium och thriller",
+        "Science-Fiction"
+      ],
+      "rating": "76",
+      "ratingScale": "100",
+      "description": "De flesta tror att han är död, men i Sydamerikas djungler fortsätter naziförbrytaren och läkaren Josef Mengele sitt bestialiska arbete. Han avslöjas dock av den unge Barry Kohler som genast kontaktar den berömde nazijägaren Ezra Lieberman. Telefonsamtalet bryts abrupt och Ezra inser att han snubblat över en djävulsk plan igångsatt av Mengele: varför ska 94 till synes slumpmässigt utvalda män världen över mördas på bestämda datum? Och vilka är pojkarna från Brasilien? Plötsligt tycks Ezra Liebermans värsta mardrömmar bli besannade.",
+      "director": [
+        "Franklin J. Schaffner"
+      ],
+      "cast": [
+        "Gregory Peck",
+        "Laurence Olivier",
+        "James Mason",
+        "Lilli Palmer",
+        "Uta Hagen"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://viaplay.se/store/the-boys-from-brazil-1979?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/EBED-53BF-62AA-877B-7C11-J"
+    },
+    {
+      "provider": "Netflix",
+      "providerSlug": "netflix",
+      "title": "Kijsada Paradise",
+      "url": "https://www.justwatch.com/se/film/kijsada-paradise",
+      "poster": "https://images.justwatch.com/poster/356938415/s592/kijsada-paradise.jpg",
+      "year": 2026,
+      "runtime": 113,
+      "genres": [
+        "Skräck"
+      ],
+      "description": "A friend who goes missing in an abandoned amusement park sets the friendship of a group of teenagers to a challenge as they encounter conflict and secrets along the way.",
+      "director": [
+        "Phontharis Chotkijsadarsopon"
+      ],
+      "cast": [
+        "Nattawat Jirochtikul",
+        "Yongsin Wongpanitnont",
+        "Jaturawit Cheawprasit",
+        "Pannawit Phattanasiri",
+        "Sorathon Chaloemlapsombut"
+      ],
+      "contentRating": "16+",
+      "watchUrl": "https://www.netflix.com/title/82997221"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "Änglar och demoner",
+      "url": "https://www.justwatch.com/se/film/angels-and-demons",
+      "poster": "https://images.justwatch.com/poster/293357046/s592/angels-and-demons.jpg",
+      "year": 2009,
+      "runtime": 139,
+      "genres": [
+        "Mysterium och thriller"
+      ],
+      "rating": "92",
+      "ratingScale": "100",
+      "description": "Robert Langdon, Harvard professor i religiös symbolik, upptäcker bevis på att det legendariska hemliga sällskapet Illuminati fortfarande är vid liv och på gång att ännu en gång hota sin urgamla mytomspunna fiende – den katolska kyrkan. Illuminati har lyckats stjäla en mycket kraftig bomb skapad med en ny teknik och meddelar att den skall placeras någonstans inom Vatikanstaten. Jakten på Illuminati och bomben blir en hård kamp mot klockan... och snart måste Langdon riskera mer än han någonsin kunnat förutsäga.",
+      "director": [
+        "Ron Howard"
+      ],
+      "cast": [
+        "Tom Hanks",
+        "Ewan McGregor",
+        "Ayelet Zurer",
+        "Stellan Skarsgård",
+        "Pierfrancesco Favino"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://www.svtplay.se/video/8opXqZE/anglar-och-demoner?id=jAM17y4"
+    },
+    {
+      "provider": "TV4 Play",
+      "providerSlug": "tv4-play",
+      "title": "Keeper",
+      "url": "https://www.justwatch.com/se/film/keeper-2025",
+      "poster": "https://images.justwatch.com/poster/338302603/s592/keeper-2025.jpg",
+      "year": 2025,
+      "runtime": 99,
+      "genres": [
+        "Skräck"
+      ],
+      "rating": "60",
+      "ratingScale": "100",
+      "description": "Liz och Malcolm åker iväg för en romantisk helg i en avskild stuga för att fira sin årsdag. När Malcolm plötsligt återvänder till staden, ställs Liz ensam inför en obeskrivlig ondska som avslöjar stugans fasansfulla hemligheter.",
+      "director": [
+        "Osgood Perkins"
+      ],
+      "cast": [
+        "Tatiana Maslany",
+        "Rossif Sutherland",
+        "Birkett Turton",
+        "Cassandra Ebner",
+        "Tess Degenstein"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://www.tv4play.se/program/212f622f54f8120db466/keeper"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "Lee Cronin's the Mummy",
+      "url": "https://www.justwatch.com/se/film/lee-cronins-the-mummy",
+      "poster": "https://images.justwatch.com/poster/344211500/s592/lee-cronins-the-mummy.jpg",
+      "year": 2026,
+      "runtime": 134,
+      "genres": [
+        "Skräck"
+      ],
+      "rating": "75",
+      "ratingScale": "100",
+      "description": "En journalists unga dotter försvinner spårlöst ut i öknen. Åtta år senare chockas den splittrade familjen när hon återvänder till dem, och det som borde ha blivit ett glädjefyllt återseende förvandlas till en levande mardröm.",
+      "director": [
+        "Lee Cronin"
+      ],
+      "cast": [
+        "Jack Reynor",
+        "Laia Costa",
+        "May Calamawy",
+        "Natalie Grace",
+        "Shylo Molina"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://play.hbomax.com/show/78be4596-fa1e-4768-a4eb-19d965ddf844?utm_source=universal_search"
+    },
+    {
+      "provider": "Prime Video",
+      "providerSlug": "amazon-prime-video",
+      "title": "Fume",
+      "url": "https://www.justwatch.com/se/film/fume",
+      "poster": "https://images.justwatch.com/poster/356797488/s592/fume.jpg",
+      "year": 2026,
+      "runtime": 78,
+      "genres": [
+        "Action och äventyr",
+        "Komedi",
+        "Drama"
+      ],
+      "description": "Efter att av misstag ha bränt ner sin egen tobaksbutik kämpar tre vänner sig igenom en dimmig natt för att få fram pengarna, samtidigt som sanningen om deras relationer till slut hinner ikapp dem.",
+      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.7a565670-4dd2-4629-a610-2d422612035d"
+    },
+    {
+      "provider": "Viaplay",
+      "providerSlug": "viaplay",
+      "title": "Rocky",
+      "url": "https://www.justwatch.com/se/film/rocky",
+      "poster": "https://images.justwatch.com/poster/302429600/s592/rocky.jpg",
+      "year": 1976,
+      "runtime": 120,
+      "genres": [
+        "Drama",
+        "Sport"
+      ],
+      "rating": "96",
+      "ratingScale": "100",
+      "description": "Underhållande drama om en fattig och lite bortkommen boxares problem och slutliga succé i en avslutande stormatch. Publiksuccé blev det också vilket bekräftas av de fyra uppföljarna som trots att de var varianter på samma historia ändå fick en stor publik. Rejäla fightscener och Oscar för bästa film och regi.",
+      "director": [
+        "John G. Avildsen"
+      ],
+      "cast": [
+        "Sylvester Stallone",
+        "Talia Shire",
+        "Burt Young",
+        "Carl Weathers",
+        "Burgess Meredith"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://viaplay.se/film/rocky-1976?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/B939-40E1-5BEA-C661-EA64-5"
     }
   ]
 }
