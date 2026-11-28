@@ -1,0 +1,1331 @@
+{
+  "generated": "2026-11-28T05:56:34+00:00",
+  "country": "SE",
+  "kind": "popular",
+  "source": "JustWatch",
+  "providers": [
+    {
+      "slug": "netflix",
+      "name": "Netflix"
+    },
+    {
+      "slug": "svt",
+      "name": "SVT Play"
+    },
+    {
+      "slug": "tv4-play",
+      "name": "TV4 Play"
+    },
+    {
+      "slug": "hbo-max",
+      "name": "HBO Max"
+    },
+    {
+      "slug": "amazon-prime-video",
+      "name": "Prime Video"
+    },
+    {
+      "slug": "viaplay",
+      "name": "Viaplay"
+    }
+  ],
+  "errors": [
+    "Ali G: Who Iz I?: detail HTTP Error 429: Too Many Requests",
+    "The Invite: detail HTTP Error 429: Too Many Requests",
+    "Possible Love: detail HTTP Error 429: Too Many Requests",
+    "Amadeus: detail HTTP Error 429: Too Many Requests",
+    "Sagan om ringen - härskarringen: detail HTTP Error 429: Too Many Requests",
+    "The Furious: detail HTTP Error 429: Too Many Requests",
+    "The Backrooms: detail HTTP Error 429: Too Many Requests",
+    "Bara till jul: detail HTTP Error 429: Too Many Requests",
+    "Grinchen: detail HTTP Error 429: Too Many Requests",
+    "A Story of Derry: detail HTTP Error 429: Too Many Requests",
+    "Stormen: detail HTTP Error 429: Too Many Requests",
+    "De misstänkta: detail HTTP Error 429: Too Many Requests",
+    "Sicario: detail HTTP Error 429: Too Many Requests",
+    "Dune: Del II: detail HTTP Error 429: Too Many Requests",
+    "I Swear: detail HTTP Error 429: Too Many Requests",
+    "The Hunger Games: Catching Fire: detail HTTP Error 429: Too Many Requests",
+    "Inception: detail HTTP Error 429: Too Many Requests",
+    "Wannsee 1942: detail HTTP Error 429: Too Many Requests",
+    "The Imitation Game: detail HTTP Error 429: Too Many Requests",
+    "Nürnberg: detail HTTP Error 429: Too Many Requests",
+    "Sagan om ringen - härskarringen: detail HTTP Error 429: Too Many Requests",
+    "Heart of the Beast: detail HTTP Error 429: Too Many Requests",
+    "X: detail HTTP Error 429: Too Many Requests",
+    "Green Book: detail HTTP Error 429: Too Many Requests",
+    "The Secret Agent: detail HTTP Error 429: Too Many Requests",
+    "The Mongoose: detail HTTP Error 429: Too Many Requests",
+    "Disclosure Day: detail HTTP Error 429: Too Many Requests",
+    "Grinchen - julen är stulen: detail HTTP Error 429: Too Many Requests",
+    "Da Vinci-koden: detail HTTP Error 429: Too Many Requests",
+    "A Quiet Place: detail HTTP Error 429: Too Many Requests",
+    "Apocalypse Z: New World: detail HTTP Error 429: Too Many Requests",
+    "Hope: detail HTTP Error 429: Too Many Requests",
+    "A Quiet Place: detail HTTP Error 429: Too Many Requests",
+    "Smile: detail HTTP Error 429: Too Many Requests",
+    "Paddington: detail HTTP Error 429: Too Many Requests",
+    "28 dagar senare: detail HTTP Error 429: Too Many Requests",
+    "Tuner: detail HTTP Error 429: Too Many Requests"
+  ],
+  "items": [
+    {
+      "provider": "Netflix",
+      "providerSlug": "netflix",
+      "title": "Evil Dead Burn",
+      "url": "https://www.justwatch.com/se/film/evil-dead-burn",
+      "poster": "https://images.justwatch.com/poster/346878968/s592/evil-dead-burn.jpg",
+      "year": 2026,
+      "runtime": 110,
+      "genres": [
+        "Skräck"
+      ],
+      "rating": "79",
+      "ratingScale": "100",
+      "description": "Efter att ha förlorat sin man söker en kvinna tröst hos sina svärföräldrar i deras ensligt belägna hus. Men när de en efter en förvandlas till Deadites – och sammankomsten förvandlas till en familjeåterförening från helvetet, inser hon att de löften hon gav i livet lever vidare även efter döden.",
+      "director": [
+        "Sébastien Vaniček"
+      ],
+      "cast": [
+        "Souheila Yacoub",
+        "Tandi Wright",
+        "Hunter Doohan",
+        "Luciane Buchanan",
+        "Erroll Shand"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://www.netflix.com/title/82715255"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "The Substance",
+      "url": "https://www.justwatch.com/se/film/the-substance",
+      "poster": "https://images.justwatch.com/poster/348218809/s592/the-substance.jpg",
+      "year": 2024,
+      "runtime": 141,
+      "genres": [
+        "Drama",
+        "Skräck",
+        "Science-Fiction"
+      ],
+      "rating": "81",
+      "ratingScale": "100",
+      "description": "En åldrande kändis på nedgång bestämmer sig för att använda ett läkemedel på svarta marknaden - ett cellåterskapande ämne som tillfälligt skapar en yngre, bättre version av henne själv. Detta kommer dock inte utan chockerande bieffekter.",
+      "director": [
+        "Coralie Fargeat"
+      ],
+      "cast": [
+        "Demi Moore",
+        "Margaret Qualley",
+        "Dennis Quaid",
+        "Gore Abrams",
+        "Oscar Lesage"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://www.svtplay.se/video/8WvrmzQ/the-substance?id=jn4VgEw"
+    },
+    {
+      "provider": "TV4 Play",
+      "providerSlug": "tv4-play",
+      "title": "Blade Runner 2049",
+      "url": "https://www.justwatch.com/se/film/blade-runner-2049",
+      "poster": "https://images.justwatch.com/poster/336506849/s592/blade-runner-2049.jpg",
+      "year": 2017,
+      "runtime": 164,
+      "genres": [
+        "Action och äventyr",
+        "Drama",
+        "Mysterium och thriller",
+        "Science-Fiction"
+      ],
+      "rating": "93",
+      "ratingScale": "100",
+      "description": "Trettio år har gått sedan sist. En ny blade runner – Los Angeles-polisen K – avslöjar en sedan länge begravd hemlighet med potential att rasera det lilla som nu återstår av samhället. K:s avslöjande leder honom ut på en jakt efter Rick Deckard, en tidigare blade runner som varit försvunnen i tre decennier.",
+      "director": [
+        "Denis Villeneuve"
+      ],
+      "cast": [
+        "Ryan Gosling",
+        "Harrison Ford",
+        "Ana de Armas",
+        "Dave Bautista",
+        "Robin Wright"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://www.tv4play.se/program/7ad1e130fa970fcd4922/blade-runner-2049"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "Hunger Games",
+      "url": "https://www.justwatch.com/se/film/the-hunger-games",
+      "poster": "https://images.justwatch.com/poster/335161995/s592/the-hunger-games.jpg",
+      "year": 2012,
+      "runtime": 143,
+      "genres": [
+        "Action och äventyr",
+        "Mysterium och thriller",
+        "Science-Fiction"
+      ],
+      "rating": "95",
+      "ratingScale": "100",
+      "description": "I en nära framtid, bland ruinerna efter det som en gång var Nordamerika, blir varje år 24 tonårskillar och -tjejer utvalda till att delta i Hungerspelen – en storstilad realityshow med bara en vinnare: den sista överlevande! Flertal ungdomar tränar för Hungerspelen hela sitt liv, men inte Katniss, som bara har sina skarpa instinkter att förlita sig på i den ultimata kampen mellan överlevnad och medmänsklighet. Och mellan liv och död.",
+      "director": [
+        "Gary Ross"
+      ],
+      "cast": [
+        "Jennifer Lawrence",
+        "Josh Hutcherson",
+        "Woody Harrelson",
+        "Elizabeth Banks",
+        "Lenny Kravitz"
+      ],
+      "contentRating": "11",
+      "watchUrl": "https://play.hbomax.com/show/c63819d8-de84-4e74-bd59-29948bc673e3?utm_source=universal_search"
+    },
+    {
+      "provider": "Prime Video",
+      "providerSlug": "amazon-prime-video",
+      "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+      "url": "https://www.justwatch.com/se/film/the-hunger-games-the-ballad-of-songbirds-and-snakes",
+      "poster": "https://images.justwatch.com/poster/309398519/s592/the-hunger-games-the-ballad-of-songbirds-and-snakes.jpg",
+      "year": 2023,
+      "runtime": 157,
+      "genres": [
+        "Action och äventyr",
+        "Science-Fiction"
+      ],
+      "rating": "85",
+      "ratingScale": "100",
+      "description": "Den en gång så stolta familjen Snow har fallit ur nåd i efterkrigstidens huvudstad, och den unge Coriolanus Snow är det sista hoppet för att återta sin släkts status. Med sin försörjning hotad blir Snow motvilligt tilldelad rollen som mentor till Lucy Gray Baird, en hyllad kämpe från det fattiga District 12. När Lucy Grays charm har fängslat publiken i Panem, ser Snow en möjlighet att förändra deras öden. Han förenar sig med Lucy Gray för att vända oddsen till deras fördel när allt han har kämpat för står på spel. Snow tvingas välja mellan det goda och det onda och ger sig ut i en kapplöpning mot tiden för att överleva.",
+      "director": [
+        "Francis Lawrence"
+      ],
+      "cast": [
+        "Tom Blyth",
+        "Rachel Zegler",
+        "Peter Dinklage",
+        "Jason Schwartzman",
+        "Hunter Schafer"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.374ac563-b324-47ec-ad59-2bd04985010d"
+    },
+    {
+      "provider": "Viaplay",
+      "providerSlug": "viaplay",
+      "title": "Resident Evil",
+      "url": "https://www.justwatch.com/se/film/resident-evil-2026",
+      "poster": "https://images.justwatch.com/poster/354593951/s592/resident-evil-2026.jpg",
+      "year": 2026,
+      "runtime": 94,
+      "genres": [
+        "Action och äventyr",
+        "Skräck",
+        "Science-Fiction"
+      ],
+      "rating": "92",
+      "ratingScale": "100",
+      "description": "Bryan, en medicinsk kurir, dras ovetandes in i en desperat kamp för sin överlevnad när en ödesdiger och skräckfylld natt urartar i kaos.",
+      "director": [
+        "Zach Cregger"
+      ],
+      "cast": [
+        "Austin Abrams",
+        "Paul Walter Hauser",
+        "Kali Reis",
+        "Zach Cherry",
+        "Johnno Wilson"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://viaplay.se/store/resident-evil-2026?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/D3D9-8F47-DDBA-60A4-98CE-R"
+    },
+    {
+      "provider": "Netflix",
+      "providerSlug": "netflix",
+      "title": "Godzilla Minus One",
+      "url": "https://www.justwatch.com/se/film/godzilla-minus-one",
+      "poster": "https://images.justwatch.com/poster/329708644/s592/godzilla-minus-one.jpg",
+      "year": 2023,
+      "runtime": 124,
+      "genres": [
+        "Action och äventyr",
+        "Drama",
+        "Skräck",
+        "Science-Fiction"
+      ],
+      "rating": "90",
+      "ratingScale": "100",
+      "description": "I Japan efter andra världskriget dyker en ny fasa upp: Godzilla. Kommer det förkrossade folket att kunna ta upp kampen ... eller ens överleva?",
+      "director": [
+        "Takashi Yamazaki"
+      ],
+      "cast": [
+        "Ryunosuke Kamiki",
+        "Minami Hamabe",
+        "Yuki Yamada",
+        "Munetaka Aoki",
+        "Hidetaka Yoshioka"
+      ],
+      "contentRating": "11",
+      "watchUrl": "https://www.netflix.com/title/81767635"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "Heretic",
+      "url": "https://www.justwatch.com/se/film/heretic",
+      "poster": "https://images.justwatch.com/poster/322117460/s592/heretic.jpg",
+      "year": 2024,
+      "runtime": 111,
+      "genres": [
+        "Skräck",
+        "Mysterium och thriller"
+      ],
+      "rating": "89",
+      "ratingScale": "100",
+      "description": "Två unga missionärer tvingas att sätta sin tro på prov när de knackar på fel dörr och hälsas välkomna av den vänligt diaboliske herr Reed. Flickornas informationsbesök övergår snart i en dödlig katt-och-råtta-lek.",
+      "director": [
+        "Bryan Woods",
+        "Scott Beck"
+      ],
+      "cast": [
+        "Hugh Grant",
+        "Sophie Thatcher",
+        "Chloe East",
+        "Topher Grace",
+        "Leanne Khol Young"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://www.svtplay.se/video/KrJXM9E/heretic?id=jakXanb"
+    },
+    {
+      "provider": "TV4 Play",
+      "providerSlug": "tv4-play",
+      "title": "The Holiday",
+      "url": "https://www.justwatch.com/se/film/the-holiday",
+      "poster": "https://images.justwatch.com/poster/323374335/s592/the-holiday.jpg",
+      "year": 2006,
+      "runtime": 138,
+      "genres": [
+        "Komedi",
+        "Romantik",
+        "Producerat i Europa"
+      ],
+      "rating": "92",
+      "ratingScale": "100",
+      "description": "Amanda Woods bor i södra Californien och Iris Simpkins i en charmig liten by på den engelska landsbygden. Julen närmar sig och de båda behöver en rejäl paus från sina trassliga kärleksrelationer. De får kontakt på nätet genom en förmedling och bestämmer sig helt enkelt för att byta hus med varandra. Kulturkrocken blir påtaglig och snart drabbas även båda av förälskelsen. Amanda faller pladask för Iris snygge bror Graham, medan Iris låter sig charmas av filmkompositören Miles. Men snart är julen över och vardagen väntar...",
+      "director": [
+        "Nancy Meyers"
+      ],
+      "cast": [
+        "Cameron Diaz",
+        "Kate Winslet",
+        "Jude Law",
+        "Jack Black",
+        "Eli Wallach"
+      ],
+      "watchUrl": "https://www.tv4play.se/program/3ca006687ac6bb29ad3b/the-holiday"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "The Substance",
+      "url": "https://www.justwatch.com/se/film/the-substance",
+      "poster": "https://images.justwatch.com/poster/348218809/s592/the-substance.jpg",
+      "year": 2024,
+      "runtime": 141,
+      "genres": [
+        "Drama",
+        "Skräck",
+        "Science-Fiction"
+      ],
+      "rating": "81",
+      "ratingScale": "100",
+      "description": "En åldrande kändis på nedgång bestämmer sig för att använda ett läkemedel på svarta marknaden - ett cellåterskapande ämne som tillfälligt skapar en yngre, bättre version av henne själv. Detta kommer dock inte utan chockerande bieffekter.",
+      "director": [
+        "Coralie Fargeat"
+      ],
+      "cast": [
+        "Demi Moore",
+        "Margaret Qualley",
+        "Dennis Quaid",
+        "Gore Abrams",
+        "Oscar Lesage"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://play.hbomax.com/show/90b483f4-ffd1-4cc1-a5e7-4112f6d61c15?utm_source=universal_search"
+    },
+    {
+      "provider": "Prime Video",
+      "providerSlug": "amazon-prime-video",
+      "title": "Uppdrag Hail Mary",
+      "url": "https://www.justwatch.com/se/film/uppdrag-hail-mary",
+      "poster": "https://images.justwatch.com/poster/344161058/s592/uppdrag-hail-mary.jpg",
+      "year": 2026,
+      "runtime": 157,
+      "genres": [
+        "Komedi",
+        "Science-Fiction"
+      ],
+      "rating": "95",
+      "ratingScale": "100",
+      "description": "NO-läraren Ryland Grace vaknar upp ensam på ett rymdskepp, ljusår från jorden. I takt med att minnet kommer tillbaka inser han vidden av sitt uppdrag: han måste stoppa en mystisk substans som hotar att släcka solen och därmed rädda mänskligheten från undergång.",
+      "director": [
+        "Christopher Miller",
+        "Phil Lord"
+      ],
+      "cast": [
+        "Ryan Gosling",
+        "Sandra Hüller",
+        "James Ortiz",
+        "Lionel Boyce",
+        "Milana Vayntrub"
+      ],
+      "contentRating": "11",
+      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.414eb1af-ee27-476c-bc46-bedd48595f59"
+    },
+    {
+      "provider": "Viaplay",
+      "providerSlug": "viaplay",
+      "title": "Odysséen",
+      "url": "https://www.justwatch.com/se/film/odysseen",
+      "poster": "https://images.justwatch.com/poster/347550126/s592/odysseen.jpg",
+      "year": 2026,
+      "runtime": 173,
+      "genres": [
+        "Action och äventyr",
+        "Drama",
+        "Fantasy"
+      ],
+      "rating": "94",
+      "ratingScale": "100",
+      "description": "I en adaption av Homeros episka epos får vi följa Odysseus, den legendariske kungen av Ithaka, på hans långa och farofyllda resa hem efter det trojanska kriget. Under sin färd ställs han inför gudars nycker, mytologiska monstrum och prövningar som tänjer både hans list och hans mänsklighet till bristningsgränsen.",
+      "director": [
+        "Christopher Nolan"
+      ],
+      "cast": [
+        "Matt Damon",
+        "Tom Holland",
+        "Anne Hathaway",
+        "Robert Pattinson",
+        "Himesh Patel"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://viaplay.se/store/the-odyssey-2026?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/ECB7-6B2B-4C65-5C3A-A4DC-A"
+    },
+    {
+      "provider": "Netflix",
+      "providerSlug": "netflix",
+      "title": "Last Breath",
+      "url": "https://www.justwatch.com/se/film/last-breath-2024",
+      "poster": "https://images.justwatch.com/poster/327431711/s592/last-breath-2024.jpg",
+      "year": 2025,
+      "runtime": 93,
+      "genres": [
+        "Drama",
+        "Mysterium och thriller"
+      ],
+      "rating": "90",
+      "ratingScale": "100",
+      "description": "En sann historia som följer erfarna djuphavsdykare när de slåss mot de rasande väder för att rädda sin besättningskamrat som är fast hundratals fot under havets yta.",
+      "director": [
+        "Alex Parkinson"
+      ],
+      "cast": [
+        "Woody Harrelson",
+        "Simu Liu",
+        "Finn Cole",
+        "Cliff Curtis",
+        "Mark Bonnar"
+      ],
+      "contentRating": "13+",
+      "watchUrl": "https://www.netflix.com/title/81936783"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "Gökboet",
+      "url": "https://www.justwatch.com/se/film/one-flew-over-the-cuckoos-nest",
+      "poster": "https://images.justwatch.com/poster/292161814/s592/one-flew-over-the-cuckoos-nest.jpg",
+      "year": 1975,
+      "runtime": 135,
+      "genres": [
+        "Drama"
+      ],
+      "rating": "96",
+      "ratingScale": "100",
+      "description": "Lugn och ro på ett statligt mentalsjukhus är väl bättre än en vistelse i fängelsecell, inte sant? P. McMurphy simulerar en sinnessjukdom och flyttar in till de han kallar nötterna. Han skapar snabbt oordning i den annars så disciplinerade vardagen.",
+      "director": [
+        "Miloš Forman"
+      ],
+      "cast": [
+        "Jack Nicholson",
+        "Brad Dourif",
+        "Louise Fletcher",
+        "Danny DeVito",
+        "William Redfield"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://www.svtplay.se/video/KXywNwg/gokboet?id=ew77ybR"
+    },
+    {
+      "provider": "TV4 Play",
+      "providerSlug": "tv4-play",
+      "title": "Hereditary",
+      "url": "https://www.justwatch.com/se/film/hereditary",
+      "poster": "https://images.justwatch.com/poster/66952648/s592/hereditary.jpg",
+      "year": 2018,
+      "runtime": 128,
+      "genres": [
+        "Drama",
+        "Skräck",
+        "Mysterium och thriller"
+      ],
+      "rating": "87",
+      "ratingScale": "100",
+      "description": "När familjen Grahams matriark Ellen dör börjar hennes dotters familj att uppdaga kryptiska och allt mer skrämmande hemligheter om familjens historia. Ju mer de upptäcker, desto mer tvingas de att försöka undvika det olycksaliga öde som verkar vara deras arvegods.",
+      "director": [
+        "Ari Aster"
+      ],
+      "cast": [
+        "Toni Collette",
+        "Alex Wolff",
+        "Gabriel Byrne",
+        "Milly Shapiro",
+        "Ann Dowd"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://www.tv4play.se/program/5d9c03930aa9d22e4033/hereditary"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "Dune",
+      "url": "https://www.justwatch.com/se/film/dune-2021",
+      "poster": "https://images.justwatch.com/poster/292310287/s592/dune-2021.jpg",
+      "year": 2021,
+      "runtime": 155,
+      "genres": [
+        "Action och äventyr",
+        "Drama",
+        "Science-Fiction"
+      ],
+      "rating": "93",
+      "ratingScale": "100",
+      "description": "Paul Atreides är en briljant och talangfull ung man född med ett storslaget öde som måste resa till den farligaste planeten i universum för att säkra sin familjs och sitt folks framtid. När illasinnade krafter kastas in i en konflikt om tillgången till planetens mest värdefulla råvara - ett ämne med förmågan att låsa upp mänsklighetens fulla potential - kommer bara de som övervinner sina rädslor att överleva.",
+      "director": [
+        "Denis Villeneuve"
+      ],
+      "cast": [
+        "Timothée Chalamet",
+        "Rebecca Ferguson",
+        "Oscar Isaac",
+        "Jason Momoa",
+        "Stellan Skarsgård"
+      ],
+      "contentRating": "11",
+      "watchUrl": "https://play.hbomax.com/show/e7dc7b3a-a494-4ef1-8107-f4308aa6bbf7?utm_source=universal_search"
+    },
+    {
+      "provider": "Prime Video",
+      "providerSlug": "amazon-prime-video",
+      "title": "Hunger Games",
+      "url": "https://www.justwatch.com/se/film/the-hunger-games",
+      "poster": "https://images.justwatch.com/poster/335161995/s592/the-hunger-games.jpg",
+      "year": 2012,
+      "runtime": 143,
+      "genres": [
+        "Action och äventyr",
+        "Mysterium och thriller",
+        "Science-Fiction"
+      ],
+      "rating": "95",
+      "ratingScale": "100",
+      "description": "I en nära framtid, bland ruinerna efter det som en gång var Nordamerika, blir varje år 24 tonårskillar och -tjejer utvalda till att delta i Hungerspelen – en storstilad realityshow med bara en vinnare: den sista överlevande! Flertal ungdomar tränar för Hungerspelen hela sitt liv, men inte Katniss, som bara har sina skarpa instinkter att förlita sig på i den ultimata kampen mellan överlevnad och medmänsklighet. Och mellan liv och död.",
+      "director": [
+        "Gary Ross"
+      ],
+      "cast": [
+        "Jennifer Lawrence",
+        "Josh Hutcherson",
+        "Woody Harrelson",
+        "Elizabeth Banks",
+        "Lenny Kravitz"
+      ],
+      "contentRating": "11",
+      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.8373c66d-1ec3-44d3-99b8-f1cda1142ce7"
+    },
+    {
+      "provider": "Viaplay",
+      "providerSlug": "viaplay",
+      "title": "Obsession",
+      "url": "https://www.justwatch.com/se/film/obsession-2026",
+      "poster": "https://images.justwatch.com/poster/355354926/s592/obsession-2026.jpg",
+      "year": 2026,
+      "runtime": 109,
+      "genres": [
+        "Fantasy",
+        "Skräck",
+        "Mysterium och thriller"
+      ],
+      "rating": "92",
+      "ratingScale": "100",
+      "description": "När en hopplös romantiker gör en önskan i hopp om att vinna sin hemliga kärleks hjärta, upptäcker han snart att för vissa önskningar får man betala ett mörkt och fruktansvärt pris.",
+      "director": [
+        "Curry Barker"
+      ],
+      "cast": [
+        "Michael Johnston",
+        "Inde Navarrette",
+        "Cooper Tomlinson",
+        "Megan Lawless",
+        "Andy Richter"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://viaplay.se/store/obsession-2025?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/514A-A5B9-3C20-6081-3447-S"
+    },
+    {
+      "provider": "Netflix",
+      "providerSlug": "netflix",
+      "title": "Heartland",
+      "url": "https://www.justwatch.com/se/film/heartland-2026",
+      "poster": "https://images.justwatch.com/poster/355278075/s592/heartland-2026.jpg",
+      "year": 2026,
+      "runtime": 114,
+      "genres": [
+        "Drama",
+        "Mysterium och thriller"
+      ],
+      "rating": "63",
+      "ratingScale": "100",
+      "description": "Före detta countrylegenden Misty Jones (Jessica Chastain) återvänder till Nashville för att ta reda på sanningen bakom sin brorsdotters försvinnande.",
+      "director": [
+        "Shana Feste"
+      ],
+      "cast": [
+        "Jessica Chastain",
+        "Ross Lynch",
+        "John Hawkes",
+        "Garrett Hedlund",
+        "Norbert Leo Butz"
+      ],
+      "watchUrl": "https://www.netflix.com/title/81486332"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "Love Actually",
+      "url": "https://www.justwatch.com/se/film/love-actually",
+      "poster": "https://images.justwatch.com/poster/90379677/s592/love-actually.jpg",
+      "year": 2003,
+      "runtime": 135,
+      "genres": [
+        "Komedi",
+        "Drama",
+        "Romantik"
+      ],
+      "rating": "88",
+      "ratingScale": "100",
+      "description": "London, nutid i november. En prolog på Heathrow Airport presenterar ett antal parallella handlingar. Vi får möta den nytillsatte premiärministern, David, som i samma stund som han stiger in på 10 Downing Street förälskar sig i sin medarbetare Natalie. Vi får också möta författaren Jamie, som reser till Frankrike med krossat hjärta; det äkta paret Karen och Harry, som märker hur de börjar glida isär och den nyblivna bruden Juliet som inte vet om hon är kär. Kärleken drabbar också elvaårige skolpojken Sam och medan den nyblivne änklingen Daniel på nytt måste lära sig vad kärlek är när han ensam ska ta hand om sin styvson. Den ensamstående karriäristen Sarah söker meningen med livet, medan den avdankade rockartisten Billy Mack planerar en okonventionell comeback. Alla drabbas de på ett eller annat sätt av kärlek, möjlig och omöjlig kärlek, flyktig och passionerad kärlek, av kärlek som är ögonblicklig eller av kärlek som mognar fram. I slutändan blir ingenting som någon tänkt sig.",
+      "director": [
+        "Richard Curtis"
+      ],
+      "cast": [
+        "Hugh Grant",
+        "Alan Rickman",
+        "Emma Thompson",
+        "Liam Neeson",
+        "Martine McCutcheon"
+      ],
+      "contentRating": "7",
+      "watchUrl": "https://www.svtplay.se/video/jgV9ryz/love-actually?id=KMRr3wN"
+    },
+    {
+      "provider": "TV4 Play",
+      "providerSlug": "tv4-play",
+      "title": "Once Upon a Time in Hollywood",
+      "url": "https://www.justwatch.com/se/film/once-upon-a-time-in-hollywood",
+      "poster": "https://images.justwatch.com/poster/293860143/s592/once-upon-a-time-in-hollywood.jpg",
+      "year": 2019,
+      "runtime": 162,
+      "genres": [
+        "Komedi",
+        "Dokumentär",
+        "Drama",
+        "Mysterium och thriller"
+      ],
+      "rating": "89",
+      "ratingScale": "100",
+      "description": "Filmen utspelar sig 1969 i Los Angeles, där allt håller på att förändras. TV-stjärnan Rick Dalton och hans stuntman Cliff Booth navigerar genom en industri som de knappt känner igen längre i denna hyllning till de sista ögonblicken i Hollywoods gyllene era.",
+      "director": [
+        "Quentin Tarantino"
+      ],
+      "cast": [
+        "Leonardo DiCaprio",
+        "Brad Pitt",
+        "Margot Robbie",
+        "Emile Hirsch",
+        "Margaret Qualley"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://www.tv4play.se/program/c2db2f1ad6203c539d15/once-upon-a-time-in-hollywood"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "Harry Potter och de vises sten",
+      "url": "https://www.justwatch.com/se/film/harry-potter-and-the-philosophers-stone",
+      "poster": "https://images.justwatch.com/poster/353519877/s592/harry-potter-and-the-philosophers-stone.jpg",
+      "year": 2001,
+      "runtime": 152,
+      "genres": [
+        "Action och äventyr",
+        "Fantasy",
+        "Barn och familj"
+      ],
+      "rating": "95",
+      "ratingScale": "100",
+      "description": "Berättelsen om en pojke som på sin elvaårsdag får veta att han är son till en mäktig trollkarl och häxa och själv besitter magiska krafter, vilket leder honom till en värld full av magi och spännande äventyr.",
+      "director": [
+        "Chris Columbus"
+      ],
+      "cast": [
+        "Daniel Radcliffe",
+        "Rupert Grint",
+        "Emma Watson",
+        "Richard Harris",
+        "Tom Felton"
+      ],
+      "contentRating": "11",
+      "watchUrl": "https://play.hbomax.com/show/4b990c5d-38ab-4daf-8092-2617cbc6d062?utm_source=universal_search"
+    },
+    {
+      "provider": "Prime Video",
+      "providerSlug": "amazon-prime-video",
+      "title": "Ali G: Who Iz I?",
+      "url": "https://www.justwatch.com/se/film/ali-g-who-iz-i",
+      "poster": "https://images.justwatch.com/poster/350077093/s592/ali-g-who-iz-i.jpg"
+    },
+    {
+      "provider": "Viaplay",
+      "providerSlug": "viaplay",
+      "title": "The Invite",
+      "url": "https://www.justwatch.com/se/film/the-invite",
+      "poster": "https://images.justwatch.com/poster/348539587/s592/the-invite.jpg"
+    },
+    {
+      "provider": "Netflix",
+      "providerSlug": "netflix",
+      "title": "Possible Love",
+      "url": "https://www.justwatch.com/se/film/possible-love",
+      "poster": "https://images.justwatch.com/poster/347600686/s592/possible-love.jpg"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "Amadeus",
+      "url": "https://www.justwatch.com/se/film/amadeus",
+      "poster": "https://images.justwatch.com/poster/327418497/s592/amadeus.jpg"
+    },
+    {
+      "provider": "TV4 Play",
+      "providerSlug": "tv4-play",
+      "title": "The Gentlemen",
+      "url": "https://www.justwatch.com/se/film/the-gentlemen",
+      "poster": "https://images.justwatch.com/poster/292693822/s592/the-gentlemen.jpg",
+      "year": 2020,
+      "runtime": 113,
+      "genres": [
+        "Action och äventyr",
+        "Komedi",
+        "Deckare"
+      ],
+      "rating": "94",
+      "ratingScale": "100",
+      "description": "Amerikanen Mickey Pearson har skapat ett mycket lönsamt marijuanaimperium i London. När ryktet sprids att Pearson vill sälja sin lukrativa verksamhet till högstbjudande, sparkar det igång intriger, mutor och utpressning.",
+      "director": [
+        "Guy Ritchie"
+      ],
+      "cast": [
+        "Matthew McConaughey",
+        "Charlie Hunnam",
+        "Michelle Dockery",
+        "Jeremy Strong",
+        "Lyne Renee"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://www.tv4play.se/program/449920fe6f21d7c91898/the-gentlemen"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "Sagan om ringen - härskarringen",
+      "url": "https://www.justwatch.com/se/film/the-lord-of-the-rings-the-fellowship-of-the-ring",
+      "poster": "https://images.justwatch.com/poster/345992817/s592/the-lord-of-the-rings-the-fellowship-of-the-ring.jpg"
+    },
+    {
+      "provider": "Prime Video",
+      "providerSlug": "amazon-prime-video",
+      "title": "The Furious",
+      "url": "https://www.justwatch.com/se/film/the-furious",
+      "poster": "https://images.justwatch.com/poster/343696285/s592/the-furious.jpg"
+    },
+    {
+      "provider": "Viaplay",
+      "providerSlug": "viaplay",
+      "title": "The Backrooms",
+      "url": "https://www.justwatch.com/se/film/the-backrooms",
+      "poster": "https://images.justwatch.com/poster/345682082/s592/the-backrooms.jpg"
+    },
+    {
+      "provider": "Netflix",
+      "providerSlug": "netflix",
+      "title": "Bara till jul",
+      "url": "https://www.justwatch.com/se/film/bara-till-jul",
+      "poster": "https://images.justwatch.com/poster/357930499/s592/bara-till-jul.jpg"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "Once Upon a Time in Hollywood",
+      "url": "https://www.justwatch.com/se/film/once-upon-a-time-in-hollywood",
+      "poster": "https://images.justwatch.com/poster/293860143/s592/once-upon-a-time-in-hollywood.jpg",
+      "year": 2019,
+      "runtime": 162,
+      "genres": [
+        "Komedi",
+        "Dokumentär",
+        "Drama",
+        "Mysterium och thriller"
+      ],
+      "rating": "89",
+      "ratingScale": "100",
+      "description": "Filmen utspelar sig 1969 i Los Angeles, där allt håller på att förändras. TV-stjärnan Rick Dalton och hans stuntman Cliff Booth navigerar genom en industri som de knappt känner igen längre i denna hyllning till de sista ögonblicken i Hollywoods gyllene era.",
+      "director": [
+        "Quentin Tarantino"
+      ],
+      "cast": [
+        "Leonardo DiCaprio",
+        "Brad Pitt",
+        "Margot Robbie",
+        "Emile Hirsch",
+        "Margaret Qualley"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://www.svtplay.se/video/KBMYGNM/once-upon-a-time-in-hollywood?id=e6db2x9"
+    },
+    {
+      "provider": "TV4 Play",
+      "providerSlug": "tv4-play",
+      "title": "Grinchen",
+      "url": "https://www.justwatch.com/se/film/the-grinch",
+      "poster": "https://images.justwatch.com/poster/292551417/s592/the-grinch.jpg"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "A Story of Derry",
+      "url": "https://www.justwatch.com/se/film/a-story-of-derry",
+      "poster": "https://images.justwatch.com/poster/356409958/s592/a-story-of-derry.jpg"
+    },
+    {
+      "provider": "Prime Video",
+      "providerSlug": "amazon-prime-video",
+      "title": "Harry Potter och de vises sten",
+      "url": "https://www.justwatch.com/se/film/harry-potter-and-the-philosophers-stone",
+      "poster": "https://images.justwatch.com/poster/353519877/s592/harry-potter-and-the-philosophers-stone.jpg",
+      "year": 2001,
+      "runtime": 152,
+      "genres": [
+        "Action och äventyr",
+        "Fantasy",
+        "Barn och familj"
+      ],
+      "rating": "95",
+      "ratingScale": "100",
+      "description": "Berättelsen om en pojke som på sin elvaårsdag får veta att han är son till en mäktig trollkarl och häxa och själv besitter magiska krafter, vilket leder honom till en värld full av magi och spännande äventyr.",
+      "director": [
+        "Chris Columbus"
+      ],
+      "cast": [
+        "Daniel Radcliffe",
+        "Rupert Grint",
+        "Emma Watson",
+        "Richard Harris",
+        "Tom Felton"
+      ],
+      "contentRating": "11",
+      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.88ae477d-8574-3fc1-b27b-e2b723d68d7b"
+    },
+    {
+      "provider": "Viaplay",
+      "providerSlug": "viaplay",
+      "title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+      "url": "https://www.justwatch.com/se/film/the-hunger-games-the-ballad-of-songbirds-and-snakes",
+      "poster": "https://images.justwatch.com/poster/309398519/s592/the-hunger-games-the-ballad-of-songbirds-and-snakes.jpg",
+      "year": 2023,
+      "runtime": 157,
+      "genres": [
+        "Action och äventyr",
+        "Science-Fiction"
+      ],
+      "rating": "85",
+      "ratingScale": "100",
+      "description": "Den en gång så stolta familjen Snow har fallit ur nåd i efterkrigstidens huvudstad, och den unge Coriolanus Snow är det sista hoppet för att återta sin släkts status. Med sin försörjning hotad blir Snow motvilligt tilldelad rollen som mentor till Lucy Gray Baird, en hyllad kämpe från det fattiga District 12. När Lucy Grays charm har fängslat publiken i Panem, ser Snow en möjlighet att förändra deras öden. Han förenar sig med Lucy Gray för att vända oddsen till deras fördel när allt han har kämpat för står på spel. Snow tvingas välja mellan det goda och det onda och ger sig ut i en kapplöpning mot tiden för att överleva.",
+      "director": [
+        "Francis Lawrence"
+      ],
+      "cast": [
+        "Tom Blyth",
+        "Rachel Zegler",
+        "Peter Dinklage",
+        "Jason Schwartzman",
+        "Hunter Schafer"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://viaplay.se/store/the-hunger-games-the-ballad-of-songbirds-and-snakes-2023?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/64E9-A707-FA4C-C6A1-3708-I"
+    },
+    {
+      "provider": "Netflix",
+      "providerSlug": "netflix",
+      "title": "Stormen",
+      "url": "https://www.justwatch.com/se/film/stormen-2026",
+      "poster": "https://images.justwatch.com/poster/355016099/s592/stormen-2026.jpg"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "De misstänkta",
+      "url": "https://www.justwatch.com/se/film/the-usual-suspects",
+      "poster": "https://images.justwatch.com/poster/354578644/s592/the-usual-suspects.jpg"
+    },
+    {
+      "provider": "TV4 Play",
+      "providerSlug": "tv4-play",
+      "title": "Sicario",
+      "url": "https://www.justwatch.com/se/film/sicario",
+      "poster": "https://images.justwatch.com/poster/336627715/s592/sicario.jpg"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "Dune: Del II",
+      "url": "https://www.justwatch.com/se/film/dune-part-two",
+      "poster": "https://images.justwatch.com/poster/311612918/s592/dune-part-two.jpg"
+    },
+    {
+      "provider": "Prime Video",
+      "providerSlug": "amazon-prime-video",
+      "title": "I Swear",
+      "url": "https://www.justwatch.com/se/film/i-swear",
+      "poster": "https://images.justwatch.com/poster/343270493/s592/i-swear.jpg"
+    },
+    {
+      "provider": "Viaplay",
+      "providerSlug": "viaplay",
+      "title": "Hunger Games",
+      "url": "https://www.justwatch.com/se/film/the-hunger-games",
+      "poster": "https://images.justwatch.com/poster/335161995/s592/the-hunger-games.jpg",
+      "year": 2012,
+      "runtime": 143,
+      "genres": [
+        "Action och äventyr",
+        "Mysterium och thriller",
+        "Science-Fiction"
+      ],
+      "rating": "95",
+      "ratingScale": "100",
+      "description": "I en nära framtid, bland ruinerna efter det som en gång var Nordamerika, blir varje år 24 tonårskillar och -tjejer utvalda till att delta i Hungerspelen – en storstilad realityshow med bara en vinnare: den sista överlevande! Flertal ungdomar tränar för Hungerspelen hela sitt liv, men inte Katniss, som bara har sina skarpa instinkter att förlita sig på i den ultimata kampen mellan överlevnad och medmänsklighet. Och mellan liv och död.",
+      "director": [
+        "Gary Ross"
+      ],
+      "cast": [
+        "Jennifer Lawrence",
+        "Josh Hutcherson",
+        "Woody Harrelson",
+        "Elizabeth Banks",
+        "Lenny Kravitz"
+      ],
+      "contentRating": "11",
+      "watchUrl": "https://viaplay.se/film/the-hunger-games-2012?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/6165-87D5-C8F5-D90E-0195-M"
+    },
+    {
+      "provider": "Netflix",
+      "providerSlug": "netflix",
+      "title": "418",
+      "url": "https://www.justwatch.com/se/film/418",
+      "poster": "https://images.justwatch.com/poster/354594106/s592/418.jpg",
+      "year": 2026,
+      "runtime": 157,
+      "genres": [
+        "Skräck",
+        "Mysterium och thriller"
+      ],
+      "rating": "20",
+      "ratingScale": "100",
+      "description": "Set in a medical college in a dread-stricken village, the film confronts the science behind superstitions, the superstitions in science, and an anomaly that neither can explain.",
+      "cast": [
+        "Chaithra Achar"
+      ],
+      "contentRating": "16+",
+      "watchUrl": "https://www.netflix.com/title/82193859"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "Wind River",
+      "url": "https://www.justwatch.com/se/film/wind-river",
+      "poster": "https://images.justwatch.com/poster/294143477/s592/wind-river.jpg",
+      "year": 2017,
+      "runtime": 107,
+      "genres": [
+        "Deckare",
+        "Drama",
+        "Mysterium och thriller",
+        "Västern"
+      ],
+      "rating": "95",
+      "ratingScale": "100",
+      "description": "En FBI-agent går samman med en lokal jägare för att undersöka ett mord på ett indianreservat i Wyoming.",
+      "director": [
+        "Taylor Sheridan"
+      ],
+      "cast": [
+        "Jeremy Renner",
+        "Elizabeth Olsen",
+        "Gil Birmingham",
+        "Graham Greene",
+        "Jon Bernthal"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://www.svtplay.se/video/e4z6qb4/wind-river?id=e6EYr4M"
+    },
+    {
+      "provider": "TV4 Play",
+      "providerSlug": "tv4-play",
+      "title": "Släkten är värst",
+      "url": "https://www.justwatch.com/se/film/meet-the-parents",
+      "poster": "https://images.justwatch.com/poster/338318443/s592/meet-the-parents.jpg",
+      "year": 2000,
+      "runtime": 108,
+      "genres": [
+        "Komedi",
+        "Romantik"
+      ],
+      "rating": "92",
+      "ratingScale": "100",
+      "description": "Den manlige sjuksköterskan Greg Focker tänker fria till flickvännen Pam under en helg hos hennes föräldrar. Det finns dock en hake: han måste först fråga hennes pappa. Tyvärr blir Jack Byrnes, Pams kattälskande pappa och tillika CIA-veteran, hysteriskt spelad av Robert de Niro, genast fientligt inställd mot honom. Gregs strävan efter att bli godkänd kommer alltmer i skymundan och oturen tar över. En rad komiska olyckshändelser gör honom till en katastrofernas mästare och i familjens ögon blir han alltmer föraktad, med ett undantag: den chockade flickvännen som inte kan förstå att hon fortfarande älskar pojkvännen som gör allting fel.",
+      "director": [
+        "Jay Roach"
+      ],
+      "cast": [
+        "Ben Stiller",
+        "Robert De Niro",
+        "Teri Polo",
+        "Blythe Danner",
+        "Jon Abrahams"
+      ],
+      "contentRating": "7",
+      "watchUrl": "https://www.tv4play.se/program/247fab91713e6f03e56c/meet-the-parents-slakten-ar-varst"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "The Hunger Games: Catching Fire",
+      "url": "https://www.justwatch.com/se/film/the-hunger-games-catching-fire",
+      "poster": "https://images.justwatch.com/poster/302914225/s592/the-hunger-games-catching-fire.jpg"
+    },
+    {
+      "provider": "Prime Video",
+      "providerSlug": "amazon-prime-video",
+      "title": "Blade Runner 2049",
+      "url": "https://www.justwatch.com/se/film/blade-runner-2049",
+      "poster": "https://images.justwatch.com/poster/336506849/s592/blade-runner-2049.jpg",
+      "year": 2017,
+      "runtime": 164,
+      "genres": [
+        "Action och äventyr",
+        "Drama",
+        "Mysterium och thriller",
+        "Science-Fiction"
+      ],
+      "rating": "93",
+      "ratingScale": "100",
+      "description": "Trettio år har gått sedan sist. En ny blade runner – Los Angeles-polisen K – avslöjar en sedan länge begravd hemlighet med potential att rasera det lilla som nu återstår av samhället. K:s avslöjande leder honom ut på en jakt efter Rick Deckard, en tidigare blade runner som varit försvunnen i tre decennier.",
+      "director": [
+        "Denis Villeneuve"
+      ],
+      "cast": [
+        "Ryan Gosling",
+        "Harrison Ford",
+        "Ana de Armas",
+        "Dave Bautista",
+        "Robin Wright"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.c5d0912f-4e6c-46f0-9f52-bdf1f17e2841"
+    },
+    {
+      "provider": "Viaplay",
+      "providerSlug": "viaplay",
+      "title": "Evil Dead Burn",
+      "url": "https://www.justwatch.com/se/film/evil-dead-burn",
+      "poster": "https://images.justwatch.com/poster/346878968/s592/evil-dead-burn.jpg",
+      "year": 2026,
+      "runtime": 110,
+      "genres": [
+        "Skräck"
+      ],
+      "rating": "79",
+      "ratingScale": "100",
+      "description": "Efter att ha förlorat sin man söker en kvinna tröst hos sina svärföräldrar i deras ensligt belägna hus. Men när de en efter en förvandlas till Deadites – och sammankomsten förvandlas till en familjeåterförening från helvetet, inser hon att de löften hon gav i livet lever vidare även efter döden.",
+      "director": [
+        "Sébastien Vaniček"
+      ],
+      "cast": [
+        "Souheila Yacoub",
+        "Tandi Wright",
+        "Hunter Doohan",
+        "Luciane Buchanan",
+        "Erroll Shand"
+      ],
+      "contentRating": "15",
+      "watchUrl": "https://viaplay.se/store/evil-dead-burn-2026?utm_source=partner&utm_medium=partner_catalog&partner_id=b36fe4588becb17cf596e9ef41f7530d&partner_name=just_watch&utm_eidr=10.5240/094A-E043-2741-292F-C2B5-5"
+    },
+    {
+      "provider": "Netflix",
+      "providerSlug": "netflix",
+      "title": "Inception",
+      "url": "https://www.justwatch.com/se/film/inception",
+      "poster": "https://images.justwatch.com/poster/302449148/s592/inception.jpg"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "Wannsee 1942",
+      "url": "https://www.justwatch.com/se/film/the-conference",
+      "poster": "https://images.justwatch.com/poster/331164764/s592/the-conference.jpg"
+    },
+    {
+      "provider": "TV4 Play",
+      "providerSlug": "tv4-play",
+      "title": "The Imitation Game",
+      "url": "https://www.justwatch.com/se/film/the-imitation-game",
+      "poster": "https://images.justwatch.com/poster/180004122/s592/the-imitation-game.jpg"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "Nürnberg",
+      "url": "https://www.justwatch.com/se/film/nurnberg",
+      "poster": "https://images.justwatch.com/poster/339014485/s592/nurnberg.jpg"
+    },
+    {
+      "provider": "Prime Video",
+      "providerSlug": "amazon-prime-video",
+      "title": "Sagan om ringen - härskarringen",
+      "url": "https://www.justwatch.com/se/film/the-lord-of-the-rings-the-fellowship-of-the-ring",
+      "poster": "https://images.justwatch.com/poster/345992817/s592/the-lord-of-the-rings-the-fellowship-of-the-ring.jpg"
+    },
+    {
+      "provider": "Viaplay",
+      "providerSlug": "viaplay",
+      "title": "Heart of the Beast",
+      "url": "https://www.justwatch.com/se/film/heart-of-the-beast",
+      "poster": "https://images.justwatch.com/poster/354819496/s592/heart-of-the-beast.jpg"
+    },
+    {
+      "provider": "Netflix",
+      "providerSlug": "netflix",
+      "title": "The Mosquito Bowl",
+      "url": "https://www.justwatch.com/se/film/the-mosquito-bowl",
+      "poster": "https://images.justwatch.com/poster/354524787/s592/the-mosquito-bowl.jpg",
+      "year": 2026,
+      "runtime": 127,
+      "genres": [
+        "Drama",
+        "Historia",
+        "Sport",
+        "Krig"
+      ],
+      "rating": "57",
+      "ratingScale": "100",
+      "description": "Från fotbollsplanen till fronten. Fyra collegespelare lägger drömmarna åt sidan för att strida som marinsoldater under andra världskriget i denna gripande och sanna historia.",
+      "director": [
+        "Peter Berg"
+      ],
+      "cast": [
+        "Nicholas Galitzine",
+        "Bill Skarsgård",
+        "Ray Nicholson",
+        "Tom Francis",
+        "Jack Ingram"
+      ],
+      "watchUrl": "https://www.netflix.com/title/81661161"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "X",
+      "url": "https://www.justwatch.com/se/film/x",
+      "poster": "https://images.justwatch.com/poster/292582081/s592/x.jpg"
+    },
+    {
+      "provider": "TV4 Play",
+      "providerSlug": "tv4-play",
+      "title": "Green Book",
+      "url": "https://www.justwatch.com/se/film/green-book",
+      "poster": "https://images.justwatch.com/poster/330099389/s592/green-book.jpg"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "The Secret Agent",
+      "url": "https://www.justwatch.com/se/film/the-secret-agent",
+      "poster": "https://images.justwatch.com/poster/341522570/s592/the-secret-agent.jpg"
+    },
+    {
+      "provider": "Prime Video",
+      "providerSlug": "amazon-prime-video",
+      "title": "The Mongoose",
+      "url": "https://www.justwatch.com/se/film/the-mongoose",
+      "poster": "https://images.justwatch.com/poster/347360147/s592/the-mongoose.jpg"
+    },
+    {
+      "provider": "Viaplay",
+      "providerSlug": "viaplay",
+      "title": "Disclosure Day",
+      "url": "https://www.justwatch.com/se/film/disclosure-day",
+      "poster": "https://images.justwatch.com/poster/340235589/s592/disclosure-day.jpg"
+    },
+    {
+      "provider": "Netflix",
+      "providerSlug": "netflix",
+      "title": "Grinchen - julen är stulen",
+      "url": "https://www.justwatch.com/se/film/how-the-grinch-stole-christmas",
+      "poster": "https://images.justwatch.com/poster/292128440/s592/how-the-grinch-stole-christmas.jpg"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "Da Vinci-koden",
+      "url": "https://www.justwatch.com/se/film/the-da-vinci-code",
+      "poster": "https://images.justwatch.com/poster/338312375/s592/the-da-vinci-code.jpg"
+    },
+    {
+      "provider": "TV4 Play",
+      "providerSlug": "tv4-play",
+      "title": "Familjen är värre",
+      "url": "https://www.justwatch.com/se/film/meet-the-fockers",
+      "poster": "https://images.justwatch.com/poster/338318519/s592/meet-the-fockers.jpg",
+      "year": 2004,
+      "runtime": 115,
+      "genres": [
+        "Komedi",
+        "Romantik"
+      ],
+      "rating": "89",
+      "ratingScale": "100",
+      "description": "Nu har Greg slutligen lyckats vinna de blivande svärföräldrarnas gunst och livet leker för honom och Pam när de planerar sitt stundande bröllop. Det finns bara en liten ynka detalj som måste klaras ut innan Pam och Greg kan ställa sig framför altaret: Pams föräldrar ska spendera en helg tillsammans med Gregs föräldrar Bernie och Roz Focker. Till en början går allt fint, men det är innan Pams pappa upptäcker att föräldrarna som Greg har presenterat som advokat och läkare i själva verket fördriver sina dagar som liberal hemmaman respektive sexterapeut åt pensionärer. Till detta måste läggas en viss toalettincident, en fotbollsmatch fylld av brinnande iver och kubansk cateringmat med en mycket speciell krydda...",
+      "director": [
+        "Jay Roach"
+      ],
+      "cast": [
+        "Ben Stiller",
+        "Robert De Niro",
+        "Dustin Hoffman",
+        "Barbra Streisand",
+        "Blythe Danner"
+      ],
+      "contentRating": "11",
+      "watchUrl": "https://www.tv4play.se/program/3fe24ea3705fbd93d6ce/meet-the-fockers-familjen-ar-varre"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "A Quiet Place",
+      "url": "https://www.justwatch.com/se/film/a-quiet-place",
+      "poster": "https://images.justwatch.com/poster/336536594/s592/a-quiet-place.jpg"
+    },
+    {
+      "provider": "Prime Video",
+      "providerSlug": "amazon-prime-video",
+      "title": "Apocalypse Z: New World",
+      "url": "https://www.justwatch.com/se/film/apocalipsis-z-nuevo-mundo",
+      "poster": "https://images.justwatch.com/poster/356429426/s592/apocalipsis-z-nuevo-mundo.jpg"
+    },
+    {
+      "provider": "Viaplay",
+      "providerSlug": "viaplay",
+      "title": "Hope",
+      "url": "https://www.justwatch.com/se/film/hope-2026",
+      "poster": "https://images.justwatch.com/poster/347716279/s592/hope-2026.jpg"
+    },
+    {
+      "provider": "Netflix",
+      "providerSlug": "netflix",
+      "title": "A Quiet Place",
+      "url": "https://www.justwatch.com/se/film/a-quiet-place",
+      "poster": "https://images.justwatch.com/poster/336536594/s592/a-quiet-place.jpg"
+    },
+    {
+      "provider": "SVT Play",
+      "providerSlug": "svt",
+      "title": "Smile",
+      "url": "https://www.justwatch.com/se/film/smile-2022-0",
+      "poster": "https://images.justwatch.com/poster/338607213/s592/smile-2022-0.jpg"
+    },
+    {
+      "provider": "TV4 Play",
+      "providerSlug": "tv4-play",
+      "title": "Paddington",
+      "url": "https://www.justwatch.com/se/film/paddington",
+      "poster": "https://images.justwatch.com/poster/322993274/s592/paddington.jpg"
+    },
+    {
+      "provider": "HBO Max",
+      "providerSlug": "hbo-max",
+      "title": "28 dagar senare",
+      "url": "https://www.justwatch.com/se/film/28-days-later",
+      "poster": "https://images.justwatch.com/poster/348775984/s592/28-days-later.jpg"
+    },
+    {
+      "provider": "Prime Video",
+      "providerSlug": "amazon-prime-video",
+      "title": "Love Actually",
+      "url": "https://www.justwatch.com/se/film/love-actually",
+      "poster": "https://images.justwatch.com/poster/90379677/s592/love-actually.jpg",
+      "year": 2003,
+      "runtime": 135,
+      "genres": [
+        "Komedi",
+        "Drama",
+        "Romantik"
+      ],
+      "rating": "88",
+      "ratingScale": "100",
+      "description": "London, nutid i november. En prolog på Heathrow Airport presenterar ett antal parallella handlingar. Vi får möta den nytillsatte premiärministern, David, som i samma stund som han stiger in på 10 Downing Street förälskar sig i sin medarbetare Natalie. Vi får också möta författaren Jamie, som reser till Frankrike med krossat hjärta; det äkta paret Karen och Harry, som märker hur de börjar glida isär och den nyblivna bruden Juliet som inte vet om hon är kär. Kärleken drabbar också elvaårige skolpojken Sam och medan den nyblivne änklingen Daniel på nytt måste lära sig vad kärlek är när han ensam ska ta hand om sin styvson. Den ensamstående karriäristen Sarah söker meningen med livet, medan den avdankade rockartisten Billy Mack planerar en okonventionell comeback. Alla drabbas de på ett eller annat sätt av kärlek, möjlig och omöjlig kärlek, flyktig och passionerad kärlek, av kärlek som är ögonblicklig eller av kärlek som mognar fram. I slutändan blir ingenting som någon tänkt sig.",
+      "director": [
+        "Richard Curtis"
+      ],
+      "cast": [
+        "Hugh Grant",
+        "Alan Rickman",
+        "Emma Thompson",
+        "Liam Neeson",
+        "Martine McCutcheon"
+      ],
+      "contentRating": "7",
+      "watchUrl": "https://app.primevideo.com/detail?gti=amzn1.dv.gti.b2a9f6c8-b34a-f17b-991f-84ab619903d6"
+    },
+    {
+      "provider": "Viaplay",
+      "providerSlug": "viaplay",
+      "title": "Tuner",
+      "url": "https://www.justwatch.com/se/film/tuner",
+      "poster": "https://images.justwatch.com/poster/344868167/s592/tuner.jpg"
+    }
+  ]
+}
